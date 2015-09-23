@@ -1,0 +1,3 @@
+The .fzn files in this directory are not FlatZinc files, they are
+actually regression tests for solns2dzn.  We give them the .fzn
+extension in order to make things work with the test system.

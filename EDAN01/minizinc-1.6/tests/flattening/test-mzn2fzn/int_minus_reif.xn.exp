@@ -1,0 +1,6 @@
+var -5..5: x1;
+var -1..-1: x2 = -1;
+var -5..5: x3;
+var bool: x4;
+constraint int_lin_eq_reif([-1, 1], [x1, x3], 1, x4);
+solve satisfy;

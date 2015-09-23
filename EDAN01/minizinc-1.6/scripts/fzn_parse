@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if test "$G12PATH"; then
+    FLATZINC="$G12PATH"/flatzinc
+else
+    FLATZINC=flatzinc
+fi
+
+# NOTE: some of the tests in g12/zinc/tests/parsing/flatzinc depend upon
+# all of the output, i.e. both stdout and stderr, going to a single file.
+# Hence the redirection at the end of this.
+
+"$FLATZINC" --pprint-after=parsing --stop-after=parsing $@ 2>&1

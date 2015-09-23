@@ -1,0 +1,7 @@
+var -5.0..5.0: FLOAT____00001 :: is_defined_var :: var_is_introduced;
+var -5.0..5.0: x1;
+var 1.0..1.0: x2 = 1.0;
+var bool: x3;
+constraint float_eq_reif(1.0, FLOAT____00001, x3);
+constraint float_plus(x1, FLOAT____00001, 0.0) :: defines_var(FLOAT____00001);
+solve satisfy;

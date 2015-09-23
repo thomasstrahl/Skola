@@ -1,0 +1,9 @@
+% RUNS ON fzn_tc
+%-----------------------------------------------------------------------------%
+% Sets of basic types
+%-----------------------------------------------------------------------------%
+var set of int:                 b1;     % not finite
+var set of 1..3:                b2;     %     finite
+var set of {1,3}:               b3;     %     finite
+
+solve satisfy;

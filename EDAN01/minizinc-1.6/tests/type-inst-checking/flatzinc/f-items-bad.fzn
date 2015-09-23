@@ -1,0 +1,10 @@
+% RUNS ON fzn_tc    
+    int:  pi = true;
+var int:  vi;
+var bool: vb;
+
+constraint show(vb);
+
+solve maximize vb;
+
+% Can't test output here, as you can't write a type-incorrect output item!

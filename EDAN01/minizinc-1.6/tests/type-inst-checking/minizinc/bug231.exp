@@ -1,0 +1,20 @@
+bug231.mzn:7:
+  symbol error: variable `max' shadows a built-in function
+% -- pretty-print after type-inst-checking --------------
+var int: max;
+
+solve 
+  ::int_search(
+    [ coerce(
+        ti_overloaded_op(
+          [1 - ([ti_par_int, ti_par_int] - ti_par_int), 
+           2 - ([ti_var_int, ti_var_int] - ti_var_int), 
+           3 - ([ti_par_float, ti_par_float] - ti_par_float), 
+           4 - ([ti_var_float, ti_var_float] - ti_var_float), 
+           5 - ([ti_par_set(ti_par_int)] - ti_par_int), 
+           6 - ([ti_par_set(ti_par_float)] - ti_par_float), 
+           7 - ([ti_array(ti_par_int, ti_par_int)] - ti_par_int), 
+           8 - ([ti_array(ti_par_int, ti_par_float)] - ti_par_float), 
+           9 - ([ti_array(ti_par_int, ti_var_int)] - ti_var_int), 
+           10 - ([ti_array(ti_par_int, ti_var_float)] - ti_var_float)]), 
+        ti_var_int, max) ], input_order, indomain, complete) satisfy;

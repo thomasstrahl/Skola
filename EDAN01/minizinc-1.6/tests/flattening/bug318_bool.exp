@@ -1,0 +1,15 @@
+var bool: BOOL____00001 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00002 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00003 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00005 :: is_defined_var :: var_is_introduced;
+var 1..1: INT____00004 :: is_defined_var :: var_is_introduced;
+var int: var1;
+var bool: var2;
+var bool: var3;
+constraint array_bool_and([BOOL____00001, BOOL____00002], BOOL____00003) :: defines_var(BOOL____00003);
+constraint array_bool_and([BOOL____00005, BOOL____00003, BOOL____00002, BOOL____00001], var3);
+constraint array_var_bool_element(INT____00004, [var2], BOOL____00005) :: defines_var(BOOL____00005);
+constraint int_eq_reif(var1, INT____00004, BOOL____00003);
+constraint int_le_reif(1, var1, BOOL____00001) :: defines_var(BOOL____00001);
+constraint int_le_reif(var1, 1, BOOL____00002) :: defines_var(BOOL____00002);
+solve satisfy;

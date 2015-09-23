@@ -1,0 +1,82 @@
+gen-call-bad.mzn:3:
+  type-inst error: predicate `forall' argument list has invalid type-inst: 
+  expected `(array[$T] of bool)' or `(array[$T] of var bool)', actual 
+  `(array[int] of int)'
+gen-call-bad.mzn:4:
+  type-inst error: generator expression has invalid type-inst: expected 
+  `array[_] of _', actual `int'
+gen-call-bad.mzn:5:
+  type-inst error: where expression has invalid type-inst: expected `bool', 
+  actual `int'
+gen-call-bad.mzn:6:
+  type-inst error: operator `=' argument list has invalid type-inst: expected 
+  `(int, int)' or `(var int, var int)' or `(float, float)' or 
+  `(var float, var float)' or `(bool, bool)' or `(var bool, var bool)' or 
+  `(string, string)' or `(set of int, set of int)' or 
+  `(set of bool, set of bool)' or `(set of float, set of float)' or 
+  `(var set of int, var set of int)', actual `(int, string)'
+gen-call-bad.mzn:8:
+  type-inst error: predicate `exists' argument list has invalid type-inst: 
+  expected `(array[$T] of bool)' or `(array[$T] of var bool)', actual 
+  `(array[int] of int)'
+gen-call-bad.mzn:9:
+  type-inst error: generator expression has invalid type-inst: expected 
+  `array[_] of _', actual `int'
+gen-call-bad.mzn:10:
+  type-inst error: where expression has invalid type-inst: expected `bool', 
+  actual `int'
+gen-call-bad.mzn:11:
+  type-inst error: operator `=' argument list has invalid type-inst: expected 
+  `(int, int)' or `(var int, var int)' or `(float, float)' or 
+  `(var float, var float)' or `(bool, bool)' or `(var bool, var bool)' or 
+  `(string, string)' or `(set of int, set of int)' or 
+  `(set of bool, set of bool)' or `(set of float, set of float)' or 
+  `(var set of int, var set of int)', actual `(int, string)'
+% -- pretty-print after type-inst-checking --------------
+constraint 
+  forall(
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 10)) 
+    (i);
+
+constraint forall(i in 10) (i > 0);
+
+constraint 
+  forall(
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 10) 
+    where i) (i > 0);
+
+constraint 
+  forall(
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 10)) 
+    (i = "one");
+
+constraint 
+  exists(
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 10)) 
+    (i);
+
+constraint exists(i in 10) (i > 0);
+
+constraint 
+  exists(
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 10) 
+    where i) (i > 0);
+
+constraint 
+  exists(
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 10)) 
+    (i = "one");
+
+solve satisfy;

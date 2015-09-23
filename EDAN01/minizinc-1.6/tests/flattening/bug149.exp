@@ -1,0 +1,3 @@
+array [1..9] of var 0..7773: jts :: output_array([1..3, 1..3]);
+constraint int_lin_le([1, -1], [jts[8], jts[9]], -69);
+solve :: int_search(jts, input_order, indomain_split, complete) satisfy;

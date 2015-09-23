@@ -1,0 +1,1 @@
+MCFLAGS-xml.parse = --no-warn-unresolved-polymorphism --typecheck-ambiguity-warn-limit 1000

@@ -1,0 +1,7 @@
+% Check that string literals in annotation arguments are emitted properly.
+% In particular we require that:
+% (1) FlatZinc character escapes in string literals are preserved
+% (2) character escapes required by XML are introduced.
+
+var int: x :: foo("\r\"\tHello\b 'World\n\n");
+solve satisfy;

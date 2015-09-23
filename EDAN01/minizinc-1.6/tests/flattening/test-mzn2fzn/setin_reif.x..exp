@@ -1,0 +1,5 @@
+var int: x1;
+var set of {}: x2 = {};
+var bool: x3;
+constraint set_in_reif(x1, {}, x3);
+solve satisfy;

@@ -1,0 +1,49 @@
+f-expr-bad.fzn:3:
+  type-inst error: initialisation value for `pf' has invalid type-inst: expected 
+  `float', actual `int'
+f-expr-bad.fzn:4:
+  type-inst error: initialisation value for `pb' has invalid type-inst: expected 
+  `bool', actual `int'
+f-expr-bad.fzn:5:
+  type-inst error: initialisation value for `pi' has invalid type-inst: expected 
+  `int', actual `bool'
+f-expr-bad.fzn:6:
+  type-inst error: initialisation value for `si' has invalid type-inst: expected 
+  `set of int', actual `set of bool'
+f-expr-bad.fzn:6:
+  type-inst error: FlatZinc does not permit set element type-insts other than 
+  `int'
+f-expr-bad.fzn:7:
+  type-inst error: initialisation value for `sb' has invalid type-inst: expected 
+  `set of bool', actual `set of float'
+f-expr-bad.fzn:7:
+  type-inst error: FlatZinc does not permit set element type-insts other than 
+  `int'
+f-expr-bad.fzn:7:
+  type-inst error: FlatZinc does not permit set element type-insts other than 
+  `int'
+f-expr-bad.fzn:8:
+  type-inst error: initialisation value for `sf' has invalid type-inst: expected 
+  `set of float', actual `set of int'
+f-expr-bad.fzn:8:
+  type-inst error: FlatZinc does not permit set element type-insts other than 
+  `int'
+f-expr-bad.fzn:10:
+  type-inst error: initialisation value for `api' has invalid type-inst: 
+  expected `array[int] of int', actual `array[int] of float'
+% -- pretty-print after type-inst-checking --------------
+float: pf = 3;
+
+bool: pb = 3;
+
+int: pi = true;
+
+set of int: si = { true };
+
+set of bool: sb = { 3.0 };
+
+set of float: sf = { 3 };
+
+array[1 .. 3] of int: api = [ 3.0 ];
+
+solve satisfy;

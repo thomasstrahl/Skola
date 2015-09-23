@@ -1,0 +1,246 @@
+.TH FLATZINC 1 "19 September 2012" "" "G12 User's Manual"
+
+.SH NAME
+flatzinc \- a FlatZinc interpreter
+
+.SH SYNOPSIS
+.B flatzinc
+[
+.BR OPTIONS " ]"
+.I model.fzn
+
+.SH DESCRIPTION
+.B flatzinc
+evaluates FlatZinc models.
+Normal output is written to the standard output; errors are written to
+standard error.
+
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Print this message.
+.TP
+.B \-\-version
+Print version information.
+.TP
+.B \-v, \-\-verbose
+Output progress information as compilation proceeds.
+.TP
+.B \-e, \-\-error-check-only
+Check the model for errors, but do not generate answers.
+.TP
+.B \-\-flags\-file <file>
+Take options from the specified file, and handle them as if they
+were specified on the command line.
+.TP
+.B \-o <file>, \-\-output\-to\-file <file>
+Write the solution to the specified file instead of to the
+standard output.
+
+.SH WARNING OPTIONS
+.TP
+.B \-\-no-warn-unknown-annotations
+Do not warn about unknown annotations.
+.TP
+.B \-\-no-warn-false-constraints
+Do not warn when model inconsistency is detected before search.
+.TP
+.B \-\-no-warn-ignored-annotations
+Do not warn about annotations that are ignored by the solver backend.
+.TP
+.B \-\-no-warn-empty-initial-domains
+Do not warn about variables whose initial domains are empty.
+.TP
+.B \-\-no-warn-unsupported-search-params
+Do not warn about parameters of standard search annotations that
+are not supported.
+.TP
+.B \-r <seed>, \-\-seed <seed>, \-\-random\-seed <seed>
+Specify the seed for the random number generator.
+
+.SH SOLVER SELECTION OPTIONS
+.TP
+.B \-b <backend>, \-\-backend <backend>, \-\-solver\-backend <backend>
+Select the solver(s) and evaluation algorithm that should be used
+to evaluate the model.
+Valid solver backends are: fd, sat, mip, fdmip, and lazy.
+(The default is fd.)
+.TP
+.B \-\-mip-solver <solver>
+Use the specified solver as the default MIP solver.
+(See the output of \-\-help for a list of available MIP solvers.)
+.TP
+.B \-\-sat-solver <solver>
+Use the specified solvers as the default SAT solver.
+(See the output of \-\-help for a list of available SAT solvers.)
+
+.SH SOLUTION PRINTING OPTIONS
+.TP
+.B \-\-one\-solution
+Print a single solution.
+.TP
+.B \-n <n>, \-\-num\-solutions <n>
+Specify the maximum number of solutions to be printed.
+(The default is 1.)
+.TP
+.B \-a, \-\-all, \-\-all\-solutions
+Print all solutions.
+
+.SH EVALUATION OPTIONS
+.TP
+.B \-\-ignore\-user\-search
+Ignore any standard search annotations on the solve item.
+.TP
+.B \-s, \-\-solver\-stats, \-\-solver\-statistics
+Append statistical information gathered by the solver(s) to each
+solution in the form of a comment.
+(Currently only supported by the fd and lazy backends.)
+
+.SH FD SOLVER OPTIONS
+.TP
+.B \-\-fd\-default\-int\-lb <n>
+Specify the lower bound of the value of unconstrained FD ints and sets.
+(The default is -10000000.)
+.TP
+.B \-\-fd\-default\-int\-ub <n>
+Specify the upper bound of the value of unconstrained FD ints and sets.
+(The default is 10000000.)
+
+.SH DEBUGGING OPTIONS
+.TP
+.B \-\-config\-info
+Output information about how this executable was compiled.
+.TP
+.B \-l, \-\-logging
+Enable low\-level logging / tracing output in the underlying solver(s)
+(if possible).
+Note that most solver will output such information to the standard output.
+.TP
+.B \-S, \-\-statistics
+Output messages about time/space usage to stderr.
+.TP
+.B \-\-pprint\-before <name>
+Pretty\-print the IR before stage <name>.
+.TP
+.B \-\-pprint\-after <name>
+Pretty\-print the IR after stage <name>.
+.TP
+.B \-\-pprint\-ignore\-file <file>
+Ignore items from <file> when pretty\-printing.
+.TP
+.B \-\-dump\-before <name>
+Dump the full IR before stage <name>.
+.TP
+.B \-D, \-\-dump\-after <name>
+Dump IR after stage <name>.
+.TP
+.B \-\-stop\-before <name>
+Stop compilation before stage <name>.
+.TP
+.B \-\-stop\-after <name>
+Stop compilation after stage <name>.
+
+.TP
+Valid stage names:
+parsing, structure-checking, type-inst-checking, evaluation.
+
+
+.SH "SOLVER BACKENDS"
+.B flatzinc
+supports multiple solver backends for evaluating models.
+Each targets a particular solver, or set of solvers, and will
+typically only support the FlatZinc types and built-in operations
+that the underlying solver(s) can provide.
+.PP
+.B flatzinc
+will abort evaluation and emit an error message if the model
+contains a FlatZinc feature that the selected solver backend
+cannot handle.
+.PP
+The default solver backend is the finite domain backend.
+
+.SH "FINITE DOMAIN SOLVER BACKEND"
+This solver backend uses the G12 finite domain solver.
+.PP
+All FlatZinc types except var float and array of var float are
+supported.
+.PP
+Built-in operations involving the types var float and array of var
+float are likewise not supported.
+.PP
+The following variable selection strategies are supported:
+first_fail, anti_first_fail, smallest, largest and input_order.
+.PP
+The following value choice methods are supported:
+indomain, indomain_min, indomain_max, indomain_median,
+indomain_random, and indomain_split.
+.PP
+The following exploration method is supported: complete.
+.PP
+The finite domain backend will abort and report an error
+if it detects integer overflow during model evaluation.
+.PP
+The MiniZinc standard library has solver\-specific global
+constraint definitions for the G12 finite domain solver in
+the directory
+.BR g12_fd .
+
+.SH "LAZY CLAUSE GENERATION SOLVER BACKEND"
+This solver backend uses the G12 lazy clause generation solver.
+Note that this backend requires a version of
+.B flatzinc
+that includes a SAT solver.
+.PP
+All FlatZinc types except (array of) var float are supported,
+although integer variables must have explicit bounds.
+.PP
+The following built-in operations are directly supported:
+all Boolean constraints, (reified) linear constraints,
+int_abs, int_min, int_max, int_plus, int_minus, int_times,
+bool2int, array_bool_element, array_var_bool_element,
+array_int_element, array_var_int_element, set_card, set_diff,
+set_eq, set_in, set_intersect, set_subset, set_superset, set_symdiff,
+and set_union.
+
+.PP
+The following variable selection strategies are supported:
+first_fail, smallest, largest and input_order.
+.PP
+The following value selection strategies are supported:
+indomain, indomain_min, indomain_max, indomain_split
+and indomain_reverse_split.
+.PP
+The following exploration method is supported: complete.
+.PP
+The MiniZinc standard library has solver\-specific global constraints and
+FlatZinc built\-in redefinitions for the G12 lazy clause generation solver in
+the directory
+.BR g12_lazyfd .
+
+.SH MIP SOLVER BACKEND
+This solver backend uses the G12 MIP solver interface.
+Note that this backend requires a version of
+.B flatzinc
+that includes a MIP solver.
+.PP
+All FlatZinc types except for (array of) var set of int are supported.
+(Values of type var bool are handled as 0/1 integers.)
+.PP
+The MIP backend does not support the standard search annotations.
+.PP
+The MiniZinc standard library has solver\-specific global constraints and
+FlatZinc built\-in redefinitions for use with the MIP backend in the directory
+.BR linear .
+
+.SH AUTHORS
+The G12 team.
+
+.SH VERSION INFORMATION
+This manual page documents
+.B flatzinc
+version 1.6.0.
+
+.SH "SEE ALSO"
+.BR mzn2fzn (1)
+.PP
+.I "Specification of FlatZinc"

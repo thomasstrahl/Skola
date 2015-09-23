@@ -1,0 +1,11 @@
+var bool: BOOL____00001 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00002 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00004 :: is_defined_var :: var_is_introduced;
+array [1..2] of var int: r;
+constraint int_eq_reif(r[1], 1, BOOL____00001) :: defines_var(BOOL____00001);
+constraint int_eq_reif(r[1], 2, BOOL____00002) :: defines_var(BOOL____00002);
+constraint int_eq_reif(r[2], 1, BOOL____00002);
+constraint int_eq_reif(r[2], 2, BOOL____00004) :: defines_var(BOOL____00004);
+constraint set_in(r[1], 1..2);
+constraint set_in(r[2], 1..2);
+solve satisfy;

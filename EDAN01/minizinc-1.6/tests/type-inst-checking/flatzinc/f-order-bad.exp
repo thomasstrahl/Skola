@@ -1,0 +1,8 @@
+f-order-bad.fzn:3:
+  symbol error: `b' undeclared
+% -- pretty-print after type-inst-checking --------------
+bool: a = b;
+
+bool: b = true;
+
+solve satisfy;

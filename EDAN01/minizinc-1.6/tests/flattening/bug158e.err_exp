@@ -1,0 +1,14 @@
+mzn2fzn:
+  error: 
+  bug158e.mzn:9 
+  In constraint. 
+  In 'p' expression. 
+  In coercion. 
+  In if-then-else condition. 
+  In 'forall' expression. 
+  In comprehension. 
+  i = 1 
+  In comprehension head. 
+  In '=' expression. 
+  In 'fix' expression. 
+  Argument is not fixed.

@@ -1,0 +1,15 @@
+% RUNS ON fzn_yacc
+% RUNS ON fzn_parse
+int: x = 3;
+constraint a(b);
+int: x = 3;
+constraint a(b);
+int: x = 3;
+constraint a(b);
+solve satisfy;
+constraint a(b);
+solve satisfy;
+solve satisfy;
+int: x = 3;
+constraint a(b);
+int: x = 4;

@@ -1,0 +1,5 @@
+array [1..8] of var bool: x1;
+var set of 1..2: x2 = 1..2;
+var set of 2..3: x3 = 2..3;
+var set of 3..4: x4 = 3..4;
+solve satisfy;

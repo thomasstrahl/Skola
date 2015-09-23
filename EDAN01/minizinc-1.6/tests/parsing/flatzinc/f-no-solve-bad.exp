@@ -1,0 +1,6 @@
+f-no-solve-bad.fzn:4:
+  syntax error: model must have a solve item
+% -- pretty-print after parsing --------------
+int: x = 3;
+
+constraint f(x);

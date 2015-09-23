@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# 2-pass MiniZinc using the FD solver and default global definitions.
+
+run_2pass_mzn --solver fd $@

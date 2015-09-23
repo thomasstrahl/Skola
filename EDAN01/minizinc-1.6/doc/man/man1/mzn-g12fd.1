@@ -1,0 +1,41 @@
+.TH MZN\-G12FD 1 "19 September 2012" "" "G12 Users's Guide"
+
+.SH NAME
+mzn\-g12fd \- evaluate MiniZinc using the G12/FD solver
+
+.SH SYNOPSIS
+.B mzn\-g12fd
+[
+.BR OPTIONS " ]"
+.I model.mzn
+[
+.IR data.dzn " ..."
+]
+
+.SH DESCRIPTION
+.B mzn\-g12fd
+is a wrapper for the
+.BR minizinc (1)
+program that evaluates a MiniZinc model using the G12 finite\-domain (G12/FD)
+solver.
+.PP
+By default, the solver\-specific global constraints definitions for
+G12/FD solver are used when flattening the model.
+
+.SH OPTIONS
+See
+.BR minizinc (1)
+for a list of supported options.
+
+.SH "VERSION INFORMATION"
+This manual documents
+.B mzn\-g12fd
+version 1.6.0.
+
+.SH AUTHORS
+The G12 team.
+
+.SH "SEE ALSO"
+.BR flatzinc (1)
+.BR minizinc (1)
+.BR mzn2fzn (1)

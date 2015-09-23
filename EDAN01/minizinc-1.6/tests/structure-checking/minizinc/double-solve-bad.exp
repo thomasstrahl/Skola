@@ -1,0 +1,5 @@
+double-solve-bad.mzn:3:
+  structure error: multiple solve items. 
+  Other solve items are at: double-solve-bad.mzn:4
+% -- pretty-print after structure-checking --------------
+solve satisfy;

@@ -1,0 +1,1 @@
+include "globals.mzn";int: n;array[1..n,1..n] of int: profit;array[1..n] of var 1..n: task :: is_output;constraint all_different(task);solve maximize    sum(w in 1..n) (      profit[w,task[w]]);  

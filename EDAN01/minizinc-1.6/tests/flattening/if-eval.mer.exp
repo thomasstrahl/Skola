@@ -1,0 +1,4 @@
+var 0..0: y1 :: output_var = 0;
+var 0..0: y2 :: output_var = 0;
+var 0..0: y3 :: output_var = 0;
+solve satisfy;

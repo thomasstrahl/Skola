@@ -1,0 +1,8 @@
+% RUNS ON fzn_xml
+
+% Test support for array literals as annotation arguments.
+% r10425 and before did not support this.
+var int: x;
+array[1..10] of var int: restdays;
+array[1..10] of var int: flat2;
+solve :: seq_search([int_search(restdays, input_order, indomain_min, complete), int_search(flat2, input_order, indomain_min, complete)]) minimize x;

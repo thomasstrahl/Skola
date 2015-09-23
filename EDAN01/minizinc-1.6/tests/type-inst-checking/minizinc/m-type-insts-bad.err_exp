@@ -1,0 +1,70 @@
+m-type-insts-bad.mzn:2: type-inst error: set element type is not finite
+m-type-insts-bad.mzn:2: type-inst error: MiniZinc does not permit var set 
+m-type-insts-bad.mzn:2:   element type-insts other than `int'
+m-type-insts-bad.mzn:3: type-inst error: MiniZinc does not permit var set 
+m-type-insts-bad.mzn:3:   element type-insts other than `int'
+m-type-insts-bad.mzn:4: symbol error: variable `s3' must be defined (did you 
+m-type-insts-bad.mzn:4:   forget to specify a data file?)
+m-type-insts-bad.mzn:4: type-inst error: set type expression has non-fixed 
+m-type-insts-bad.mzn:4:   element with type-inst `var int'
+m-type-insts-bad.mzn:5: symbol error: variable `s4' must be defined (did you 
+m-type-insts-bad.mzn:5:   forget to specify a data file?)
+m-type-insts-bad.mzn:5: type-inst error: MiniZinc does not permit set element 
+m-type-insts-bad.mzn:5:   type-insts other than `int' or `float' or `bool'
+m-type-insts-bad.mzn:6: symbol error: variable `s5' must be defined (did you 
+m-type-insts-bad.mzn:6:   forget to specify a data file?)
+m-type-insts-bad.mzn:6: type-inst error: MiniZinc does not permit set element 
+m-type-insts-bad.mzn:6:   type-insts other than `int' or `float' or `bool'
+m-type-insts-bad.mzn:7: symbol error: variable `s5b' must be defined (did you 
+m-type-insts-bad.mzn:7:   forget to specify a data file?)
+m-type-insts-bad.mzn:7: type-inst error: MiniZinc does not permit set element 
+m-type-insts-bad.mzn:7:   type-insts other than `int' or `float' or `bool'
+m-type-insts-bad.mzn:9: symbol error: variable `a1' must be defined (did you 
+m-type-insts-bad.mzn:9:   forget to specify a data file?)
+m-type-insts-bad.mzn:9: type-inst error: MiniZinc does not permit array 
+m-type-insts-bad.mzn:9:   element type-insts other than scalars or sets
+m-type-insts-bad.mzn:9: type-inst error: MiniZinc does not permit set element 
+m-type-insts-bad.mzn:9:   type-insts other than `int' or `float' or `bool'
+m-type-insts-bad.mzn:10: symbol error: variable `a2' must be defined (did you 
+m-type-insts-bad.mzn:10:   forget to specify a data file?)
+m-type-insts-bad.mzn:10: type-inst error: MiniZinc does not permit array 
+m-type-insts-bad.mzn:10:   element type-insts other than scalars or sets
+m-type-insts-bad.mzn:11: type-inst error: `var array' is not allowed
+m-type-insts-bad.mzn:12: symbol error: variable `a4' must be defined (did you 
+m-type-insts-bad.mzn:12:   forget to specify a data file?)
+m-type-insts-bad.mzn:12: type-inst error: MiniZinc does not permit array 
+m-type-insts-bad.mzn:12:   indices without fixed ranges
+m-type-insts-bad.mzn:15: symbol error: variable `a6' must be defined (did you 
+m-type-insts-bad.mzn:15:   forget to specify a data file?)
+m-type-insts-bad.mzn:15: type-inst error: MiniZinc does not permit array 
+m-type-insts-bad.mzn:15:   indices without fixed ranges
+m-type-insts-bad.mzn:18: symbol error: variable `a7' must be defined (did you 
+m-type-insts-bad.mzn:18:   forget to specify a data file?)
+m-type-insts-bad.mzn:18: type-inst error: MiniZinc does not permit array 
+m-type-insts-bad.mzn:18:   indices without fixed ranges
+m-type-insts-bad.mzn:20: symbol error: variable `a' must be defined (did you 
+m-type-insts-bad.mzn:20:   forget to specify a data file?)
+m-type-insts-bad.mzn:20: type-inst error: range start and end type-insts do 
+m-type-insts-bad.mzn:20:   not match
+m-type-insts-bad.mzn:21: symbol error: variable `b' must be defined (did you 
+m-type-insts-bad.mzn:21:   forget to specify a data file?)
+m-type-insts-bad.mzn:21: type-inst error: range end value has invalid 
+m-type-insts-bad.mzn:21:   type-inst: expected `int' or `float', actual 
+m-type-insts-bad.mzn:21:   `set of int'
+m-type-insts-bad.mzn:26: symbol error: variable `a8' must be defined (did you 
+m-type-insts-bad.mzn:26:   forget to specify a data file?)
+m-type-insts-bad.mzn:26: symbol error: `no_such_name' undeclared
+m-type-insts-bad.mzn:31: symbol error: variable `a9' must be defined (did you 
+m-type-insts-bad.mzn:31:   forget to specify a data file?)
+m-type-insts-bad.mzn:31: type-inst error: MiniZinc does not permit arbitrarily 
+m-type-insts-bad.mzn:31:   constrained type-insts
+m-type-insts-bad.mzn:34: symbol error: variable `x2' must be defined (did you 
+m-type-insts-bad.mzn:34:   forget to specify a data file?)
+m-type-insts-bad.mzn:34: type-inst error: MiniZinc does not permit tuples
+m-type-insts-bad.mzn:37: symbol error: variable `x3' must be defined (did you 
+m-type-insts-bad.mzn:37:   forget to specify a data file?)
+m-type-insts-bad.mzn:37: type-inst error: MiniZinc does not permit records
+m-type-insts-bad.mzn:40: type-inst error: MiniZinc does not permit type-inst 
+m-type-insts-bad.mzn:40:   variables
+m-type-insts-bad.mzn:46: type-inst error: MiniZinc does not permit operation 
+m-type-insts-bad.mzn:46:   type-inst expressions

@@ -1,0 +1,59 @@
+#!/bin/sh
+# vim: ft=sh ts=4 sw=4 et
+# run-int-tests
+# Run the misc flattening tests.
+
+MZN2FZN=${MZN2FZN:-mzn2fzn}
+
+if test "$G12PATH"; then
+    MZN2FZN="$G12PATH/$MZN2FZN"
+fi
+
+for m in misc_*.mzn
+do
+    b=`basename $m .mzn`
+    f=$b.fzn
+    o=$b.out
+    e=$b.exp
+    q=$b.diff
+    CMD="$MZN2FZN --no-output-ozn $m"
+    $CMD 2>$o
+    touch $o
+    if test -r $f; then cat $f >> $o; fi
+    if test -f $e
+    then
+        if diff -u $e $o > $q
+        then
+            echo "$m passed"
+        elif grep -q 'inconsist|out of range' $o && grep -q 'inconsist|out of range' $e
+        then
+            echo "$m passed"
+        else
+            echo "$CMD"
+            echo "differs from expected result:"
+            echo "% $m:"
+            cat $m
+            echo "---- diff in flattened form:"
+            cat $q
+            echo -n "Is this correct? [yN] "
+            read yn
+            case "$yn" in
+            [yY]*) mv $o $e ;;
+            esac
+        fi
+    else
+        echo "$CMD"
+        echo "no .exp file for $m"
+        echo "% $m:"
+        cat $m
+        echo "---- flattened form:"
+        cat $o
+        echo -n "Is this correct? [yN] "
+        read yn
+        case "$yn" in
+        [yY]*) mv $o $e ;;
+        esac
+    fi
+    echo
+    rm -rf $o $q $f
+done

@@ -1,0 +1,24 @@
+% RUNS ON fzn_tc
+bool:  pb  = true;
+int:   pi1 = 3;
+
+float: pf1 = 3.0;
+
+set of int: psi1 = 1..3;
+
+array[1..3] of int: api1 = [1,2,3];
+
+% "Set of bottom" needs to be changed to "set of non-bottom".
+set of int:   s1 = {};
+
+% "Array of bottom" needs to be changed to "array of non-bottom".
+array[1..3] of     int:   a1 = [];
+array[1..3] of     bool:  a2 = [];
+array[1..3] of var float: a3 = [];
+
+constraint int_le(3, 4);                    % implicit inst coercion
+constraint float_le(3.0, 4.0);              % implicit inst coercion
+constraint bool_or(true, false, true);      % implicit inst coercion
+constraint set_union({}, {1}, {1});         % implicit inst coercion
+
+solve satisfy;

@@ -1,0 +1,8 @@
+mzn2fzn:
+  error: 
+  test-abort10.mzn:7 
+  In constraint. 
+  In 'foo' expression. 
+  In coercion. 
+  In 'abort' expression. 
+  Abort: "foo/1 aborted"

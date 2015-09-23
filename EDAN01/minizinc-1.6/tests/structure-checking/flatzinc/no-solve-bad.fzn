@@ -1,0 +1,6 @@
+% RUNS ON fzn_sc
+var int: x;
+
+constraint int_lt(x, 0);
+
+% no solve item...

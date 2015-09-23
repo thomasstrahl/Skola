@@ -1,0 +1,5 @@
+var bool: x1 = false;
+var bool: x2;
+var bool: x3;
+constraint array_bool_or([x3, x2], true);
+solve satisfy;

@@ -1,0 +1,12 @@
+var int: DONT_KNOW____1::var_is_introduced;
+
+var int: x::output_var;
+
+var int: y::output_var;
+
+var int: z::output_var;
+
+constraint array_var_int_element(DONT_KNOW____1, [ x, y ], z);
+
+solve 
+  ::int_search([ x, y, z ], input_order, indomain_min, complete) satisfy;

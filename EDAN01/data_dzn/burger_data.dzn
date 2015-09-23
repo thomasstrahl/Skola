@@ -1,0 +1,25 @@
+% int: beef;
+beef = 1;
+% int: bun;
+bun = 2;
+% int: chees;
+chees = 3;
+% int: onions;
+onions = 4;
+% int: pickles;
+pickles = 5;
+% int: lettuce;
+lettuce = 6;
+% int: ketchup;
+ketchup = 7;
+% int: tomato;
+tomato = 8;
+
+% array[beef..tomato] of int: sodium;
+sodium = [50, 330, 310, 1, 260, 3, 160, 3];
+% array[beef..tomato] of int: fat;
+fat = [17, 9, 6, 2, 0, 0, 0, 0];
+% array[beef..tomato] of int: calories;
+calories = [220, 260, 70, 10, 5, 4, 20, 9];
+% array[beef..tomato] of int: cost;
+cost = [25, 15, 10, 9, 3, 4, 2, 4]; % cost in cents per one pice

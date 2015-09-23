@@ -1,0 +1,8 @@
+mzn2fzn:
+  warning: 
+  bool_forall_conj_conj.mzn:5 
+  In constraint. 
+  In 'forall' expression. 
+  Model inconsistency detected.
+constraint bool_eq(false, true);
+solve satisfy;

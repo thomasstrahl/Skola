@@ -1,0 +1,6 @@
+#!/bin/sh
+# vim: ft=sh ts=4 sw=4 et
+# run-set-tests
+# Run the set flattening tests.
+
+./run-binop-tests set

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# 2-pass MiniZinc using the FD solver and FD solver-specific global
+# definitions.
+
+run_2pass_mzn --globals-dir g12_fd --solver fd $@

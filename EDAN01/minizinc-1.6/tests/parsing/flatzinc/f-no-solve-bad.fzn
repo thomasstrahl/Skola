@@ -1,0 +1,4 @@
+% RUNS ON fzn_yacc
+% RUNS ON fzn_parse
+int: x = 3;
+constraint f(x);

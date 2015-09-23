@@ -1,0 +1,26 @@
+% RUNS ON solns_can
+%
+a = true;
+ b = false;
+  c = 20;
+    d = 3.141;
+----------
+d = 4.60;
+ c = 30;
+b = false;
+ a = true;
+----------
+a = false;
+b = true;
+% Comments here
+% should be elimated.
+  c = 30;
+  d = 5.60.
+----------
+% As should duplicate solutions like this.
+d = 4.60;
+ c = 30;
+b = false;
+ a = true;
+----------
+==========

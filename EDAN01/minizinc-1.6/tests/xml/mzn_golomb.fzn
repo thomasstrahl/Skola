@@ -1,0 +1,54 @@
+% RUNS ON fzn_xml
+predicate 
+  g12fd_cumulative(
+    array[int] of var int: x1, array[int] of var int: x2, 
+    array[int] of var int: x3, var int: x4);
+
+predicate all_different(array[int] of var int: x1);
+
+int: m = 4;
+
+int: n = 16;
+
+var 0 .. 16: INT____1::var_is_introduced;
+
+var 0 .. 16: INT____2::var_is_introduced;
+
+var 0 .. 16: INT____3::var_is_introduced;
+
+var 0 .. 16: INT____4::var_is_introduced;
+
+var 0 .. 16: INT____5::var_is_introduced;
+
+var 0 .. 16: INT____6::var_is_introduced;
+
+array[1 .. 6] of var 0 .. 16: differences = 
+  [ INT____1, INT____2, INT____3, INT____4, INT____5, INT____6 ];
+
+array[1 .. 4] of var 0 .. 16: mark::output_array([ 1 .. 4 ]);
+
+constraint all_different(differences);
+
+constraint int_lt(INT____1, INT____6);
+
+constraint int_lin_eq([ 1, 1, -1 ], [ INT____6, mark[3], mark[4] ], 0);
+
+constraint int_lin_eq([ 1, 1, -1 ], [ INT____5, mark[2], mark[4] ], 0);
+
+constraint int_lin_eq([ 1, 1, -1 ], [ INT____4, mark[2], mark[3] ], 0);
+
+constraint int_lin_eq([ 1, 1, -1 ], [ INT____3, mark[1], mark[4] ], 0);
+
+constraint int_lin_eq([ 1, 1, -1 ], [ INT____2, mark[1], mark[3] ], 0);
+
+constraint int_lin_eq([ 1, 1, -1 ], [ INT____1, mark[1], mark[2] ], 0);
+
+constraint int_eq(mark[1], 0);
+
+constraint int_lt(mark[1], mark[2]);
+
+constraint int_lt(mark[2], mark[3]);
+
+constraint int_lt(mark[3], mark[4]);
+
+solve ::int_search(mark, input_order, indomain, complete) minimize mark[4];

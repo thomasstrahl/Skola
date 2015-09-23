@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  misc_xorall_empty.mzn:1 
+  In constraint. 
+  Model inconsistency detected.
+constraint bool_eq(false, true);
+solve satisfy;

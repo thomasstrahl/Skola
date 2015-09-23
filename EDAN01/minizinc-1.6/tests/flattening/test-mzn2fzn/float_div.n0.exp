@@ -1,0 +1,6 @@
+mzn2fzn:
+  error: 
+  float_div.mzn:4 
+  In constraint. 
+  In '/' expression. 
+  Division by zero.

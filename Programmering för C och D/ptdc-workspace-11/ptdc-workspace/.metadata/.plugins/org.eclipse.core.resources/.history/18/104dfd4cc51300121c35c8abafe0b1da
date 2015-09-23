@@ -1,0 +1,25 @@
+package predicate;
+
+import term.Term;
+import term.Variable;
+
+public class Implies implements Expr{
+	private Predicate p1, p2;
+	
+	public Implies(Predicate p1, Predicate p2){
+		this.p1 = p1;
+		this.p2 = p2;
+	}
+
+	@Override
+	public Expr substitute(Variable variable, Term term) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public String toString(){
+		return p1.toString() + " -> " + p2.toString();
+	}
+	
+	
+}

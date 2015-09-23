@@ -1,0 +1,11 @@
+S=200
+V=10
+U=4
+A=10
+T=5
+P=1
+
+javac Dataflow.java && java -Xmx2048M Dataflow $S $V $U $A $T $P > my
+javac Dataflow_orig.java && java -Xmx2048M Dataflow_orig $S $V $U $A $T $P > orig
+diff my orig
+rm my orig

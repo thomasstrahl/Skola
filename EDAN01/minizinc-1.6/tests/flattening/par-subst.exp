@@ -1,0 +1,7 @@
+array [1..4] of int: g4 = [3, 3, 3, 3];
+array [1..4] of int: g5 = [0, 1, 2, 3];
+array [1..4] of int: g6 = [0, 1, 2, 3];
+array [1..4] of var 1..10: avi;
+var bool: g10 = true;
+var bool: g11 = true;
+solve maximize avi[4];

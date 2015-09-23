@@ -1,0 +1,28 @@
+These flattening tests are divided into two kinds.
+
+The 'binop' tests have models of the form prefix_*.mzn
+and data files of the form prefix.*.dzn.
+The run-prefix-tests scripts will run each .mzn model
+against each .dzn data file.
+
+The misc_*.mzn tests do not have data files.  These
+are run via the run-misc-tests script.
+
+Each test case has a corresponding .exp file with
+the expected output.
+
+The run-tests-interactive script will run all tests
+and prompt for advice when an unexpected result is
+produced (i.e., whether the .exp file should be
+updated or not).
+
+The run-tests-non-interactive script runs all tests
+non-interactively and does not update any .exp files.
+The output from this script is trimmed to highlight
+any unexpected results.
+
+NOTE that the flattening program used in these scripts
+can be changed by setting the MZN2FZN shell variable.
+The scripts otherwise default to using mzn2fzn.
+
+

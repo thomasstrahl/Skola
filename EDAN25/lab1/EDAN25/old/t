@@ -1,0 +1,8 @@
+S=9
+V=9
+U=4
+A=100
+T=4
+P=0
+
+javac Dataflow.java && java -Xmx2048M Dataflow $S $V $U $A $T $P

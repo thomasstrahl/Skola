@@ -1,0 +1,14 @@
+var bool: BOOL____00002 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00004 :: is_defined_var :: var_is_introduced;
+var -5..5: INT____00001 :: var_is_introduced;
+var -4..0: INT____00003 :: is_defined_var :: var_is_introduced;
+var -1..-1: x1 = -1;
+var -5..5: x2;
+var -5..5: x3;
+var bool: x4;
+constraint array_bool_and([BOOL____00004, BOOL____00002], x4);
+constraint int_eq_reif(x2, INT____00001, BOOL____00002);
+constraint int_eq_reif(x3, INT____00003, BOOL____00004) :: defines_var(BOOL____00004);
+constraint int_mod(-1, INT____00001, INT____00003) :: defines_var(INT____00003);
+constraint int_ne_reif(x2, 0, BOOL____00002) :: defines_var(BOOL____00002);
+solve satisfy;

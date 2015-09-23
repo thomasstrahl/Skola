@@ -1,0 +1,15 @@
+f-expr-bad.fzn:3: type-inst error: initialisation value for `pf' has invalid 
+f-expr-bad.fzn:3:   type-inst: expected `float', actual `int'
+f-expr-bad.fzn:4: type-inst error: initialisation value for `pb' has invalid 
+f-expr-bad.fzn:4:   type-inst: expected `bool', actual `int'
+f-expr-bad.fzn:5: type-inst error: initialisation value for `pi' has invalid 
+f-expr-bad.fzn:5:   type-inst: expected `int', actual `bool'
+f-expr-bad.fzn:6: type-inst error: initialisation value for `si' has invalid 
+f-expr-bad.fzn:6:   type-inst: expected `set of int', actual `set of bool'
+f-expr-bad.fzn:7: type-inst error: initialisation value for `sb' has invalid 
+f-expr-bad.fzn:7:   type-inst: expected `set of bool', actual `set of float'
+f-expr-bad.fzn:8: type-inst error: initialisation value for `sf' has invalid 
+f-expr-bad.fzn:8:   type-inst: expected `set of float', actual `set of int'
+f-expr-bad.fzn:10: type-inst error: initialisation value for `api' has invalid 
+f-expr-bad.fzn:10:   type-inst: expected `array[int] of int', actual 
+f-expr-bad.fzn:10:   `array[int] of float'

@@ -1,0 +1,3 @@
+bug68_1.mzn:8:
+  type-inst error: function `index_set' argument list has invalid type-inst: 
+  expected `(array[int] of any $U)', actual `(array[int, int] of var int)'

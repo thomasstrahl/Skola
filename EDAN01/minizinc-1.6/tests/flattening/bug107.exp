@@ -1,0 +1,11 @@
+var -3..3: d :: output_var;
+var -3..3: INT____1 :: var_is_introduced = d;
+var -3..3: r :: output_var;
+var -3..3: INT____2 :: var_is_introduced = r;
+var -7..7: x :: output_var;
+var -4..-2: y :: output_var;
+constraint int_div(x, y, INT____1);
+constraint int_mod(x, y, INT____2);
+constraint set_in(x, {-7, 7});
+constraint set_in(y, {-4, -2});
+solve satisfy;

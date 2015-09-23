@@ -1,0 +1,9 @@
+var bool: BOOL____00001 :: is_defined_var :: var_is_introduced;
+var bool: BOOL____00002 :: is_defined_var :: var_is_introduced;
+var bool: x1 = false;
+var bool: x2;
+var bool: x3;
+constraint array_bool_or([x3, BOOL____00002], true);
+constraint bool_eq_reif(BOOL____00001, false, BOOL____00002) :: defines_var(BOOL____00002);
+constraint bool_eq_reif(x2, false, BOOL____00001) :: defines_var(BOOL____00001);
+solve satisfy;

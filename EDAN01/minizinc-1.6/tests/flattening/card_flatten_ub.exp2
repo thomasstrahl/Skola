@@ -1,0 +1,4 @@
+var set of {2, 3, 5, 100000}: x;
+var 0..4: y :: output_var;
+constraint set_card(x, y);
+solve maximize y;

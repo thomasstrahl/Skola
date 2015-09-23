@@ -1,0 +1,24 @@
+% RUNS ON fzn_xml
+bool: b0 = false;
+bool: b1 = true;
+float: f0 = 2.718;
+float: f1 = -1.0;
+float: f2 = 3.0e8;
+int: i0 = -42;
+int: i1 = 0;
+int: i2 = 69;
+set of int: s0 = {};
+set of int: s1 = {2, 3, 5};
+set of int: s2 = 1..10;
+set of int: sr0 = {-10, 0, 10};
+set of int: sr1 = {};
+set of int: ss = {3, 11, 19};
+array [1..2] of bool: ab = [true, false];
+array [1..2] of float: af0 = [1.0, 2.0];
+array [1..2] of float: af1 = [1.0, 2.0];
+array [1..2] of int: ai0 = [10, 20];
+array [1..2] of int: ai1 = [2, 5];
+array [1..2] of set of int: si0  = [{}, {}];
+array [1..2] of set of int: si1 = [{1}, {2, 3}];
+array [1..2] of set of int: si2 = [{}, {2, 3, 4}];
+solve satisfy;

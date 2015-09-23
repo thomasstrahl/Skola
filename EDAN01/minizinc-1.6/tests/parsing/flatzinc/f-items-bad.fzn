@@ -1,0 +1,53 @@
+% RUNS ON fzn_yacc
+% RUNS ON fzn_parse
+%
+% Zinc-only type item
+type MyInt = int;
+
+% Zinc-only enum item
+enum C = { R, G, B };
+
+% Zinc-only variant record item
+variant_record X = { foo(int: x), bar(float: y) };
+
+% Zinc-only assertion items
+assert c : "s";
+
+% Zinc-only output items
+output a;
+
+% Zinc-only user-defined functions
+function int: f(int: x) = 3;
+
+% Zinc/MiniZinc-only assignment item
+x = 3;
+
+% Zinc/MiniZinc-only predicate item
+predicate p(int: x) = true;
+
+% Zinc/MiniZinc-only include item
+include "no-such-file";
+
+%-----------------------------------------------------------------------------%
+
+% Set of float / bool parameters and literals were removed in FlatZinc 1.1.
+
+set of float: sf = {1.0, 2.0, 3.0};
+set of bool:  sb = {true, false};
+
+%-----------------------------------------------------------------------------%
+
+array[0..3] of var int: a;
+
+constraint [1,2,3];
+constraint foo x, y);
+constraint foo (x y);
+constraint foo (x, y ;
+constraint foo();
+
+solve blah;
+
+solve minimize f f(x);
+
+% Zinc/MiniZinc-only output item.
+output ["Hello"];

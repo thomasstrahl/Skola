@@ -1,0 +1,4 @@
+var 1..1: x1 = 1;
+var -5..5: x2;
+var -5..5: x3 = x2;
+solve satisfy;

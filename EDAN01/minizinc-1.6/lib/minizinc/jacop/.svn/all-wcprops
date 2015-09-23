@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jacop-solver/!svn/ver/34/trunk/JaCoP/fz/mznlib
+END
+stretch.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/stretch.mzn
+END
+cumulative.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/cumulative.mzn
+END
+at_most_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jacop-solver/!svn/ver/11/trunk/JaCoP/fz/mznlib/at_most_int.mzn
+END
+networkflow.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jacop-solver/!svn/ver/34/trunk/JaCoP/fz/mznlib/networkflow.mzn
+END
+global_cardinality.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/global_cardinality.mzn
+END
+exactly_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jacop-solver/!svn/ver/11/trunk/JaCoP/fz/mznlib/exactly_int.mzn
+END
+disjoint.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/disjoint.mzn
+END
+minimum_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/minimum_int.mzn
+END
+diffn.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/diffn.mzn
+END
+maximum_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/maximum_int.mzn
+END
+table.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/table.mzn
+END
+count.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/count.mzn
+END
+diff2.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/diff2.mzn
+END
+nvalue.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/nvalue.mzn
+END
+knapsack.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jacop-solver/!svn/ver/34/trunk/JaCoP/fz/mznlib/knapsack.mzn
+END
+jacop.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jacop-solver/!svn/ver/34/trunk/JaCoP/fz/mznlib/jacop.mzn
+END
+among.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/among.mzn
+END
+regular.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/regular.mzn
+END
+table_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/table_int.mzn
+END
+circuit.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/circuit.mzn
+END
+redefinitions.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/redefinitions.mzn
+END
+table_bool.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/table_bool.mzn
+END
+at_least_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jacop-solver/!svn/ver/11/trunk/JaCoP/fz/mznlib/at_least_int.mzn
+END
+all_different_int.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/all_different_int.mzn
+END
+among_var.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/among_var.mzn
+END
+all_distinct.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/all_distinct.mzn
+END
+inverse.mzn
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jacop-solver/!svn/ver/2/trunk/JaCoP/fz/mznlib/inverse.mzn
+END

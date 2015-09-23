@@ -1,0 +1,972 @@
+2015-09-13 12:30:38,761  WARN [ModalContext] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:30:38,764  WARN [ModalContext] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:30:39,205  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:30:39,215  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:30:57,337  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:30:57,337  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:30:57,366  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:30:57,366  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:26,731  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:26,732  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:32,219  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:32,219  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:32,573  WARN [Worker-2] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:32,574  WARN [Worker-2] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:32,608  WARN [Worker-2] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:32,608  WARN [Worker-2] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:37,253  WARN [Worker-2] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:37,254  WARN [Worker-2] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:55,474  WARN [Worker-5] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:55,475  WARN [Worker-5] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:31:55,516  WARN [Worker-5] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:31:55,516  WARN [Worker-5] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:32:00,187  WARN [Worker-5] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 12:32:00,187  WARN [Worker-5] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 12:34:03,152 ERROR [Worker-5] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-09-13 12:34:03,152 ERROR [Worker-5] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-09-13 12:34:03,153 ERROR [Worker-5] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-09-13 13:07:23,204 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-13 13:07:23,223  WARN [Worker-0] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:23,225  WARN [Worker-0] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:07:23,299 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-13 13:07:24,874  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:24,877  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:07:25,260  WARN [Worker-0] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:25,261  WARN [Worker-0] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:07:25,647  WARN [Worker-2] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:25,647  WARN [Worker-2] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:07:26,241  WARN [Worker-2] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:26,242  WARN [Worker-2] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:07:30,009  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:30,009  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:07:42,460  WARN [Worker-2] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:07:42,460  WARN [Worker-2] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:09:35,947 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-13 13:09:36,005  WARN [Worker-0] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:09:36,011  WARN [Worker-0] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-13 13:09:36,078 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-13 13:09:37,166  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-13 13:09:37,167  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 09:16:56,748 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-14 09:16:56,800  WARN [Worker-1] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 09:16:56,804  WARN [Worker-1] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 09:16:56,854 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-14 09:16:58,027  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 09:16:58,028  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 09:40:57,035 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-14 09:40:57,035 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-14 09:40:57,036 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-14 10:33:20,291 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-14 10:34:02,525  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:34:02,525  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:34:02,568  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:34:02,568  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:34:02,876  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:34:02,876  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:34:10,849  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:34:10,849  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:34:20,024  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 10:34:20,304  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 10:35:17,040  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:35:17,041  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:35:17,056  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:35:17,056  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:03,057  WARN [Worker-12] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:03,058  WARN [Worker-12] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:03,075  WARN [Worker-12] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:03,075  WARN [Worker-12] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:05,160  WARN [Worker-12] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:05,160  WARN [Worker-12] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:44,964  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:44,964  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:44,980  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:44,980  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:50,821  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:50,822  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:36:50,833  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:36:50,833  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:37:12,951  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:37:12,951  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:37:12,973  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:37:12,973  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:37:59,052  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:37:59,052  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:37:59,078  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:37:59,079  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:38:00,835  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:38:00,835  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:38:33,605  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:38:33,605  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:38:33,617  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:38:33,617  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:38:55,877  WARN [Worker-14] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:38:55,877  WARN [Worker-14] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:38:55,895  WARN [Worker-14] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:38:55,895  WARN [Worker-14] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:38:57,306  WARN [Worker-14] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:38:57,306  WARN [Worker-14] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:40:10,182  WARN [Worker-18] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:40:10,182  WARN [Worker-18] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:40:10,194  WARN [Worker-18] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:40:10,194  WARN [Worker-18] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:41:03,325  WARN [Worker-14] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:41:03,326  WARN [Worker-14] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:41:03,334  WARN [Worker-14] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:41:03,334  WARN [Worker-14] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:43:00,827  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:43:00,828  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:43:00,839  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:43:00,839  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:43:02,138  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:43:02,138  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:43:28,369  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:43:28,369  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:43:28,380  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:43:28,380  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:44:10,498  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:44:10,498  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:44:10,507  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:44:10,507  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:44:11,922  WARN [Worker-17] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:44:11,922  WARN [Worker-17] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:46:19,695  WARN [Worker-19] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:46:19,695  WARN [Worker-19] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:46:19,704  WARN [Worker-19] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:46:19,705  WARN [Worker-19] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:46:44,574  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:46:44,574  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:46:44,582  WARN [Worker-15] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:46:44,582  WARN [Worker-15] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:49:50,324  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1853
+2015-09-14 10:49:51,913  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1855
+2015-09-14 10:49:53,541  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1726
+2015-09-14 10:49:54,626  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1727
+2015-09-14 10:50:14,802  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:50:14,802  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:50:14,810  WARN [Worker-16] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:50:14,810  WARN [Worker-16] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:52:52,009  WARN [Worker-23] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:52:52,010  WARN [Worker-23] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:52:52,025  WARN [Worker-23] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:52:52,025  WARN [Worker-23] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:52:53,431  WARN [Worker-23] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 10:52:53,432  WARN [Worker-23] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 10:53:01,572  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1932
+2015-09-14 10:54:17,370  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1975
+2015-09-14 10:54:25,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1978
+2015-09-14 10:54:25,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1978
+2015-09-14 10:54:27,701  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1970
+2015-09-14 10:54:28,750  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1970
+2015-09-14 10:55:41,317  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1994
+2015-09-14 10:55:49,574  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1994
+2015-09-14 11:03:57,286  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 11:08:45,308 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-14 11:10:08,898  WARN [Worker-28] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:10:08,898  WARN [Worker-28] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:10:08,907  WARN [Worker-28] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:10:08,908  WARN [Worker-28] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:10:37,129  WARN [Worker-30] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:10:37,130  WARN [Worker-30] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:10:37,140  WARN [Worker-30] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:10:37,140  WARN [Worker-30] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:22:35,842  WARN [Worker-34] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:22:35,842  WARN [Worker-34] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:22:35,855  WARN [Worker-34] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:22:35,855  WARN [Worker-34] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:24:53,874  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:24:53,875  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:24:53,883  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:24:53,883  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:25:30,932  WARN [Worker-37] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:25:30,933  WARN [Worker-37] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:25:30,940  WARN [Worker-37] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:25:30,940  WARN [Worker-37] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:26:21,278  WARN [Worker-35] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:26:21,278  WARN [Worker-35] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:26:21,284  WARN [Worker-35] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:26:21,284  WARN [Worker-35] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:26:33,292  WARN [Worker-35] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:26:33,292  WARN [Worker-35] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:26:33,303  WARN [Worker-35] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:26:33,303  WARN [Worker-35] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:27:25,648  WARN [Worker-37] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:27:25,648  WARN [Worker-37] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:27:25,657  WARN [Worker-37] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:27:25,658  WARN [Worker-37] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:27:33,649  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:27:33,650  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:27:33,656  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:27:33,656  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:28:00,173  WARN [Worker-36] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:28:00,173  WARN [Worker-36] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:28:00,183  WARN [Worker-36] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:28:00,183  WARN [Worker-36] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:29:54,585  WARN [Worker-36] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:29:54,585  WARN [Worker-36] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:29:54,592  WARN [Worker-36] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:29:54,592  WARN [Worker-36] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:30:42,159  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:30:42,159  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:30:42,171  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:30:42,172  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:30:43,378  WARN [Worker-33] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:30:43,378  WARN [Worker-33] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:54:14,815  WARN [Worker-41] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:54:14,815  WARN [Worker-41] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:54:14,827  WARN [Worker-41] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:54:14,827  WARN [Worker-41] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 11:54:16,052  WARN [Worker-41] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 11:54:16,052  WARN [Worker-41] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:01:44,588  WARN [Worker-42] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:01:44,588  WARN [Worker-42] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:01:44,595  WARN [Worker-42] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:01:44,595  WARN [Worker-42] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:01:45,701  WARN [Worker-42] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:01:45,701  WARN [Worker-42] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:02:03,106  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1012
+2015-09-14 12:03:51,901  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:03:51,901  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:03:51,907  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:03:51,907  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:03:53,030  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:03:53,030  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:06,369 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 2 - Problems occurred when invoking code from plug-in: "org.scala-ide.sdt.core".
+java.lang.AssertionError: assertion failed: Race condition detected: You are running a presentation compiler method outside the PC thread.[phase: <no phase>] Please file a ticket with the current stack trace at https://www.assembla.com/spaces/scala-ide/support/tickets
+	at scala.tools.nsc.interactive.Global.assertCorrectThread(Global.scala:535)
+	at scala.reflect.internal.Symbols$Symbol.rawInfo(Symbols.scala:1565)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1499)
+	at scala.reflect.internal.Symbols$Symbol.tpeHK(Symbols.scala:1424)
+	at scala.reflect.internal.Types$Type.computeMemberType(Types.scala:694)
+	at scala.reflect.internal.Types$Type.memberType(Types.scala:691)
+	at scala.reflect.internal.Types$class.defineUnderlyingOfSingleType(Types.scala:1260)
+	at scala.reflect.internal.SymbolTable.defineUnderlyingOfSingleType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$SingleType.underlying(Types.scala:1214)
+	at scala.reflect.internal.Types$SimpleTypeProxy$class.params(Types.scala:148)
+	at scala.reflect.internal.Types$SingletonType.params(Types.scala:1076)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.processArgs(CallByNameParamAtCreationPresenter.scala:76)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:43)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser.traversePattern(Trees.scala:2476)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1237)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2484)
+	at scala.reflect.api.Trees$Traverser.traverseCases(Trees.scala:2487)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1265)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2484)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1284)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.internal.Trees$$anonfun$traverseMemberDef$1$1.apply$mcV$sp(Trees.scala:1215)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.internal.Trees$class.traverseMemberDef$1(Trees.scala:1203)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1328)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser$$anonfun$traverseStats$1$$anonfun$apply$1.apply$mcV$sp(Trees.scala:2498)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2497)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1232)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.internal.Trees$$anonfun$traverseMemberDef$1$1.apply$mcV$sp(Trees.scala:1207)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.internal.Trees$class.traverseMemberDef$1(Trees.scala:1203)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1328)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser$$anonfun$traverseStats$1$$anonfun$apply$1.apply$mcV$sp(Trees.scala:2498)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2497)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1326)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$.findByNameParamCreations$1(CallByNameParamAtCreationPresenter.scala:114)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$.findByNameParamCreations(CallByNameParamAtCreationPresenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter.findAll(CallByNameParamAtCreationPresenter.scala:21)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.findAnnotations$1(BaseSemanticAction.scala:118)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.apply(BaseSemanticAction.scala:126)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:105)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:104)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-09-14 12:04:06,553 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error occurred while executing 'org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter'. Check the previous stack trace for more information.
+2015-09-14 12:04:17,759  WARN [Worker-48] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:17,759  WARN [Worker-48] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:17,768  WARN [Worker-48] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:17,769  WARN [Worker-48] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:19,126  WARN [Worker-48] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:19,127  WARN [Worker-48] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:22,887  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:22,887  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:22,894  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:22,894  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:23,912  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:23,912  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:51,801  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:51,801  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:51,810  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:51,810  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:04:53,081  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:04:53,081  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:05:41,608  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 12:05:46,797  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:05:46,797  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:05:46,804  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:05:46,804  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:05:47,975  WARN [Worker-49] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:05:47,976  WARN [Worker-49] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:06:05,902  WARN [Worker-48] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:06:05,905  WARN [Worker-48] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:06:05,910  WARN [Worker-48] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:06:05,911  WARN [Worker-48] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 12:06:06,982  WARN [Worker-48] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 12:06:06,982  WARN [Worker-48] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:21:39,911  WARN [Worker-61] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:21:39,912  WARN [Worker-61] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:21:39,925  WARN [Worker-61] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:21:39,925  WARN [Worker-61] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:21:48,036  WARN [Worker-61] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:21:48,036  WARN [Worker-61] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:21:48,043  WARN [Worker-61] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:21:48,043  WARN [Worker-61] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:21:49,361  WARN [Worker-61] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:21:49,361  WARN [Worker-61] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:22:14,949  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 13:22:20,642  WARN [Worker-60] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:22:20,642  WARN [Worker-60] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:22:20,652  WARN [Worker-60] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:22:20,652  WARN [Worker-60] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:22:21,824  WARN [Worker-60] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:22:21,824  WARN [Worker-60] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:23:49,005  WARN [Worker-60] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:23:49,005  WARN [Worker-60] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:23:49,015  WARN [Worker-60] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:23:49,015  WARN [Worker-60] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:23:50,490  WARN [Worker-60] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:23:50,499  WARN [Worker-60] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:25:11,443  WARN [Worker-63] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:25:11,443  WARN [Worker-63] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:25:11,451  WARN [Worker-63] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:25:11,451  WARN [Worker-63] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:25:12,826  WARN [Worker-63] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:25:12,826  WARN [Worker-63] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:25:19,586  WARN [Worker-62] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:25:19,586  WARN [Worker-62] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:25:19,596  WARN [Worker-62] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:25:19,596  WARN [Worker-62] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:25:20,758  WARN [Worker-62] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:25:20,758  WARN [Worker-62] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:31:30,980  WARN [Worker-66] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:31:30,981  WARN [Worker-66] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:31:30,993  WARN [Worker-66] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:31:30,993  WARN [Worker-66] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:31:32,469  WARN [Worker-66] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:31:32,469  WARN [Worker-66] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:31:35,468  WARN [Worker-68] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:31:35,469  WARN [Worker-68] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:31:35,476  WARN [Worker-68] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:31:35,476  WARN [Worker-68] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:31:36,502  WARN [Worker-68] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:31:36,502  WARN [Worker-68] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:32:09,371  WARN [Worker-66] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:32:09,372  WARN [Worker-66] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:32:09,376  WARN [Worker-66] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:32:09,377  WARN [Worker-66] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:32:10,509  WARN [Worker-66] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:32:10,509  WARN [Worker-66] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:32:18,619  WARN [Worker-65] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:32:18,619  WARN [Worker-65] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:32:18,624  WARN [Worker-65] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:32:18,624  WARN [Worker-65] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 13:32:19,641  WARN [Worker-65] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 13:32:19,642  WARN [Worker-65] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:18:19,032  WARN [Worker-72] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:18:19,032  WARN [Worker-72] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:18:19,039  WARN [Worker-72] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:18:19,039  WARN [Worker-72] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:18:25,875  WARN [Worker-70] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:18:25,875  WARN [Worker-70] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:18:25,881  WARN [Worker-70] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:18:25,881  WARN [Worker-70] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:18:29,160  WARN [Worker-74] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:18:29,160  WARN [Worker-74] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:18:29,168  WARN [Worker-74] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:18:29,168  WARN [Worker-74] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:20:53,258  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:20:53,258  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:20:53,266  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:20:53,266  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:20:54,579  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:20:54,580  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:22:27,062  WARN [Worker-74] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:22:27,062  WARN [Worker-74] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:22:27,074  WARN [Worker-74] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:22:27,074  WARN [Worker-74] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:22:41,792  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:22:41,793  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:22:41,802  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:22:41,803  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:22:42,957  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:22:42,957  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:23:52,188  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:23:52,188  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:23:52,195  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:23:52,195  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:23:53,135  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:23:53,135  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:24:50,925  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:24:50,925  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:24:50,936  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:24:50,936  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:25:23,810  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:25:23,810  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:25:23,818  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:25:23,818  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:25:31,472  WARN [Worker-73] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:25:31,472  WARN [Worker-73] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:25:31,481  WARN [Worker-73] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:25:31,481  WARN [Worker-73] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:26:06,824  WARN [Worker-74] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:26:06,824  WARN [Worker-74] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:26:06,837  WARN [Worker-74] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:26:06,837  WARN [Worker-74] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:26:22,675  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 258
+2015-09-14 14:26:22,675  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 258
+2015-09-14 14:26:25,844  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 258
+2015-09-14 14:26:25,844  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 258
+2015-09-14 14:26:28,347  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:26:28,347  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:26:28,353  WARN [Worker-76] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:26:28,353  WARN [Worker-76] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:26:45,534  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:26:45,534  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:26:45,539  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:26:45,539  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:27:41,656  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:27:41,656  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:27:41,667  WARN [Worker-78] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:27:41,667  WARN [Worker-78] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:27:58,682  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:27:58,682  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:27:58,687  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:27:58,687  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:27:59,720  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:27:59,720  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:30:25,314  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1380
+2015-09-14 14:30:27,423  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2015-09-14 14:30:27,424  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2015-09-14 14:30:29,035  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1349
+2015-09-14 14:31:58,151  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:31:58,151  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:31:58,163  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:31:58,164  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:31:59,401  WARN [Worker-79] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:31:59,401  WARN [Worker-79] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:34:25,637  WARN [Worker-81] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:34:25,638  WARN [Worker-81] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:34:25,661  WARN [Worker-81] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:34:25,661  WARN [Worker-81] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:34:26,777  WARN [Worker-81] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:34:26,777  WARN [Worker-81] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:45:59,217  WARN [Worker-82] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:45:59,217  WARN [Worker-82] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:45:59,224  WARN [Worker-82] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:45:59,224  WARN [Worker-82] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:46:00,423  WARN [Worker-82] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:46:00,423  WARN [Worker-82] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:47:56,740  WARN [Worker-82] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:47:56,740  WARN [Worker-82] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:47:56,745  WARN [Worker-82] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:47:56,745  WARN [Worker-82] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:47:57,675  WARN [Worker-82] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:47:57,675  WARN [Worker-82] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:52:04,783  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:52:04,783  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:52:04,791  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:52:04,791  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:52:24,927  WARN [Worker-89] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:52:24,927  WARN [Worker-89] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:52:24,936  WARN [Worker-89] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:52:24,936  WARN [Worker-89] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:52:25,791  WARN [Worker-89] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:52:25,792  WARN [Worker-89] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:56:47,342  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:56:47,343  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:56:47,350  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:56:47,351  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:56:48,433  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:56:48,433  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:57:56,779 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 2 - Problems occurred when invoking code from plug-in: "org.scala-ide.sdt.core".
+java.lang.AssertionError: assertion failed: Race condition detected: You are running a presentation compiler method outside the PC thread.[phase: <no phase>] Please file a ticket with the current stack trace at https://www.assembla.com/spaces/scala-ide/support/tickets
+	at scala.tools.nsc.interactive.Global.assertCorrectThread(Global.scala:535)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1487)
+	at scala.reflect.internal.Symbols$Symbol.tpeHK(Symbols.scala:1424)
+	at scala.reflect.internal.Types$Type.computeMemberType(Types.scala:694)
+	at scala.reflect.internal.Types$Type.memberType(Types.scala:691)
+	at scala.reflect.internal.Types$class.defineUnderlyingOfSingleType(Types.scala:1260)
+	at scala.reflect.internal.SymbolTable.defineUnderlyingOfSingleType(SymbolTable.scala:16)
+	at scala.reflect.internal.Types$SingleType.underlying(Types.scala:1214)
+	at scala.reflect.internal.Types$SimpleTypeProxy$class.params(Types.scala:148)
+	at scala.reflect.internal.Types$SingletonType.params(Types.scala:1076)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.processArgs(CallByNameParamAtCreationPresenter.scala:76)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:43)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser.traversePattern(Trees.scala:2476)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1237)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2484)
+	at scala.reflect.api.Trees$Traverser.traverseCases(Trees.scala:2487)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1265)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2484)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1284)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.internal.Trees$$anonfun$traverseMemberDef$1$1.apply$mcV$sp(Trees.scala:1215)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.internal.Trees$class.traverseMemberDef$1(Trees.scala:1203)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1328)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser$$anonfun$traverseStats$1$$anonfun$apply$1.apply$mcV$sp(Trees.scala:2498)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2497)
+	at scala.reflect.internal.Trees$class.traverseComponents$1(Trees.scala:1232)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1330)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.internal.Trees$$anonfun$traverseMemberDef$1$1.apply$mcV$sp(Trees.scala:1207)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.internal.Trees$class.traverseMemberDef$1(Trees.scala:1203)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1328)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:38)
+	at scala.reflect.api.Trees$Traverser$$anonfun$traverseStats$1$$anonfun$apply$1.apply$mcV$sp(Trees.scala:2498)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2507)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2497)
+	at scala.reflect.internal.Trees$class.itraverse(Trees.scala:1326)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:16)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2475)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$traverser$2$.traverse(CallByNameParamAtCreationPresenter.scala:47)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$.findByNameParamCreations$1(CallByNameParamAtCreationPresenter.scala:114)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter$.findByNameParamCreations(CallByNameParamAtCreationPresenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter.findAll(CallByNameParamAtCreationPresenter.scala:21)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.findAnnotations$1(BaseSemanticAction.scala:118)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.apply(BaseSemanticAction.scala:126)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction$$anonfun$apply$1.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:105)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:104)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-09-14 14:57:56,793 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error occurred while executing 'org.scalaide.ui.internal.editor.decorators.bynameparams.CallByNameParamAtCreationPresenter'. Check the previous stack trace for more information.
+2015-09-14 14:58:04,226  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 14:59:06,400  WARN [Worker-92] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:59:06,400  WARN [Worker-92] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:59:06,409  WARN [Worker-92] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:59:06,409  WARN [Worker-92] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 14:59:07,528  WARN [Worker-92] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 14:59:07,528  WARN [Worker-92] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:00:50,186  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:00:50,187  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:00:50,192  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:00:50,192  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:00:51,338  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:00:51,338  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:09:01,662  WARN [Worker-101] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:09:01,663  WARN [Worker-101] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:09:01,686  WARN [Worker-101] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:09:01,686  WARN [Worker-101] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:09:02,177  WARN [Worker-101] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:09:02,177  WARN [Worker-101] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:09:02,442  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:09:02,442  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:09:26,682  WARN [Worker-102] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:09:26,683  WARN [Worker-102] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:09:26,688  WARN [Worker-102] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:09:26,688  WARN [Worker-102] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:10:18,333  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:10:18,334  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:10:18,378  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:10:18,379  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:10:28,419  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:10:28,419  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:12:11,566  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:12:11,566  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:12:11,578  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:12:11,578  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:12:11,918  WARN [Java indexing] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:12:11,918  WARN [Java indexing] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:17,621  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:17,621  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:17,638  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:17,638  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:19,940  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:19,940  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:36,917  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:36,919  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:36,927  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:36,928  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:36,941  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:36,941  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:37,614  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:37,614  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:43,215  WARN [Worker-101] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:43,215  WARN [Worker-101] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:43,224  WARN [Worker-101] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:43,224  WARN [Worker-101] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:43,567  WARN [Java indexing] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:13:43,567  WARN [Java indexing] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:13:44,023  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-09-14 15:14:20,674  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:14:20,674  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:14:20,687  WARN [Worker-87] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:14:20,687  WARN [Worker-87] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:24,653  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:24,654  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:24,694  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:24,695  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:24,708  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:24,708  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:26,815  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:26,815  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:58,750  WARN [Worker-103] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:58,750  WARN [Worker-103] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:58,756  WARN [Worker-103] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:58,756  WARN [Worker-103] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:15:59,043  WARN [Worker-103] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:15:59,043  WARN [Worker-103] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:16:04,685  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:16:04,685  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:16:04,695  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:16:04,696  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:16:06,504  WARN [Worker-100] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:16:06,504  WARN [Worker-100] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:18:00,489  WARN [Worker-104] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:18:00,489  WARN [Worker-104] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:18:00,496  WARN [Worker-104] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:18:00,497  WARN [Worker-104] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:18:02,298  WARN [Worker-104] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:18:02,298  WARN [Worker-104] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:22:48,234  WARN [Worker-107] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:22:48,234  WARN [Worker-107] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:22:48,252  WARN [Worker-107] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:22:48,252  WARN [Worker-107] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:22:49,767  WARN [Worker-107] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:22:49,768  WARN [Worker-107] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:24:30,155  WARN [Worker-108] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:24:30,155  WARN [Worker-108] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:24:30,160  WARN [Worker-108] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:24:30,160  WARN [Worker-108] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:24:31,745  WARN [Worker-108] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:24:31,745  WARN [Worker-108] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:27:14,549  WARN [Worker-111] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:27:14,550  WARN [Worker-111] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:27:14,557  WARN [Worker-111] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:27:14,557  WARN [Worker-111] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:27:15,966  WARN [Worker-111] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:27:15,966  WARN [Worker-111] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:27:51,352  WARN [Worker-113] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:27:51,352  WARN [Worker-113] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:27:51,359  WARN [Worker-113] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:27:51,359  WARN [Worker-113] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:27:53,052  WARN [Worker-113] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:27:53,052  WARN [Worker-113] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:31:29,412  WARN [Worker-111] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:31:29,412  WARN [Worker-111] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:31:29,417  WARN [Worker-111] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:31:29,417  WARN [Worker-111] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:31:30,853  WARN [Worker-111] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:31:30,854  WARN [Worker-111] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:34:08,080  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:34:08,080  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:34:08,085  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:34:08,085  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:34:09,592  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:34:09,592  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:35:15,898  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:35:15,898  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:35:15,906  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:35:15,906  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:35:17,343  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:35:17,343  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:35:43,348  WARN [Worker-117] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:35:43,349  WARN [Worker-117] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:35:43,368  WARN [Worker-117] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:35:43,368  WARN [Worker-117] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:35:45,053  WARN [Worker-117] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:35:45,053  WARN [Worker-117] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:38:24,239  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:38:24,239  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:38:24,246  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:38:24,246  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:38:25,640  WARN [Worker-114] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:38:25,640  WARN [Worker-114] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:39:27,572  WARN [Worker-117] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:39:27,572  WARN [Worker-117] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:39:27,577  WARN [Worker-117] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:39:27,577  WARN [Worker-117] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:39:29,167  WARN [Worker-117] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:39:29,167  WARN [Worker-117] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:43:49,160  WARN [Worker-120] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:43:49,160  WARN [Worker-120] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:43:49,166  WARN [Worker-120] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:43:49,166  WARN [Worker-120] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 15:43:50,579  WARN [Worker-120] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 15:43:50,579  WARN [Worker-120] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:18:56,665  WARN [Worker-124] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:18:56,666  WARN [Worker-124] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:18:56,671  WARN [Worker-124] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:18:56,672  WARN [Worker-124] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:18:58,255  WARN [Worker-124] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:18:58,255  WARN [Worker-124] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:19:20,234  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:19:20,234  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:19:20,243  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:19:20,243  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:19:21,592  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:19:21,592  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:20:04,077  WARN [Worker-124] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:20:04,078  WARN [Worker-124] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:20:04,083  WARN [Worker-124] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:20:04,083  WARN [Worker-124] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 16:20:05,404  WARN [Worker-124] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 16:20:05,404  WARN [Worker-124] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:34:01,365  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:34:01,365  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:34:01,371  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:34:01,371  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:34:02,857  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:34:02,857  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:34:14,018  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:34:14,018  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:34:14,023  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:34:14,023  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:34:15,204  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:34:15,205  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:35:11,963  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:35:11,963  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:35:11,968  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:35:11,968  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:35:13,659  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:35:13,659  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:35:16,221  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:35:16,221  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:35:16,225  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:35:16,225  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:35:17,448  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:35:17,448  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:36:38,936  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:36:38,936  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:36:38,941  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:36:38,941  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:36:40,505  WARN [Worker-127] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:36:40,505  WARN [Worker-127] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:37:33,571  WARN [Worker-137] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:37:33,571  WARN [Worker-137] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:37:33,576  WARN [Worker-137] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:37:33,576  WARN [Worker-137] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:37:34,810  WARN [Worker-137] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:37:34,810  WARN [Worker-137] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:38:28,647  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:38:28,647  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:38:28,656  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:38:28,656  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:38:30,138  WARN [Worker-125] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:38:30,138  WARN [Worker-125] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:38:46,700  WARN [Worker-137] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:38:46,700  WARN [Worker-137] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:38:46,707  WARN [Worker-137] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:38:46,707  WARN [Worker-137] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-14 17:38:47,823  WARN [Worker-137] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-14 17:38:47,823  WARN [Worker-137] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:53,720 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-15 08:26:53,747  WARN [Worker-1] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:53,762  WARN [Worker-4] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:53,763  WARN [Worker-1] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:53,764  WARN [Worker-4] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:53,851 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-15 08:26:54,717  WARN [Worker-1] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:54,717  WARN [Worker-1] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:54,792  WARN [Worker-1] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:54,792  WARN [Worker-1] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:55,279  WARN [Worker-1] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:55,282  WARN [Worker-1] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:55,541  WARN [main] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:55,541  WARN [main] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:55,565  WARN [Worker-1] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:55,565  WARN [Worker-1] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:56,888  WARN [Worker-5] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:56,889  WARN [Worker-5] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:56,964  WARN [Worker-5] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:56,965  WARN [Worker-5] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:26:56,995  WARN [Worker-5] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:26:56,995  WARN [Worker-5] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:39:26,978 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-09-15 08:39:40,169  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:39:40,170  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:39:40,244  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:39:40,245  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:39:52,175  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:39:52,176  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:39:52,201  WARN [Worker-3] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:39:52,202  WARN [Worker-3] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:02,869  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:02,870  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:02,919  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:02,919  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:07,722  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:07,722  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:20,024  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:20,025  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:20,054  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:20,055  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:22,358  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:22,358  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:29,112  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:29,112  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:29,129  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:29,129  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.
+2015-09-15 08:40:30,891  WARN [Worker-9] - ScalaProject - Project lab2 has platform default sourceLevel.
+2015-09-15 08:40:30,891  WARN [Worker-9] - ScalaProject - Project lab2 runs on platform default installation.

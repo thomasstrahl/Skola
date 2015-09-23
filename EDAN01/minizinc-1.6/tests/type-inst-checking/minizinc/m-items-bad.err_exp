@@ -1,0 +1,12 @@
+m-items-bad.mzn:1: type-inst error: initialisation value for `vi' has invalid 
+m-items-bad.mzn:1:   type-inst: expected `var int', actual `bool'
+m-items-bad.mzn:4: type-inst error: assignment value for `vb' has invalid 
+m-items-bad.mzn:4:   type-inst: expected `var bool', actual `int'
+m-items-bad.mzn:6: type-inst error: constraint expression has invalid 
+m-items-bad.mzn:6:   type-inst: expected `var bool', actual `var int'
+m-items-bad.mzn:8: type-inst error: maximize expression has invalid type-inst: 
+m-items-bad.mzn:8:   expected `var int' or `var float', actual `var bool'
+m-items-bad.mzn:10: type-inst error: output expression has invalid type-inst: 
+m-items-bad.mzn:10:   expected `array[int] of string', actual `var bool'
+m-items-bad.mzn:12: type-inst error: body of predicate `p' has invalid 
+m-items-bad.mzn:12:   type-inst: expected `var bool', actual `var int'

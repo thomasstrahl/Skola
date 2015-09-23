@@ -1,0 +1,280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"page_t",
+				"page_table_entry_t"
+			],
+			[
+				"swap",
+				"swap_counter"
+			],
+			[
+				"ra",
+				"RAM_PAGES"
+			],
+			[
+				"page",
+				"page"
+			],
+			[
+				"phy",
+				"phys_page"
+			],
+			[
+				"Ram",
+				"RAM_PAGES"
+			],
+			[
+				"ph",
+				"phys_page"
+			],
+			[
+				"in",
+				"inmemory"
+			],
+			[
+				"p",
+				"phys_page"
+			],
+			[
+				"write",
+				"write_page"
+			],
+			[
+				"read",
+				"read_page"
+			],
+			[
+				"page_",
+				"page_table_entry_t"
+			],
+			[
+				"core",
+				"core"
+			],
+			[
+				"on",
+				"ondisk"
+			],
+			[
+				"Si",
+				"SIGUSR2"
+			],
+			[
+				"sa",
+				"sa_flags"
+			],
+			[
+				"us",
+				"usr_2"
+			],
+			[
+				"u",
+				"usr_2"
+			],
+			[
+				"new",
+				"new_action"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"s",
+				"scanf"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tog",
+				"Toggle Comment"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/thomas/Documents/lth/EDAA25/extenta/uppgift1",
+		"/home/thomas/Documents/EDAF35/lab2/sigaction_test.c",
+		"/home/thomas/Documents/EDAN15/binary_gcd.c",
+		"/home/thomas/Documents/EDAF35/lab1/sh.c",
+		"/home/thomas/Documents/EDAN15/sub_gcd.c",
+		"/home/thomas/Documents/EDAN15/mod_gcd.c",
+		"/home/thomas/Documents/EDAF35/lab1/list.c",
+		"/home/thomas/Documents/EDAF35/lab1/sh.h",
+		"/home/thomas/Test/test.c",
+		"/home/thomas/Documents/EDAN15/gcd.c",
+		"/home/thomas/Documents/EDAN15/efficient_gcd.c",
+		"/home/thomas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"puts",
+			"printf",
+			"owner.",
+			"		",
+			"write_memo",
+			"translate",
+			"swap_page",
+			"coremap",
+			"map",
+			"owner",
+			"corema",
+			"run",
+			"printf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//puts",
+			"xil_printf"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "uppgift1.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,4 @@
+var set of {}: x1 = {};
+var set of {}: x2 = {};
+var set of {}: x3 = {};
+solve satisfy;

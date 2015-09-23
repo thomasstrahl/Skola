@@ -1,0 +1,85 @@
+.TH FZN2XML 1 "19 September 2012" "" "G12 User's Manual"
+
+.SH NAME
+fzn2xml \- A tool to convert FlatZinc into XML\-FlatZinc.
+
+.SH SYNOPSIS
+.B fzn2xml
+[
+.BR OPTIONS " ]"
+.I model.fzn
+
+.SH DESCRIPTION
+Converts the FlatZinc instance in
+.I model.fzn
+into an XML-FlatZinc document.
+.PP
+By default, the XML document will be written to the file
+.IR model.xml .
+
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Print this message. 
+.TP
+.B \-\- version
+Print version information.
+.TP
+.B \-v, \-\-verbose
+Output progress information as conversion proceeds.
+.TP
+.B \-\-output\-to\-stdout
+Write the XML to the standard output instead of the default output file.
+.TP
+.B \-\-output\-comments
+Include the items in the original FlatZinc instance as XML comments in the
+generated XML document.
+.TP
+.B \-\-system\-dtd\-location <dir>
+Specify the directory containing the XML\-FlatZinc DTD.
+This directory will be used in the DOCTYPE declaration of the generated
+XML document.
+
+.SH "DEBUGGING OPTIONS"
+.TP
+.B \-\-config\-info
+Output information about how this executable was compiled.
+.TP
+.B \-S, \-\-statistics
+Output messages about time/space usage to stderr.
+.TP
+.B \-\-pprint\-before <name>
+Pretty\-print the IR before stage <name>.
+.TP
+.B \-\-pprint\-after <name>
+Pretty\-print the IR after stage <name>.
+.TP
+.B \-\-pprint\-ignore\-file <file>
+Ignore items from <file> when pretty\-printing.
+.TP
+.B \-\-dump\-before <name>
+Dump the full IR before stage <name>.
+.TP
+.B \-\-dump\-after <name>
+Dump IR after stage <name>.
+.TP
+.B \-\-stop\-before <name>
+Stop conversion before stage <name>.
+.TP
+.B \-\-stop\-after <name>
+Stop conversion after stage <name>.
+
+.TP
+Valid stage names:
+parsing, structure-checking, type-inst-checking, xml-conversion.
+
+.SH "VERSION INFORMATION"
+This manual page documents
+.B fzn2xml
+version 1.6.0.
+
+.SH AUTHORS
+The G12 team.
+
+.SH "SEE ALSO"
+.BR xml2fzn (1)

@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+var int: x :: is_defined_var;
+constraint int_plus(3, 4, x) :: defines_var(x);
+solve satisfy;

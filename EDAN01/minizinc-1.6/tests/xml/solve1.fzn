@@ -1,0 +1,2 @@
+% RUNS ON fzn_xml
+solve satisfy;

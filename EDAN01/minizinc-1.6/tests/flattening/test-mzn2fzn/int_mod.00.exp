@@ -1,0 +1,6 @@
+mzn2fzn:
+  error: 
+  int_mod.mzn:4 
+  In constraint. 
+  In 'mod' expression. 
+  Modulo reduction by zero.

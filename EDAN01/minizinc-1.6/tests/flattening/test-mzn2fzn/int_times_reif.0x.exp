@@ -1,0 +1,6 @@
+var 0..0: x1 = 0;
+var -5..5: x2;
+var -5..5: x3;
+var bool: x4;
+constraint int_eq_reif(x3, 0, x4);
+solve satisfy;

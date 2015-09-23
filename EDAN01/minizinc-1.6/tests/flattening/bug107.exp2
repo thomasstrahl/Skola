@@ -1,0 +1,9 @@
+var -3..3: d :: output_var;
+var -3..3: r :: output_var;
+var -7..7: x :: output_var;
+var -4..-2: y :: output_var;
+constraint int_div(x, y, d);
+constraint int_mod(x, y, r);
+constraint set_in(x, {-7, 7});
+constraint set_in(y, {-4, -2});
+solve satisfy;

@@ -1,0 +1,81 @@
+#!/bin/sh
+# vim: ft=sh ts=4 sw=4 et
+# run-binop-tests
+# Run the flattening tests.
+
+THIS=`basename $0`
+
+if test $# -ne 1
+then
+    echo "usage: $THIS prefix"
+    echo "  Tries all models matching prefix_*.mzn"
+    echo "  on all data files matching prefix.*.dzn ."
+    echo "  Set the variable MZN2FZN to override"
+    echo "  the default flattening program."
+    exit 1
+fi
+
+PREFIX=$1
+
+MZN2FZN=${MZN2FZN:-mzn2fzn}
+
+if test "$G12PATH"; then
+    MZN2FZN="$G12PATH/$MZN2FZN"
+fi
+
+for m in ${PREFIX}_*.mzn
+do
+    for d in ${PREFIX}.*.dzn
+    do
+        xx=`echo $d | sed 's/^'$PREFIX'.//;s/.dzn$//'`
+        b=`basename $m .mzn`
+        f=$b.fzn
+        o=$b.$xx.out
+        e=$b.$xx.exp
+        q=$b.$xx.diff
+        CMD="$MZN2FZN --no-output-ozn $m $d"
+        $CMD 2>$o
+        touch $o
+        if test -r $f; then cat $f >> $o; fi
+        if test -f $e
+        then
+            if diff -u $e $o > $q
+            then
+                echo "$m on $d passed"
+            elif grep -q 'inconsist|out of range' $o && grep -q 'inconsist|out of range' $e
+            then
+                echo "$m on $d passed"
+            else
+                echo "$CMD"
+                echo "differs from expected result:"
+                echo "% $m:"
+                cat $m
+                echo "% $d:"
+                cat $d
+                echo "---- diff in flattened form:"
+                cat $q
+                echo -n "Is this correct? [yN] "
+                read yn
+                case "$yn" in
+                [yY]*) mv $o $e ;;
+                esac
+            fi
+        else
+            echo "$CMD"
+            echo "no .exp file for $m on $d"
+            echo "% $m:"
+            cat $m
+            echo "% $d:"
+            cat $d
+            echo "---- flattened form:"
+            cat $o
+            echo -n "Is this correct? [yN] "
+            read yn
+            case "$yn" in
+            [yY]*) mv $o $e ;;
+            esac
+        fi
+        echo
+        rm -rf $o $q $f
+    done
+done

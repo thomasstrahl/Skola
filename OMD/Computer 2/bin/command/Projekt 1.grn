@@ -1,0 +1,123 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=Projekt 1/src<command{Command.java[Command"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="356"/>
+      <y="55"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Expr.java[Expr"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="163"/>
+      <y="237"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Mul.java[Mul"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="12"/>
+      <y="433"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Add.java[Add"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="378"/>
+      <y="436"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Copy.java[Copy"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="660"/>
+      <y="527"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{JumpEq.java[JumpEq"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="807"/>
+      <y="387"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Jump.java[Jump"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="854"/>
+      <y="251"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Print.java[Print"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="865"/>
+      <y="127"/>
+   </type>
+   <type>
+      <name="=Projekt 1/src<command{Halt.java[Halt"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="862"/>
+      <y="33"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Projekt 1/src<command{Jump.java[Jump"/>
+      <targetType="=Projekt 1/src<command{Command.java[Command"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Projekt 1/src<command{Mul.java[Mul"/>
+      <targetType="=Projekt 1/src<command{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Projekt 1/src<command{JumpEq.java[JumpEq"/>
+      <targetType="=Projekt 1/src<command{Command.java[Command"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Projekt 1/src<command{Add.java[Add"/>
+      <targetType="=Projekt 1/src<command{Expr.java[Expr"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Projekt 1/src<command{Expr.java[Expr"/>
+      <targetType="=Projekt 1/src<command{Command.java[Command"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Projekt 1/src<command{Halt.java[Halt"/>
+      <targetType="=Projekt 1/src<command{Command.java[Command"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Projekt 1/src<command{Copy.java[Copy"/>
+      <targetType="=Projekt 1/src<command{Command.java[Command"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=Projekt 1/src<command{Print.java[Print"/>
+      <targetType="=Projekt 1/src<command{Command.java[Command"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

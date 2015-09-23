@@ -1,0 +1,3 @@
+% RUNS ON fzn_xml
+constraint bool_not(true, false);
+solve satisfy;

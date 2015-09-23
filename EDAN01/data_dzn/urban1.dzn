@@ -1,0 +1,5 @@
+% int: n;
+n = 5;
+
+% array[0..n] of int: point_distribution;
+point_distribution = array1d(0..n, [-5, -4, -3, 3, 4, 5]);

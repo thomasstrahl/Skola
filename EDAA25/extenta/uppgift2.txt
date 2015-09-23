@@ -1,0 +1,1 @@
+Funktionen tar för givet att användaren har tillräckligt med plats i dest för src. Finns inte det tillräckligt med plats i dest riskerar programmet att drabbas av en overflow attack. Bör undvikas om inte storleken av src och platsen i dest är tillräckliga. 

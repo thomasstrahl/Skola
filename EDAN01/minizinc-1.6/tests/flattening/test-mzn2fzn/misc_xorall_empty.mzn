@@ -1,0 +1,3 @@
+constraint xorall([]);
+
+solve satisfy;

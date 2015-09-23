@@ -1,0 +1,7 @@
+double-output-bad.mzn:3:
+  structure error: multiple output items. 
+  Other output items are at: double-output-bad.mzn:4
+% -- pretty-print after structure-checking --------------
+solve satisfy;
+
+output [ "foo" ];

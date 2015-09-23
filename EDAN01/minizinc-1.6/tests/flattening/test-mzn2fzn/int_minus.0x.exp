@@ -1,0 +1,5 @@
+var 0..0: x1 = 0;
+var -5..5: x2;
+var -5..5: x3;
+constraint int_lin_eq([-1, -1], [x3, x2], 0);
+solve satisfy;

@@ -1,0 +1,37 @@
+f-type-insts-bad.fzn:2:
+  type-inst error: set element type is not finite
+f-type-insts-bad.fzn:2:
+  type-inst error: FlatZinc does not permit var set element type-insts other 
+  than `int'
+f-type-insts-bad.fzn:3:
+  type-inst error: FlatZinc does not permit var set element type-insts other 
+  than `int'
+f-type-insts-bad.fzn:4:
+  type-inst error: FlatZinc does not permit array element type-insts other than 
+  scalars or sets
+f-type-insts-bad.fzn:4:
+  type-inst error: FlatZinc does not permit var set element type-insts other 
+  than `int'
+f-type-insts-bad.fzn:5:
+  type-inst error: set element type is not finite
+f-type-insts-bad.fzn:5:
+  type-inst error: FlatZinc does not permit var set element type-insts other 
+  than `int'
+f-type-insts-bad.fzn:7:
+  symbol error: variable `x' used as an annotation
+f-type-insts-bad.fzn:8:
+  symbol warning: annotation `foo' not recognised, ignoring
+% -- pretty-print after type-inst-checking --------------
+var set of float: vsf;
+
+var set of bool: vsb;
+
+array[1 .. 2] of var set of bool: avsb;
+
+array[1 .. 2] of var set of float: avsf;
+
+var int: x;
+
+var int: y::x;
+
+solve ::foo satisfy;

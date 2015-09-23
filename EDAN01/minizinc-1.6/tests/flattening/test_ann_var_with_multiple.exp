@@ -1,0 +1,4 @@
+predicate p(var int: x);
+var int: X____00001;
+constraint p(X____00001) :: bar :: baz :: foo;
+solve satisfy;

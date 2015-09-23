@@ -1,0 +1,38 @@
+import java.awt.GridLayout;
+
+import javax.swing.*;
+
+public class SudokuGrafic {
+
+	public SudokuGrafic() {
+
+		JFrame frame = new JFrame("Sudoku");
+
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JPanel panel = new JPanel();
+		JButton cbutton = new JButton("Clear");
+		JButton sbutton = new JButton("Solve");
+		panel.add(sbutton);
+		panel.add(cbutton);
+		frame.add(panel);
+		JTextField jtf = new JTextField(1);
+		for (int i = 0; i < 9; i++) {
+			panel.add(jtf);
+			for (int n = 0; i < 9; n++) {
+				panel.add(jtf);
+
+			}
+		}
+		frame.setLayout(new GridLayout(1, 2));
+
+		frame.pack();
+		frame.setVisible(true);
+
+	}
+
+	public static void main(String[] args) {
+		new SudokuGrafic();
+
+	}
+}

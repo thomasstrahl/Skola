@@ -1,0 +1,3 @@
+var 2.0..2.0: FLOAT____00001 :: var_is_introduced = 2.0;
+var 2.0..2.0: o :: output_var = 2.0;
+solve minimize FLOAT____00001;

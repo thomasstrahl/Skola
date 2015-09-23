@@ -1,0 +1,24 @@
+
+
+import javax.swing.*;
+
+public class SudokuGrafic {
+	
+	public SudokuGrafic(){
+		
+		JFrame frame = new JFrame("Counter");
+		
+
+		JPanel panel = new JPanel();
+
+		
+	}
+	
+
+public static void main(String[] args) {
+new SudokuGrafic();
+
+	
+	
+
+}

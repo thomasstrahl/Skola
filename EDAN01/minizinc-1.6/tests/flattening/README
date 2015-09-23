@@ -1,0 +1,4 @@
+By default tools like mzn2fzn convert a file foo.mzn into a file
+foo.fzn.  For the purposes of testing we require that the output be
+sent to stdout instead, hence every test bar.mzn in this directory
+must have a corresponding bar.opt file containing '--output-to-stdout'.

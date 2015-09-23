@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# XXX We don't currently have a library of global constraint decompositions
+#     for SAT.
+#
+FLATZINC_CMD=flatzinc minizinc -b sat "$@"

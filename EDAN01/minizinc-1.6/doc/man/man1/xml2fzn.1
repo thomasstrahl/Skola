@@ -1,0 +1,39 @@
+.TH XML2FZN 1 "19 September 2012" "" "G12 User's Manual"
+
+.SH NAME
+xml2fzn \- A tool to convert XML\-FlatZinc into FlatZinc.
+
+.SH SYNOPSIS
+.B xml2fzn
+[
+.BR OPTIONS " ]"
+.IR file
+
+.SH DESCRIPTION
+Convert a model instance in the XML representation of FlatZinc
+into FlatZinc.
+.PP
+By default, the FlatZinc will be written to the standard output.
+
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Print a usage message.
+.TP
+.B \-\-version
+Print version information.
+.TP
+.B \-o <file>, \-\-output\-to\-file <file>
+Write the FlatZinc to the specified file instead of to the
+standard output.
+
+.SH "VERSION INFORMATION"
+This manual page documents
+.B xml2fzn
+version 1.6.0.
+
+.SH AUTHORS
+The G12 team.
+
+.SH "SEE ALSO"
+.BR fzn2xml (1)

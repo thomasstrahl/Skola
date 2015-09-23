@@ -1,0 +1,6 @@
+array-access-bad.mzn:2: error: 
+array-access-bad.mzn:2:   In constraint item 
+array-access-bad.mzn:2:   In > application 
+array-access-bad.mzn:2:   In argument #1 
+array-access-bad.mzn:2:   In array access 
+array-access-bad.mzn:2:   Array index out of bounds.

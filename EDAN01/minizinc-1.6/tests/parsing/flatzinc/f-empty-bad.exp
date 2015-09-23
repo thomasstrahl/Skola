@@ -1,0 +1,4 @@
+f-empty-bad.fzn:1:
+  syntax error: model must have a solve item
+% -- pretty-print after parsing --------------
+

@@ -1,0 +1,8 @@
+% RUNS ON fzn_tc
+
+% Scalar decision variables should not be annotated with output_array/1,
+% arrays of decision variables should not be annotated with output_var/0.
+
+var int: x :: output_array([1..3]);
+array[1..3] of var int: y :: output_var;
+solve satisfy;

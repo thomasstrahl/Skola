@@ -1,0 +1,9 @@
+This directory contains the Mercury source code for the G12
+MiniZinc solution printing tool, solns2out.
+This code requires Mercury version 11.07.2 or above.
+
+You can build solns2out with the following commands:
+
+	mmc -f *.m ../frontend/*.m ../mzn2fzn/*.m
+	mmc --make solns2out
+

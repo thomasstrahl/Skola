@@ -1,0 +1,4 @@
+var bool: x1;
+var bool: x2;
+constraint bool_le(x1, x2);
+solve satisfy;

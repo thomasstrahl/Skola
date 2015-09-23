@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+
+var int: x :: foo("<&\"'>");
+solve satisfy;

@@ -1,0 +1,5 @@
+array[1 .. 20] of var 1 .. 10: X;
+
+var set of 1 .. 10: m::output_var = 1 .. 10;
+
+solve satisfy;

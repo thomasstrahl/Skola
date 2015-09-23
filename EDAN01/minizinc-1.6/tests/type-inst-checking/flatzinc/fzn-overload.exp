@@ -1,0 +1,12 @@
+fzn-overload.fzn:5:
+  symbol error: the predicate `foo' is already declared at fzn-overload.fzn:4
+fzn-overload.fzn:6:
+  symbol error: the predicate `foo' is already declared at fzn-overload.fzn:4
+% -- pretty-print after type-inst-checking --------------
+predicate foo(var int: x);
+
+predicate foo(var float: x);
+
+predicate foo(var int: x, var int: y);
+
+solve satisfy;

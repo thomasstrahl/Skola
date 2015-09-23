@@ -1,0 +1,20 @@
+mzn2fzn:
+  structure error: no solve item
+m-items-bad.mzn:3:
+  structure error: MiniZinc does not permit type-inst synonym items
+m-items-bad.mzn:6:
+  structure error: MiniZinc does not permit enum items
+m-items-bad.mzn:9:
+  structure error: MiniZinc does not permit enum items
+m-items-bad.mzn:12:
+  structure error: MiniZinc does not permit function items
+% -- pretty-print after structure-checking --------------
+solve satisfy;
+
+type MyInt = int;
+
+enum C = { R, G, B };
+
+enum X = { foo(int: x), bar(float: y) };
+
+function int: f(int: x) = 3;

@@ -1,0 +1,10 @@
+multiple_assigns.mzn:4:
+  error: multiple assignments for global variable `x'. 
+  The assignments occur at: 
+     multiple_assigns.mzn:5 
+     multiple_assigns.mzn:6
+multiple_assigns.mzn:9:
+  error: multiple assignments for global variable `y'. 
+  The assignments occur at: 
+     multiple_assigns.mzn:9 
+     multiple_assigns.mzn:10

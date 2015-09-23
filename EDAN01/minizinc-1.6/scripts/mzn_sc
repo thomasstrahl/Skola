@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if test "$G12PATH"; then
+    MZN2FZN="$G12PATH"/mzn2fzn
+else
+    MZN2FZN=mzn2fzn
+fi
+
+"$MZN2FZN" --pprint-ignore-file=stdlib.mzn --pprint-after=structure-checking --stop-after=structure-checking $@ 2>&1

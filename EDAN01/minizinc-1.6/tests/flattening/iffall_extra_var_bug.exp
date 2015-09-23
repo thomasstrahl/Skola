@@ -1,0 +1,6 @@
+var bool: BOOL____00001 :: var_is_introduced;
+var bool: x1;
+var bool: x2;
+constraint array_bool_xor([BOOL____00001, x1, x2]);
+constraint bool_le(x1, BOOL____00001);
+solve satisfy;

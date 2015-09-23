@@ -1,0 +1,13 @@
+predicate r(var int: x);
+
+var int: vi1;
+
+var int: vi2;
+
+constraint int_gt(vi2, 3);
+
+constraint int_gt(vi1, 3);
+
+constraint r(7);
+
+solve satisfy;

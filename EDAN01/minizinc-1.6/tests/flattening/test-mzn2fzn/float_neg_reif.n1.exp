@@ -1,0 +1,4 @@
+var -1.0..-1.0: x1 = -1.0;
+var 1.0..1.0: x2 = 1.0;
+var bool: x3 = true;
+solve satisfy;

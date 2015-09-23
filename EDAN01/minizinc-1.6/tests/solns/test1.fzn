@@ -1,0 +1,12 @@
+% RUNS ON solns_can
+% Comments like this one should be removed.
+a = 10;
+b = 3;
+c = -4;
+----------
+a = 9;
+b = 2;
+c = -3
+----------
+% Note: if we don't have an end-of-search indicator (10 equals signs) then
+% sure we don't print it out.

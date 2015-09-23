@@ -1,0 +1,8 @@
+% RUNS ON fzn_tc
+var set of float: vsf;                      % bad
+var set of bool:  vsb;                      % bad
+array[1..2] of var set of bool:  avsb;      % bad
+array[1..2] of var set of float: avsf;      % bad
+var int: x;
+var int: y::x;                              % bad
+solve :: foo satisfy;                       % warning: unrecognised annotation

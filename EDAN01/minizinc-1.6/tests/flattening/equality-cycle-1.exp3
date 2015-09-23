@@ -1,0 +1,5 @@
+var bool: BOOL____00001 :: is_defined_var :: var_is_introduced;
+array [1..1] of var int: r;
+constraint int_eq(r[1], 1);
+constraint int_eq_reif(r[1], 1, BOOL____00001) :: defines_var(BOOL____00001);
+solve satisfy;

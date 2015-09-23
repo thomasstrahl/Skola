@@ -1,0 +1,12 @@
+This directory contains the Mercury source code for the G12
+XML-to-FlatZinc converter, xml2fzn.  This code requires
+Mercury version 11.07.2 or above.
+
+You can build xml2fzn with the following commands:
+
+	mmc --make xml2fzn
+
+This directory contains a modified copy of the XML parser from
+the Mercury extras distribution.  This code is 
+Copyright (C) 2000, 2001 The University of Melbourne.
+(See the file XML.LICENSE for license terms.)

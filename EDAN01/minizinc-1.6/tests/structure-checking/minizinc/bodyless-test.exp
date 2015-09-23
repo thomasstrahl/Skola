@@ -1,0 +1,8 @@
+bodyless-test.mzn:3:
+  structure error: MiniZinc does not permit test items without bodies
+% -- pretty-print after structure-checking --------------
+test test1(int: x);
+
+solve satisfy;
+
+output [ "Ok!\n" ];

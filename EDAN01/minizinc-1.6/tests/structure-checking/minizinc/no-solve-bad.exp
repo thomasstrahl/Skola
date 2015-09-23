@@ -1,0 +1,8 @@
+mzn2fzn:
+  structure error: no solve item
+% -- pretty-print after structure-checking --------------
+solve satisfy;
+
+var int: x;
+
+constraint (x > 0) /\ (x < 5);

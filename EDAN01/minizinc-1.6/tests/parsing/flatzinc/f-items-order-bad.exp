@@ -1,0 +1,38 @@
+f-items-order-bad.fzn:5:
+  syntax error: variable declarations must precede constraints
+f-items-order-bad.fzn:7:
+  syntax error: variable declarations must precede constraints
+f-items-order-bad.fzn:10:
+  syntax error: constraints must precede solve item
+f-items-order-bad.fzn:12:
+  syntax error: only one solve item is allowed
+f-items-order-bad.fzn:13:
+  syntax error: variable declarations must precede solve item
+f-items-order-bad.fzn:15:
+  syntax error: variable declarations must precede constraints
+% -- pretty-print after parsing --------------
+int: x = 3;
+
+constraint a(b);
+
+int: x = 3;
+
+constraint a(b);
+
+int: x = 3;
+
+constraint a(b);
+
+solve satisfy;
+
+constraint a(b);
+
+solve satisfy;
+
+solve satisfy;
+
+int: x = 3;
+
+constraint a(b);
+
+int: x = 4;

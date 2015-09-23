@@ -1,0 +1,12 @@
+This directory contains a language definition for the Zinc family of languages for
+use with GtkSourceView, the syntax highlighting library used by a number of
+GNOME applications, such as gedit and Anjuta.
+
+The Zinc language definition file, zinc.lang, can be installed globally by copying
+it to the directory:
+
+   /usr/share/gtksourceview-2.0/language-specs
+
+or locally, by copying it to the directory:
+
+   ~/.local/share/gtksourceview-2.0/language-specs

@@ -1,0 +1,8 @@
+predicate p(array [int] of var int: a);
+var 3..10: INT____00001 :: is_defined_var :: var_is_introduced;
+var 3..10: INT____00002 :: is_defined_var :: var_is_introduced;
+array [1..3] of var 0..10: x;
+constraint int_lin_eq([-1, -1, 1], [INT____00001, x[1], x[2]], 0) :: defines_var(INT____00001);
+constraint int_lin_eq([-1, -1, 1], [INT____00002, x[2], x[3]], 0) :: defines_var(INT____00002);
+constraint p([INT____00001, INT____00002]);
+solve satisfy;

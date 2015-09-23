@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1260912617396
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.bugzilla.core",1260912617396
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.bugzilla.ui",1260912617397
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.commons.ui",1260912617398
+started,bundle,org.eclipse.mylyn.context.core,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.context.core",1260912617399
+started,bundle,org.eclipse.mylyn.context.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.context.ui",1260912617404
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.monitor.ui",1260912617405
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.tasks.ui",1260912617406
+started,bundle,org.eclipse.mylyn.team.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.team.ui",1260912617411
+os,sysinfo,,,"macosx",1260912617414
+arch,sysinfo,,,"x86",1260912617414
+ws,sysinfo,,,"cocoa",1260912617414
+locale,sysinfo,,,"sv_SE",1260912617414
+processors,sysinfo,,,"2",1260912617414
+java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1260912617414
+java.runtime.version,sysinfo,,,"1.5.0_16-b06-284",1260912617414
+java.specification.name,sysinfo,,,"Java Platform API Specification",1260912617414
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1260912617414
+java.specification.version,sysinfo,,,"1.5",1260912617414
+java.vendor,sysinfo,,,"Apple Inc.",1260912617414
+java.version,sysinfo,,,"1.5.0_16",1260912617414
+java.vm.info,sysinfo,,,"mixed mode",1260912617414
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1260912617414
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1260912617414
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1260912617414

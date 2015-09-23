@@ -1,0 +1,8 @@
+% RUNS ON fzn_yacc
+% RUNS ON fzn_parse
+
+% Check that nested annotations with array literal arguments are
+% handled properly.
+
+var int: x;
+solve :: seq_search([int_search([x], input_order, indomain_min, complete)]) satisfy;

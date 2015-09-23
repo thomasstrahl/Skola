@@ -1,0 +1,7 @@
+mzn2fzn:
+  error: 
+  misc_pred_arg_constraint_no_body_reif.mzn:4 
+  In constraint. 
+  In '=' expression. 
+  In 'p1' expression. 
+  'p1' is used in a reified context, but has no body to expand.

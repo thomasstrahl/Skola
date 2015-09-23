@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  int.9x.dzn:1 
+  In assignment for 'x1'. 
+  Value is out of range.
+constraint bool_eq(false, true);
+solve satisfy;

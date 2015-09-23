@@ -1,0 +1,6 @@
+% -- pretty-print after parsing --------------
+array[1 .. 2] of bool: x = 
+  [ true, false, 22, 5e12, -111, 1.0, 3.0e-2, -3.0, a[1], a[2], { 1, 2, 3 }, 
+    x, "foo", 1 .. a[10], 2147483647, -2147483648, -4095, -16435934 ];
+
+solve satisfy;

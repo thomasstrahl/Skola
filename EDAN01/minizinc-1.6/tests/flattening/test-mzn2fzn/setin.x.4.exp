@@ -1,0 +1,4 @@
+m2f: error: 
+m2f:   setin.x.4.dzn:1 
+m2f:   In assignment for 'x2'. 
+m2f:   Value is out of range.

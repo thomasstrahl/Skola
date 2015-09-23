@@ -1,0 +1,7 @@
+mzn2fzn:
+  error: 
+  misc_array_index_out_of_bounds.mzn:2 
+  In variable declaration for 'x2'. 
+  In array access. 
+  In index argument 1 
+  Index out of range.

@@ -1,0 +1,22 @@
+package predicate;
+
+import term.Term;
+import term.Variable;
+
+public class ForAll implements Expr {
+	private Variable variable;
+	private Predicate prdicate;
+	
+	public ForAll(Variable varible, Predicate predicate){
+		this.variable = variable;
+		this.prdicate = predicate;
+	}
+
+	@Override
+	public Expr substitute(Variable variable, Term term) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}
+

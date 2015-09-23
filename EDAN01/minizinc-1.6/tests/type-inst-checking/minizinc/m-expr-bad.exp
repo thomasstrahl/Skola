@@ -1,0 +1,88 @@
+m-expr-bad.mzn:4:
+  type-inst error: initialisation value for `pf' has invalid type-inst: expected 
+  `float', actual `int'
+m-expr-bad.mzn:5:
+  type-inst error: initialisation value for `vf1' has invalid type-inst: 
+  expected `var float', actual `int'
+m-expr-bad.mzn:6:
+  type-inst error: initialisation value for `vf2' has invalid type-inst: 
+  expected `var float', actual `var int'
+m-expr-bad.mzn:8:
+  type-inst error: initialisation value for `api' has invalid type-inst: 
+  expected `array[int] of int', actual `set of int'
+m-expr-bad.mzn:10:
+  type-inst error: MiniZinc does not permit array element type-insts other than 
+  scalars or sets
+m-expr-bad.mzn:11:
+  type-inst error: MiniZinc does not permit array element type-insts other than 
+  scalars or sets
+m-expr-bad.mzn:12:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-expr-bad.mzn:13:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-expr-bad.mzn:14:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-expr-bad.mzn:15:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-expr-bad.mzn:18:
+  type-inst error: MiniZinc does not permit tuple literals
+m-expr-bad.mzn:18:
+  type-inst error: MiniZinc does not permit tuple accesses
+m-expr-bad.mzn:21:
+  type-inst error: MiniZinc does not permit record literals
+m-expr-bad.mzn:21:
+  type-inst error: MiniZinc does not permit record accesses
+m-expr-bad.mzn:24:
+  type-inst error: MiniZinc does not permit indexed array literals
+m-expr-bad.mzn:27:
+  type-inst error: MiniZinc does not permit indexed array comprehensions
+% -- pretty-print after type-inst-checking --------------
+var int: vi;
+
+float: pf = 3;
+
+var float: vf1 = 3;
+
+var float: vf2 = vi;
+
+array[0 .. 3] of int: api = { 1, 2, 3 };
+
+int: x1 = length([ [ 1, 2, 3 ], [ 4, 5, 6 ] ]);
+
+int: x2 = 
+  length(
+    [ [ i ] | 
+      i in 
+        coerce(
+          ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 5) ]);
+
+int: x3 = card({ { 1 }, { 2 }, { 3, 4 } });
+
+int: x4 = card({ [ 1 ], [ 2 ], [ 3, 4 ] });
+
+int: x5 = card({ "one", "two" });
+
+int: x6 = 
+  card(
+    { {} | 
+      i in 
+        coerce(
+          ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 5) });
+
+int: i1 = (1, 2, 3).1;
+
+int: i2 = (x: 1, y: 2).x;
+
+array[1 .. 3] of int: i5 = [ 1: 1, 2: 2, 3: 3 ];
+
+array[1 .. 5] of int: i6 = 
+  [ i: i | 
+    i in 
+      coerce(
+        ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), 1 .. 5) ];
+
+solve satisfy;

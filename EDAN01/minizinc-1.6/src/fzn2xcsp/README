@@ -1,0 +1,9 @@
+This directory contains the Mercury source code for the G12
+FlatZinc-to-XCSP converter, fzn2xcsp.
+This code requires Mercury version 11.07.2 or above.
+
+You can build fzn2xcsp with the following commands:
+
+	mmc -f *.m ../frontend/*.m
+	mmc --make fzn2xcsp
+

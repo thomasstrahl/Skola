@@ -1,0 +1,4 @@
+var bool: BOOL____1 = false;
+var bool: x1 = false;
+var bool: x2;
+constraint bool_not(x2, BOOL____1);

@@ -1,0 +1,2 @@
+var 2..2: x1 = 2;
+solve satisfy;

@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+array [1..2] of var float: x = [4.0, 5.0];
+array [1..2] of var 1.0 .. 10.0: y = [10.0, 8.0];
+solve satisfy;

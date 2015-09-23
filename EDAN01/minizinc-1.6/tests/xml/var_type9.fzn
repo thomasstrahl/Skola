@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+array [1..2] of var set of 10..20: x = [{}, {11, 12}];
+array [1..2] of var set of {5, 10, 15, 20}: y = [{}, {5}];
+solve satisfy;

@@ -1,0 +1,15 @@
+f-type-insts-bad.fzn:1: type-inst error: set element type is not finite
+f-type-insts-bad.fzn:1: type-inst error: FlatZinc does not permit var set 
+f-type-insts-bad.fzn:1:   element type-insts other than `int'
+f-type-insts-bad.fzn:2: type-inst error: FlatZinc does not permit var set 
+f-type-insts-bad.fzn:2:   element type-insts other than `int'
+f-type-insts-bad.fzn:3: type-inst error: FlatZinc does not permit array 
+f-type-insts-bad.fzn:3:   element type-insts other than scalars or sets
+f-type-insts-bad.fzn:3: type-inst error: FlatZinc does not permit var set 
+f-type-insts-bad.fzn:3:   element type-insts other than `int'
+f-type-insts-bad.fzn:4: type-inst error: set element type is not finite
+f-type-insts-bad.fzn:4: type-inst error: FlatZinc does not permit var set 
+f-type-insts-bad.fzn:4:   element type-insts other than `int'
+f-type-insts-bad.fzn:6: symbol error: variable `x' used as an annotation
+f-type-insts-bad.fzn:7: symbol warning: annotation `foo' not recognised, 
+f-type-insts-bad.fzn:7:   ignoring

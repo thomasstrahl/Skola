@@ -1,0 +1,5 @@
+array [1..3] of var 1..3: x1;
+var 1..3: x2;
+var 1..3: x3;
+constraint array_var_int_element(x2, x1, x3);
+solve satisfy;

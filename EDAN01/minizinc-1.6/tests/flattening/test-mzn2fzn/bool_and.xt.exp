@@ -1,0 +1,3 @@
+var bool: x1 = true;
+var bool: x2 = true;
+solve satisfy;

@@ -1,0 +1,3 @@
+% RUNS ON fzn_xml
+array[1..5] of var bool: x = [true, true, false, true, false];
+solve satisfy;

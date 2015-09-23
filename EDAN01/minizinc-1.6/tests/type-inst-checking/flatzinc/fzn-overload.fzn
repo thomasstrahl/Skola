@@ -1,0 +1,7 @@
+% RUNS ON fzn_tc
+% Check that we emit error messages if overloaded predicates occur in FlatZinc.
+%
+predicate foo(var int: x);
+predicate foo(var float: x);
+predicate foo(var int: x, var int: y);
+solve satisfy;

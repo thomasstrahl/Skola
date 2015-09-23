@@ -1,0 +1,16 @@
+#!/bin/sh
+#----------------------------------------------------------------------------#
+# vim: ts=4 sw=4 expandtab
+#----------------------------------------------------------------------------#
+#
+# Invoke MiniZinc with the G12/FD solver.
+#
+#----------------------------------------------------------------------------#
+
+MINIZINC_EXEC=${MINIZINC-minizinc}
+
+if test "$G12PATH"; then
+    MINIZINC_EXEC="$G12PATH/$MINIZINC_EXEC"
+fi
+
+$MINIZINC_EXEC -G g12_fd -b fd $*

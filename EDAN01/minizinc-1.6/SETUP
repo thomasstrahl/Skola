@@ -1,0 +1,39 @@
+#!/bin/sh
+#----------------------------------------------------------------------------#
+# vim: ts=4 sw=4 expandtab
+#-----------------------------------------------------------------------------#
+# Copyright (C) 2007-2010 The University of Melbourne and NICTA.
+# See the file COPYING for license information.
+#-----------------------------------------------------------------------------#
+
+# This script is used to configure the MiniZinc distribution.
+# Its main task is to generate a wrapper script for mzn2fzn and minizinc. 
+
+#-----------------------------------------------------------------------------#
+
+INSTALL_PATH=`pwd`
+EXEEXT=""
+
+#----------------------------------------------------------------------------#
+
+# Generate wrapper scripts that set ZINC_STD_SEARCH_DIRS to point to the
+# location where the MiniZinc libs are installed and then invoke the mzn2fzn
+# executable.
+
+cat << EOF > bin/mzn2fzn
+#!/bin/sh
+
+export MZN_STDLIB_DIR="$INSTALL_PATH/lib/minizinc"
+exec "$INSTALL_PATH/bin/private/mzn2fzn${EXEEXT}" "\$@"
+
+EOF
+
+chmod a+x bin/mzn2fzn
+
+#----------------------------------------------------------------------------#
+
+echo "-- G12 MiniZinc distribution setup complete."
+echo
+echo "-- Don't forget to add $INSTALL_PATH/bin to your PATH"
+echo "-- and $INSTALL_PATH/doc/man to your MANPATH."
+echo

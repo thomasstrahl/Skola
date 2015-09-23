@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+var 0..3: x = 2;
+var int:  y = -10;
+solve satisfy;

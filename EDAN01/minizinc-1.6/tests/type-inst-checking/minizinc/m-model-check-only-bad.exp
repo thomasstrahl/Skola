@@ -1,0 +1,26 @@
+m-model-check-only-bad.mzn:5:
+  symbol error: variable `s' must be defined (did you forget to specify a data 
+  file?)
+m-model-check-only-bad.mzn:6:
+  symbol error: variable `a' must be defined (did you forget to specify a data 
+  file?)
+m-model-check-only-bad.mzn:6:
+  symbol error: undefined variable `s' used as a type
+m-model-check-only-bad.mzn:7:
+  symbol error: use of undefined variable `s'
+m-model-check-only-bad.mzn:11:
+  symbol error: let variable `pi2' must be defined
+m-model-check-only-bad.mzn:11:
+  symbol error: use of undefined let variable `pi2'
+m-model-check-only-bad.mzn:11:
+  symbol error: let variable `pi2' must be assigned
+% -- pretty-print after type-inst-checking --------------
+set of 1 .. 5: s;
+
+s: a;
+
+set of 1 .. 5: s2 = s;
+
+int: pi = let { int: pi2 } in pi2;
+
+solve satisfy;

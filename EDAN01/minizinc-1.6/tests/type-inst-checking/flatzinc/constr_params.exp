@@ -1,0 +1,61 @@
+constr_params.fzn:7:
+  type-inst error: the `int' parameter `a' has a constrained type-inst, but 
+  FlatZinc does not allow `int' parameters with constrained type-insts.
+constr_params.fzn:8:
+  type-inst error: the `int' parameter `b' has a constrained type-inst, but 
+  FlatZinc does not allow `int' parameters with constrained type-insts.
+constr_params.fzn:9:
+  type-inst error: the `float' parameter `c' has a constrained type-inst, but 
+  FlatZinc does not allow `float' parameters with constrained type-insts.
+constr_params.fzn:10:
+  type-inst error: the `set of int' parameter `sp1' has elements that have a 
+  constrained type-inst, but FlatZinc does not allow `set of int' parameters 
+  whose elements have a constrained type-inst.
+constr_params.fzn:11:
+  type-inst error: the `set of int' parameter `sp2' has elements that have a 
+  constrained type-inst, but FlatZinc does not allow `set of int' parameters 
+  whose elements have a constrained type-inst.
+constr_params.fzn:12:
+  type-inst error: the `array[int] of int' parameter `d' has elements that have 
+  a constrained type-inst, but FlatZinc does not allow `array[int] of int' 
+  parameters whose elements have a constrained type-inst.
+constr_params.fzn:13:
+  type-inst error: the `array[int] of int' parameter `e' has elements that have 
+  a constrained type-inst, but FlatZinc does not allow `array[int] of int' 
+  parameters whose elements have a constrained type-inst.
+constr_params.fzn:14:
+  type-inst error: the `array[int] of float' parameter `f' has elements that 
+  have a constrained type-inst, but FlatZinc does not allow 
+  `array[int] of float' parameters whose elements have a constrained type-inst.
+constr_params.fzn:15:
+  type-inst error: the `array[int] of set of int' parameter `g' has elements 
+  that have a constrained type-inst, but FlatZinc does not allow 
+  `array[int] of set of int' parameters whose elements have a constrained 
+  type-inst.
+constr_params.fzn:16:
+  type-inst error: the `array[int] of set of int' parameter `h' has elements 
+  that have a constrained type-inst, but FlatZinc does not allow 
+  `array[int] of set of int' parameters whose elements have a constrained 
+  type-inst.
+% -- pretty-print after type-inst-checking --------------
+1 .. 10: a = 3;
+
+{ 2, 4, 6 }: b = 4;
+
+1.0 .. 3.0: c = 1.5;
+
+set of 1 .. 10: sp1 = { 1, 2 };
+
+set of { 2, 4, 6 }: sp2 = { 2, 6 };
+
+array[1 .. 3] of 1 .. 10: d = [ 2, 2, 2 ];
+
+array[1 .. 3] of { 2, 4, 6 }: e = [ 4, 4, 4 ];
+
+array[1 .. 3] of 1.0 .. 3.0: f = [ 1.4, 1.5, 1.6 ];
+
+array[1 .. 3] of set of 1 .. 10: g = [ {}, { 1 }, { 2 } ];
+
+array[1 .. 3] of set of { 2, 4, 6 }: h = [ {}, { 4 }, { 6 } ];
+
+solve satisfy;

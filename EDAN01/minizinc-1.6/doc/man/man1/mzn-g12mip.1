@@ -1,0 +1,42 @@
+.TH MZN\-G12MIP 1 "19 September 2012" "" "G12 Users's Guide"
+
+.SH NAME
+mzn\-g12mip \- evaluate MiniZinc using the a MIP solver via
+the G12 FlatZinc interpreter.
+
+.SH SYNOPSIS
+.B mzn\-g12mip
+[
+.BR OPTIONS " ]"
+.I model.mzn
+[
+.IR data.dzn " ..."
+]
+
+.SH DESCRIPTION
+.B mzn\-g12mip
+is a wrapper for the
+.BR minizinc (1)
+program that evaluates a MiniZinc model using a MIP solver via the
+G12 FlatZinc interpreter.
+.PP
+By default, the solver\-specific global constraints definitions for
+MIP are used when flattening the model.
+
+.SH OPTIONS
+See
+.BR minizinc (1)
+for a list of supported options.
+
+.SH "VERSION INFORMATION"
+This manual documents
+.B mzn\-g12mip
+version 1.6.0.
+
+.SH AUTHORS
+The G12 team.
+
+.SH "SEE ALSO"
+.BR flatzinc (1)
+.BR minizinc (1)
+.BR mzn2fzn (1)

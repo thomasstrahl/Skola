@@ -1,0 +1,7 @@
+var int: y1::output_var = 0;
+
+var int: y2::output_var = 0;
+
+var int: y3::output_var = 0;
+
+solve satisfy;

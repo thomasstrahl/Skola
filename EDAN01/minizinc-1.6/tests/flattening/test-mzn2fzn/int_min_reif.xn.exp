@@ -1,0 +1,8 @@
+var -5..-1: INT____00001 :: is_defined_var :: var_is_introduced;
+var -5..5: x1;
+var -1..-1: x2 = -1;
+var -5..5: x3;
+var bool: x4;
+constraint int_eq_reif(x3, INT____00001, x4);
+constraint int_min(x1, -1, INT____00001) :: defines_var(INT____00001);
+solve satisfy;

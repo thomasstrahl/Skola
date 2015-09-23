@@ -1,0 +1,30 @@
+#!/bin/sh
+
+yes n | ./run-tests-interactive | awk '
+function report(    i) {
+	if (n) {
+		printf("\nproblem:\n");
+		for (i = 1; i <= n; i++) {
+			printf("%s\n", l[i]);
+		}
+		printf("\n");
+	}
+}
+/passed/ {
+	printf("%s\n", $0)
+}
+/'${MZN2FZN:-mzn2fzn}'[^:]/ {
+	n = 0;
+}
+/Is this correct/ {
+	++n;
+	report();
+	n = 0;
+}
+{
+	l[++n] = $0
+}
+END {
+	report();
+}
+'

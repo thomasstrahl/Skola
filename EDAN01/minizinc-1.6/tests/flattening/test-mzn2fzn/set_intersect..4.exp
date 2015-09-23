@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  set..4.dzn:2 
+  In assignment for 'x2'. 
+  Value is out of range.
+constraint bool_eq(false, true);
+solve satisfy;

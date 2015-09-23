@@ -1,0 +1,8 @@
+misc_array_2d.mzn:2:
+  type-inst error: operator `=' argument list has invalid type-inst: expected 
+  `(int, int)' or `(var int, var int)' or `(float, float)' or 
+  `(var float, var float)' or `(bool, bool)' or `(var bool, var bool)' or 
+  `(string, string)' or `(set of int, set of int)' or 
+  `(set of bool, set of bool)' or `(set of float, set of float)' or 
+  `(var set of int, var set of int)', actual 
+  `(array[int, int] of var int, array[int, int] of int)'

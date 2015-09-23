@@ -1,0 +1,6 @@
+% RUNS ON fzn_yacc
+% RUNS ON fzn_parse
+% At one point, this was causing a message "model is empty" -- it was
+% because the one item was bogus in such a way that it wasn't even being
+% marked as a bogus item.
+par 1..3: a;

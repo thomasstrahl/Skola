@@ -1,0 +1,10 @@
+f-finite-types.fzn:5:
+  type-inst error: set element type is not finite
+% -- pretty-print after type-inst-checking --------------
+var set of int: b1;
+
+var set of 1 .. 3: b2;
+
+var set of { 1, 3 }: b3;
+
+solve satisfy;

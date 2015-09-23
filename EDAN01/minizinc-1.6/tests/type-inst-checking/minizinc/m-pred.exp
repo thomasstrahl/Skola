@@ -1,0 +1,23 @@
+m-pred.mzn:10:
+  type-inst error: predicate `pp' argument list has invalid type-inst: expected 
+  `(int)', actual `(var int)'
+m-pred.mzn:11:
+  type-inst error: initialisation value for `b3' has invalid type-inst: expected 
+  `bool', actual `var bool'
+m-pred.mzn:12:
+  type-inst error: initialisation value for `b4' has invalid type-inst: expected 
+  `bool', actual `var bool'
+% -- pretty-print after type-inst-checking --------------
+test pp(int: x) = x > 0;
+
+predicate pv(var int: x) = x > coerce(ti_par_int, ti_var_int, 0);
+
+bool: b1 = pp(3);
+
+bool: b2 = pp(_ + coerce(ti_par_int, ti_var_int, 1));
+
+bool: b3 = pv(coerce(ti_par_int, ti_var_int, 3));
+
+bool: b4 = pv(_ + coerce(ti_par_int, ti_var_int, 1));
+
+solve satisfy;

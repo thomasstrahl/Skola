@@ -1,0 +1,27 @@
+m-finite-types.mzn:8:
+  type-inst error: set element type is not finite
+m-finite-types.mzn:12:
+  type-inst error: variable `i' used as a type-inst is not a fixed set
+m-finite-types.mzn:16:
+  type-inst error: MiniZinc does not permit var set element type-insts other 
+  than `int'
+% -- pretty-print after type-inst-checking --------------
+set of int: S = { 1, 2, 3 };
+
+int: i = 3;
+
+var set of int: b1;
+
+var set of 1 .. 3: b2;
+
+var set of { 1, 3 }: b3;
+
+var set of S: b6;
+
+var set of i: b9;
+
+var set of array[0 .. 3] of bool: c5;
+
+predicate d2(var set of int: x) = coerce(ti_par_bool, ti_var_bool, true);
+
+solve satisfy;

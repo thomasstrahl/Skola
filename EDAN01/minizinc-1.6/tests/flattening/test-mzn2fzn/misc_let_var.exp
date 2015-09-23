@@ -1,0 +1,4 @@
+var 1..2: x1;
+var 2..3: x2____00001;
+constraint int_lt(x1, x2____00001);
+solve satisfy;

@@ -1,0 +1,30 @@
+import javax.swing.*;
+
+public class SudokuGrafic {
+
+	public SudokuGrafic() {
+
+		JFrame frame = new JFrame("Sudoku");
+
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JPanel panel = new JPanel();
+		JButton cbutton = new JButton("Clear");
+		JButton sbutton = new JButton("Solve");
+		panel.add(sbutton);
+		panel.add(cbutton);
+		frame.add(panel);
+		JTextField jtf = new JTextField(1);
+		panel.add(jtf);
+		
+
+		frame.pack();
+		frame.setVisible(true);
+
+	}
+
+	public static void main(String[] args) {
+		new SudokuGrafic();
+
+	}
+}

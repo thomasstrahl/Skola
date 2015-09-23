@@ -1,0 +1,41 @@
+% RUNS ON fzn_tc
+%-----------------------------------------------------------------------------%
+% Built-ins that are in Zinc/MiniZinc but not in FlatZinc.
+%-----------------------------------------------------------------------------%
+int: x = 1;
+int: y = 2;
+int: z = 3;
+
+% The types are all wrong for most of the args and return values, but that
+% doesn't matter because the symbols don't even exist.
+
+constraint ceil(x);
+constraint floor(x);
+constraint round(x);
+
+constraint index_set(x);
+
+constraint sum(x);
+constraint product(x);
+
+constraint array_union(x);
+constraint array_intersect(x);
+
+%int: i9  = int2float(x);       % These two actually are in FlatZinc. (?)
+%int: i10 = bool2int(x);
+
+constraint card(x);
+
+constraint min(x, y);
+constraint max(x, y);
+
+constraint minimum(x);
+constraint maximum(x);
+
+constraint foldl(x, y, z);
+constraint foldr(x, y, z);
+
+
+constraint holds(x);
+
+solve satisfy;

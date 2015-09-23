@@ -1,0 +1,13 @@
+var bool: BOOL____00003 :: is_defined_var :: var_is_introduced;
+var bool: x1;
+var bool: x2;
+var bool: x3;
+var bool: x4;
+var bool: x5;
+var bool: x6;
+var bool: x7;
+array [1..5] of var bool: x8 = [x6, true, true, x7, true];
+constraint array_bool_xor([x5, x6, x7]);
+constraint array_bool_xor([BOOL____00003, x2, x3, x4]);
+constraint bool_not(x1, BOOL____00003) :: defines_var(BOOL____00003);
+solve satisfy;

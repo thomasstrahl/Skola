@@ -1,0 +1,5 @@
+mzn2fzn:
+  error: 
+  misc_array_array1d_bad.mzn:1 
+  In variable declaration for 'x1'. 
+  Array index ranges do not match.

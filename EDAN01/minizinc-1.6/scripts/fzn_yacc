@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if test "$G12PATH"; then
+    FZP="$G12PATH"/fzp
+else
+    FZP=fzp
+fi
+
+"$FZP" $@

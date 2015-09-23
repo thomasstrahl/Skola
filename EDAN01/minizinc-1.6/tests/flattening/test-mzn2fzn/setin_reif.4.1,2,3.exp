@@ -1,0 +1,4 @@
+var 4..4: x1 = 4;
+var set of 1..3: x2 = 1..3;
+var bool: x3 = false;
+solve satisfy;

@@ -1,0 +1,6 @@
+var int: INT____1 :: is_defined_var :: var_is_introduced;
+var int: x :: foo = INT____1;
+var int: y :: foo = x;
+var int: z;
+constraint int_lin_eq([-1, 2], [INT____1, z], 0) :: defines_var(INT____1) :: foo;
+solve satisfy;

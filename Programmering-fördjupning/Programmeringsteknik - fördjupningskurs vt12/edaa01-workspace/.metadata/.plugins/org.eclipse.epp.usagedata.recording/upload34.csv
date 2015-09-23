@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+os,sysinfo,,,"macosx",1250080934821
+arch,sysinfo,,,"x86",1250080934821
+ws,sysinfo,,,"cocoa",1250080934821
+locale,sysinfo,,,"sv_SE",1250080934821
+processors,sysinfo,,,"2",1250080934821
+java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1250080934821
+java.runtime.version,sysinfo,,,"1.5.0_16-b06-284",1250080934821
+java.specification.name,sysinfo,,,"Java Platform API Specification",1250080934821
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250080934821
+java.specification.version,sysinfo,,,"1.5",1250080934821
+java.vendor,sysinfo,,,"Apple Inc.",1250080934821
+java.version,sysinfo,,,"1.5.0_16",1250080934821
+java.vm.info,sysinfo,,,"mixed mode",1250080934821
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1250080934821
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1250080934821
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250080934821
+java.vm.specification.version,sysinfo,,,"1.0",1250080934821
+java.vm.vendor,sysinfo,,,"Apple Inc.",1250080934821
+java.vm.version,sysinfo,,,"1.5.0_16-133",1250080934821
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250080947902
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250080954466
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250080959859
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1250080983368
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1250080983404
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1250080983449

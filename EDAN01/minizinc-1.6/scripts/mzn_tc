@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if test "$G12PATH"; then
+    MZN2FZN="$G12PATH"/mzn2fzn
+else
+    MZN2FZN=mzn2fzn
+fi
+
+# --output-to-stdout prevents mzn2fzn creating an empty .fzn file
+"$MZN2FZN" \
+    --output-to-stdout \
+    --pprint-ignore-file=stdlib.mzn \
+    --pprint-after=type-inst-checking \
+    --stop-after=type-inst-checking \
+    $@ 2>&1

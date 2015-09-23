@@ -1,0 +1,12 @@
+% -- pretty-print after type-inst-checking --------------
+var int: vi = coerce(ti_par_int, ti_var_int, 3);
+
+var bool: vb = coerce(ti_par_bool, ti_var_bool, true);
+
+constraint vb;
+
+solve maximize coerce(ti_par_int, ti_var_int, 2) * vi;
+
+output [ show(vi) ++ "foo", "\n" ];
+
+predicate p(int: x) = vb;

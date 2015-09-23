@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export MZN_STDLIB_DIR="/usr/local/cs/EDAN01/minizinc-1.6/lib/minizinc"
+exec "/usr/local/cs/EDAN01/minizinc-1.6/bin/private/mzn2fzn" "$@"
+

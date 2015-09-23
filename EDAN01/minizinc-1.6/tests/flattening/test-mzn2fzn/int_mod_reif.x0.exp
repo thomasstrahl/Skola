@@ -1,0 +1,7 @@
+var bool: BOOL____00001 :: is_defined_var :: var_is_introduced;
+var -5..5: x1;
+var 0..0: x2 = 0;
+var -5..5: x3;
+var bool: x4 = false;
+constraint int_eq_reif(x3, 0, BOOL____00001) :: defines_var(BOOL____00001);
+solve satisfy;

@@ -1,0 +1,5 @@
+% int: n;
+n = 7;
+
+% array[0..n-1] of int: demand;
+demand = array1d(0..n-1, [5,7,7,10,16,18,12]);

@@ -1,0 +1,6 @@
+mzn2fzn:
+  error: 
+  misc_array_array1d_bad_length.mzn:1 
+  In variable declaration for 'x1'. 
+  In 'array1d' expression. 
+  Array size mismatch: expected 3, actual 4.

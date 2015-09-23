@@ -1,0 +1,5 @@
+var bool: x1;
+var bool: x2 = false;
+var bool: x3;
+constraint array_bool_xor([x1, x3]);
+solve satisfy;

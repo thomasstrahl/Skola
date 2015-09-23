@@ -1,0 +1,2 @@
+double-solve-bad.fzn:4:
+  syntax error: only one solve item is allowed

@@ -1,0 +1,6 @@
+#!/bin/sh
+# vim: ft=sh ts=4 sw=4 et
+# run-bool-tests
+# Run the two-value bool flattening tests.
+
+./run-binop-tests bool

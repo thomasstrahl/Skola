@@ -1,0 +1,6 @@
+% -- pretty-print after parsing --------------
+var int: x;
+
+solve 
+  ::seq_search([ int_search([ x ], input_order, indomain_min, complete) ]) 
+  satisfy;

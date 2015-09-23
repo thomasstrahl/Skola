@@ -1,0 +1,3 @@
+f-items-order-bad.fzn:5: syntax error before 'int'
+f-items-order-bad.fzn:7: syntax error before 'int'
+f-items-order-bad.fzn:10: syntax error before 'constraint'

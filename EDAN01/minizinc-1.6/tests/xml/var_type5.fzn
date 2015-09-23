@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+var set of 1..10: y = {2, 3, 5};
+var set of {10, 20, 30}: z = {20, 30};
+solve satisfy;

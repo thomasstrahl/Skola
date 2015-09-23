@@ -1,0 +1,10 @@
+MCFLAGS-flatten.array = --no-warn-inferred-erroneous
+MCFLAGS-zinc_pprint = --no-warn-inferred-erroneous
+MCFLAGS-top_sort = --no-warn-obsolete
+
+# This worksaround a bug in Mercury rotd-2008-04-10 that was
+# inhibiting tail call optimisation.  (Bug #57 in the Mercury bug
+# tracking system.)
+MCFLAGS-zinc_parser = --no-common-struct
+
+MCFLAGS-zinc_lexer = --no-warn-obsolete

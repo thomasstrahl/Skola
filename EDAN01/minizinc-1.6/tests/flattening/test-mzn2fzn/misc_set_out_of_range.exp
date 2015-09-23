@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  misc_set_out_of_range.mzn:1 
+  In variable declaration for 'x1'. 
+  Value is out of range.
+constraint bool_eq(false, true);
+solve satisfy;

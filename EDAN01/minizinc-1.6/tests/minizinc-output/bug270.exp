@@ -1,0 +1,20 @@
+8 queens, CP version:
+Q . . . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+. . . . . Q . . 
+. . Q . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+----------
+%%  runtime:       0.001 (1.235000 ms)
+%%  solvetime:     0.000 (0.538000 ms)
+%%  solutions:     1
+%%  variables:     22
+%%  propagators:   17
+%%  propagations:  589
+%%  nodes:         35
+%%  failures:      15
+%%  peak depth:    7
+%%  peak memory:   40 KB

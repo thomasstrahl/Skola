@@ -1,0 +1,197 @@
+% RUNS ON fzn_tc
+%-----------------------------------------------------------------------------%
+% This file tests built-in operations and annotations.
+%-----------------------------------------------------------------------------%
+      int: pi = 3;
+    float: pf = 3.0;
+
+var int: vi1;
+var int: vi2;
+var int: vi3;
+
+var float: vf1;
+var float: vf2;
+var float: vf3;
+
+var bool: B;   % reification
+
+var bool: vb1;
+var bool: vb2;
+var bool: vb3;
+
+var set of 1..3: vs1;
+var set of 1..3: vs2;
+var set of 1..3: vs3;
+
+array[1..5] of           bool: arr_pb = [true,false,true,false,true];
+array[1..5] of var       bool: arr_vb;
+array[1..5] of var       bool: arr_vb1;
+array[1..5] of var       bool: arr_vb2;
+array[1..5] of            int: arr_pi = [1,2,3,4,5];
+array[1..5] of var        int: arr_vi;
+array[1..5] of          float: arr_pf = [1.0, 2.0, 3.0, 4.0, 5.0];
+array[1..5] of var      float: arr_vf;
+array[1..5] of     set of int: arr_ps = [{1}, {2}, {3}, {4}, {5}];
+array[1..5] of var set of 1..3:arr_vs;
+
+%-----------------------------------------------------------------------------%
+% Variable annotations
+%-----------------------------------------------------------------------------%
+var int: vi4 :: bounds;
+var int: vi5 :: bitmap(1,10);
+var int: vi6 :: cardinality;
+var int: vi7 :: var_is_introduced;
+
+%-----------------------------------------------------------------------------%
+% Comparisons
+%-----------------------------------------------------------------------------%
+constraint int_eq(vi1, vi2);
+constraint int_ne(vi1, vi2);
+constraint int_le(vi1, vi2);
+constraint int_lt(vi1, vi2);
+
+constraint int_eq_reif(vi1, vi2, B);
+constraint int_ne_reif(vi1, vi2, B);
+constraint int_le_reif(vi1, vi2, B);
+constraint int_lt_reif(vi1, vi2, B);
+
+constraint float_eq(vf1, vf2);
+constraint float_ne(vf1, vf2);
+constraint float_le(vf1, vf2);
+constraint float_lt(vf1, vf2);
+
+constraint float_eq_reif(vf1, vf2, B);
+constraint float_ne_reif(vf1, vf2, B);
+constraint float_le_reif(vf1, vf2, B);
+constraint float_lt_reif(vf1, vf2, B);
+
+constraint bool_eq(vb1, vb2);
+constraint bool_le(vb1, vb2);
+constraint bool_lt(vb1, vb2);
+
+constraint bool_eq_reif(vb1, vb2, B);
+constraint bool_le_reif(vb1, vb2, B);
+constraint bool_lt_reif(vb1, vb2, B);
+
+constraint set_eq(vs1, vs2);
+constraint set_ne(vs1, vs2);
+constraint set_le(vs2, vs1);
+constraint set_lt(vs2, vs1);
+constraint set_le(vs1, vs2);
+constraint set_lt(vs1, vs2);
+
+constraint set_eq_reif(vs1, vs2, B);
+constraint set_ne_reif(vs1, vs2, B);
+constraint set_le_reif(vs2, vs1, B);
+constraint set_lt_reif(vs2, vs1, B);
+constraint set_le_reif(vs1, vs2, B);
+constraint set_lt_reif(vs1, vs2, B);
+
+%-----------------------------------------------------------------------------%
+% Linear equalities and inequalities
+%-----------------------------------------------------------------------------%
+constraint int_lin_eq(arr_pi, arr_vi, pi);
+constraint int_lin_ne(arr_pi, arr_vi, pi);
+constraint int_lin_le(arr_pi, arr_vi, pi);
+
+constraint int_lin_eq_reif(arr_pi, arr_vi, pi, B);
+constraint int_lin_ne_reif(arr_pi, arr_vi, pi, B);
+constraint int_lin_le_reif(arr_pi, arr_vi, pi, B);
+
+constraint float_lin_eq(arr_pf, arr_vf, pf);
+constraint float_lin_ne(arr_pf, arr_vf, pf);
+constraint float_lin_le(arr_pf, arr_vf, pf);
+constraint float_lin_lt(arr_pf, arr_vf, pf);
+
+constraint float_lin_eq_reif(arr_pf, arr_vf, pf, B);
+constraint float_lin_ne_reif(arr_pf, arr_vf, pf, B);
+constraint float_lin_le_reif(arr_pf, arr_vf, pf, B);
+constraint float_lin_lt_reif(arr_pf, arr_vf, pf, B);
+
+%-----------------------------------------------------------------------------%
+% Arithmetic
+%-----------------------------------------------------------------------------%
+constraint int_plus  (vi1, vi2, vi3);
+constraint int_times (vi1, vi2, vi3);
+constraint int_mod   (vi1, vi2, vi3);
+constraint int_div   (vi1, vi2, vi3);
+constraint int_max   (vi1, vi2, vi3);
+constraint int_min   (vi1, vi2, vi3);
+constraint int_abs   (vi1,      vi3);
+
+constraint float_plus  (vf1, vf2, vf3);
+constraint float_times (vf1, vf2, vf3);
+constraint float_div   (vf1, vf2, vf3);
+constraint float_max   (vf1, vf2, vf3);
+constraint float_min   (vf1, vf2, vf3);
+constraint float_abs   (vf1,      vf3);
+
+
+%-----------------------------------------------------------------------------%
+% Logic
+%-----------------------------------------------------------------------------%
+constraint bool_or       (vb1, vb2, vb3);
+constraint bool_and      (vb1, vb2, vb3);
+constraint bool_xor      (vb1, vb2, vb3);
+constraint bool_not      (vb1,      vb3);
+
+constraint array_bool_and(arr_vb1, vb1);
+constraint array_bool_or (arr_vb1, vb1);
+
+constraint bool_clause(arr_vb1, arr_vb2);
+
+%-----------------------------------------------------------------------------%
+% Sets
+%-----------------------------------------------------------------------------%
+constraint set_union    (vs1, vs2, vs3);
+constraint set_intersect(vs1, vs2, vs3);
+constraint set_diff     (vs1, vs2, vs3);
+constraint set_symdiff  (vs1, vs2, vs3);
+constraint set_subset   (vs1, vs2     );
+constraint set_subset   (vs2, vs1     );
+constraint set_card     (vs1, vi2     );
+constraint set_in       (vi1, vs2     );
+
+constraint set_subset_reif (vs1, vs2,      B);
+constraint set_subset_reif (vs2, vs1,      B);
+constraint set_in_reif     (vi1, vs2,      B);
+
+%-----------------------------------------------------------------------------%
+% Element
+%-----------------------------------------------------------------------------%
+constraint array_bool_element     (vi1, arr_pb, vb2);
+constraint array_var_bool_element (vi1, arr_vb, vb2);
+constraint array_int_element      (vi1, arr_pi, vi2);
+constraint array_var_int_element  (vi1, arr_vi, vi2);
+constraint array_float_element    (vi1, arr_pf, vf2);
+constraint array_var_float_element(vi1, arr_vf, vf2);
+constraint array_set_element      (vi1, arr_ps, vs2);
+constraint array_var_set_element  (vi1, arr_vs, vs2);
+
+%-----------------------------------------------------------------------------%
+% Coercions
+%-----------------------------------------------------------------------------%
+constraint int2float(vi1, vf1);
+constraint bool2int (vb1, vi1);
+
+%-----------------------------------------------------------------------------%
+% Constraint annotations
+%-----------------------------------------------------------------------------%
+constraint int_eq(vi1, vi2) :: bounds;
+constraint int_eq(vi1, vi2) :: boundsZ;
+constraint int_eq(vi1, vi2) :: boundsR;
+constraint int_eq(vi1, vi2) :: boundsD;
+constraint int_eq(vi1, vi2) :: domain;
+constraint int_eq(vi1, vi2) :: priority(3);
+constraint int_eq(vi1, vi2) :: multiple(["prop1", "prop2"]);
+constraint int_eq(vi1, vi2) :: staged(["sprop3", "sprop4"]);
+
+%-----------------------------------------------------------------------------%
+% Solve annotations
+%-----------------------------------------------------------------------------%
+solve :: int_search([vi4, vi5, vi6],    first_fail,  indomain,       complete)
+      :: bool_search( [vb1, vb2],       input_order, indomain_min,   complete)
+      :: float_search([vf1, vf2], 0.01, input_order, indomain_split, complete)
+      :: set_search(  [vs1, vs2],       input_order, indomain_min,   complete)
+      :: labelling_ff
+      satisfy;

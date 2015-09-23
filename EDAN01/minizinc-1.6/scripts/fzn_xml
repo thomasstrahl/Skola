@@ -1,0 +1,60 @@
+#!/bin/sh
+
+# Script to test the conversion tools for XML-FlatZinc.
+# Author: Julien Fischer <juliensf@csse.unimelb.edu.au>
+
+# For each .fzn file we do the following:
+# (1) Convert the .fzn into a .xml file using fzn2xml.
+# (2) Convert the .xml into a .new.fzn file using xml2fzn.
+# (3) Canonicalize the original .fzn file using flatzinc's pretty printer.
+# (4) Canonicalize the .new.fzn file using flatzinc's pretty printer.
+# (5) Take a diff of .fzn and .new.fnz -- the ought to be indentical, aside from
+#     the fact that xml2fzn does not preserve argument names in pred declarations.
+
+FILE=$1
+
+base_name=`basename $FILE .fzn`
+
+if test "$G12PATH"; then
+    FZN2XML="$G12PATH"/fzn2xml
+    XML2FZN="$G12PATH"/xml2fzn
+    FLATZINC="$G12PATH"/flatzinc
+else
+    FZN2XML=fzn2xml
+    XML2FZN=xml2fzn
+    FLATZINC=flatzinc
+fi
+
+"$FZN2XML" $FILE
+if test $? -ne 0
+then
+	echo "ERROR: cannot convert $FILE into XML-FlatZinc" 1>&2
+	exit 1
+fi
+
+"$XML2FZN" -o ${base_name}.new.fzn ${base_name}.xml
+if test $? -ne 0
+then
+	echo "ERROR: cannot convert ${base_name}.xml into FlatZinc" 1>&2
+	exit 1
+fi
+
+"$FLATZINC" -e --pprint-after=type-inst-checking $FILE > ${base_name}.to_xml
+if test $? -ne 0
+then
+	echo "ERROR: cannot canonicalise $FILE" 1>&2
+	exit 1
+fi
+
+"$FLATZINC" -e --pprint-after=type-inst-checking ${base_name}.new.fzn > ${base_name}.from_xml
+if test $? -ne 0
+then
+	echo "ERROR: cannot canonicalise ${base_name}.new.fzn" 1>&2
+	exit 1
+fi
+
+diff ${base_name}.to_xml ${base_name}.from_xml
+
+# The test framework doesn't like empty .exp files.
+echo "SUCCEEDED"
+/bin/rm -f ${base_name}.{xml,new.fzn,to_xml,from_xml}

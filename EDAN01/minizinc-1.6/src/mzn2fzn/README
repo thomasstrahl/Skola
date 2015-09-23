@@ -1,0 +1,9 @@
+This directory contains the Mercury source code for the G12
+MiniZinc-to-FlatZinc converter, mzn2fzn.  This code requires
+Mercury version 11.07.2 or above.
+
+You can build mzn2fzn with the following commands:
+
+	mmc -f *.m ../frontend/*.m
+	mmc --make mzn2fzn
+

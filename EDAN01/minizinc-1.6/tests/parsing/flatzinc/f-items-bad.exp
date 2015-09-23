@@ -1,0 +1,48 @@
+f-items-bad.fzn:5:
+  syntax error at `type'; start of invalid item
+f-items-bad.fzn:8:
+  syntax error at `enum'; start of invalid item
+f-items-bad.fzn:11:
+  syntax error at `variant_record'; start of invalid item
+f-items-bad.fzn:14:
+  syntax error at `assert'; start of invalid item
+f-items-bad.fzn:17:
+  syntax error at `output'; start of invalid item
+f-items-bad.fzn:20:
+  syntax error at `function'; start of invalid item
+f-items-bad.fzn:23:
+  syntax error at `x'; start of invalid item
+f-items-bad.fzn:26:
+  syntax error at `='; expected `;' after previous item
+f-items-bad.fzn:29:
+  syntax error at `include'; start of invalid item
+f-items-bad.fzn:40:
+  syntax error at `0'; expected `1' after `['
+f-items-bad.fzn:42:
+  syntax error at `['; expected call or variable name or array access after 
+  `constraint'
+f-items-bad.fzn:43:
+  syntax error at `foo'; expected call or variable name or array access after 
+  `constraint'
+f-items-bad.fzn:44:
+  syntax error at `y'; expected `)'
+f-items-bad.fzn:45:
+  syntax error at `;'; expected `)'
+f-items-bad.fzn:46:
+  syntax error at `foo'; expected call or variable name or array access after 
+  `constraint'
+f-items-bad.fzn:48:
+  syntax error at `blah'; expected `satisfy', 'maximize' or 'minimize' after 
+  `solve'
+f-items-bad.fzn:50:
+  syntax error at `f'; expected `;' after previous item
+f-items-bad.fzn:53:
+  syntax error at `output'; start of invalid item
+% -- pretty-print after parsing --------------
+predicate p(int: x);
+
+set of float: sf = { 1.0, 2.0, 3.0 };
+
+set of bool: sb = { true, false };
+
+solve minimize f;

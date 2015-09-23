@@ -1,0 +1,3 @@
+#!/bin/sh
+
+run_2pass_mzn --globals-dir linear --solver lp $@

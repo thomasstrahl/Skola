@@ -1,0 +1,5 @@
+m-finite-types.mzn:7: type-inst error: set element type is not finite
+m-finite-types.mzn:11: type-inst error: variable `i' used as a type-inst is 
+m-finite-types.mzn:11:   not a fixed set
+m-finite-types.mzn:15: type-inst error: MiniZinc does not permit var set 
+m-finite-types.mzn:15:   element type-insts other than `int'

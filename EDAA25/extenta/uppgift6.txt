@@ -1,0 +1,69 @@
+1.	->	Om man till exempel har en struct med en pekare till nästa element i listan 
+					ex: struct list_t {
+							list_t* next;
+						};
+Om man en list kan man komma åt next med "list->next"; -> motsvarar (*list).next; Med andra ord blir det lite snyggare och enklare kod att skriva. 
+
+list_t* list;
+
+(*list).next är samma som list->next
+
+2.	?:	Det är ett logiskt uttyrck. Det kan anvnädas för att tilldela variabler eller exempelvis vid returnering beroende på ett uttryck. 
+Ex: return number == 5 ? 1 : 0 Kommer returnera 1 om number är lika med 5 annars 0.
+
+3.	:0 	Det är ett bit-field. Bra att använda när man vet med sig att man inte kommer använda mer än ett visst antal bitar av en variabel. När man använder bit-fields är det viktigt att man specifiserar om det är signed eller unsigned. Annars är det implementations definierat vad som kan hända. Ex:	unsigned int b:4; Använder bara 4 bitar av b. Resten blir paddad. 
+
+4.	...	Används för att specifisera att en funktion kan ta fler inparametrar än specifiserat. 
+
+	Ex: int f(char* a, int b, ...)
+		{
+
+		}
+
+Nu vet kompilatorn att funktionen tar in en char pekare och en int, men det kan skickas in andra variabler också. 
+
+5.	volatile	Ett nyckelord som meddelar kompilatorn att den inte får optimera på den variablen som är deklarerad som "volatile". Variablen kan ändras på sätt som inte kompilatorn förstår. Ex från hårdvara. 
+
+6.	function scope	Det som ligger innan för en funktions utbredning
+
+	Ex:	int f(char* a, int b)
+	{
+		int n;
+		...
+		//Function scope
+		...
+
+	}
+
+Det vill säga utrymmet innanför måsvingarna. Man kommer bara åt n i funktionen och sen "förstörs" n efter att funktionen returnerar. Variabler deklarerade i function scope har alltså inte static storage duration. Istället har de atomatic storage duration och alloceras/ avalloceras från stacken när funktionen börjar respektive avslutar. Det går också att deklarera macro som bara används i en funktion. De klassas också som att de ligger i function scope. 
+
+7.	internal linkage	Är när man länkar ihop två variabler. 
+
+	Ex:	static int a; //Internal linkage
+
+		void f (int b)
+		{
+			extern int a; //Linked to a and is still Internal. 
+
+		}
+
+Variablen a är nu bara synlig i C-filen som den är deklarerad i. 
+
+8.	ANSI C aliasing rule	Pekare av en annan typ får inte ändra på en variabel. Kompilatorn får skita i det om det sker och ladda in värdet av en variabel i ett register. 
+
+9. 	Flexible Array Member 	Är en array av variabel storlek. De kan finnas i structar och unioner. De finns vissa restriktioner på FAM och de är att de får inte vara det enda elementet i en struct, det måste vara det sista elementet. Ska man allocera plats på heapen åt en struct med en flexible array i sig måste man göra det manuellt. 
+
+	Ex:
+
+	struct array_t{
+		size_t n;
+		int a[];
+	}; 
+
+	a = malloc(sizeof(int)*n);
+
+10.	Variable Length Array 	En array av variabel storlek, storleken måste vara känd vid körtid. Ex.
+
+							int a[n];
+
+

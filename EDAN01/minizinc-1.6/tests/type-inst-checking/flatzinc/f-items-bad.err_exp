@@ -1,0 +1,6 @@
+f-items-bad.fzn:1: type-inst error: initialisation value for `pi' has invalid 
+f-items-bad.fzn:1:   type-inst: expected `int', actual `bool'
+f-items-bad.fzn:5: type-inst error: constraint expression has invalid 
+f-items-bad.fzn:5:   type-inst: expected `var bool', actual `string'
+f-items-bad.fzn:7: type-inst error: maximize expression has invalid type-inst: 
+f-items-bad.fzn:7:   expected `var int' or `var float', actual `var bool'

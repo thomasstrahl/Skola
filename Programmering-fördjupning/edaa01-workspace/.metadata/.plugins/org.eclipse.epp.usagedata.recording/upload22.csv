@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+os,sysinfo,,,"macosx",1250078986706
+arch,sysinfo,,,"x86",1250078986706
+ws,sysinfo,,,"cocoa",1250078986706
+locale,sysinfo,,,"sv_SE",1250078986706
+processors,sysinfo,,,"2",1250078986706
+java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1250078986706
+java.runtime.version,sysinfo,,,"1.5.0_16-b06-284",1250078986706
+java.specification.name,sysinfo,,,"Java Platform API Specification",1250078986706
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250078986706
+java.specification.version,sysinfo,,,"1.5",1250078986706
+java.vendor,sysinfo,,,"Apple Inc.",1250078986706
+java.version,sysinfo,,,"1.5.0_16",1250078986706
+java.vm.info,sysinfo,,,"mixed mode",1250078986706
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1250078986706
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1250078986706
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250078986706
+java.vm.specification.version,sysinfo,,,"1.0",1250078986706
+java.vm.vendor,sysinfo,,,"Apple Inc.",1250078986706
+java.vm.version,sysinfo,,,"1.5.0_16-133",1250078986706
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1250078994662
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1250078995560
+started,bundle,org.eclipse.compare.core,3.5.0.I20090430-0408,"org.eclipse.compare.core",1250078995659
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250078995729
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250078995831
+started,bundle,org.eclipse.jdt.apt.core,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.core",1250078996799

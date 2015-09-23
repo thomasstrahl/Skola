@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  float_neg.mzn:3 
+  In constraint. 
+  Model inconsistency detected.
+constraint bool_eq(false, true);
+solve satisfy;

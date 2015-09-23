@@ -1,0 +1,8 @@
+This directory contains the Mercury source code for the G12
+MiniZinc evaluation driver, minizinc.
+This code requires Mercury version 11.07.2 or above.
+
+You can build minizinc with the following command:
+
+	mmc --make minizinc
+

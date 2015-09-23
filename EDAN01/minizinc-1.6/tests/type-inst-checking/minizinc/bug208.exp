@@ -1,0 +1,5 @@
+bug208.mzn:7:
+  error: multiple assignments for global variable `a'. 
+  The assignments occur at: 
+     bug208.mzn:8 
+     bug208.mzn:9

@@ -1,0 +1,62 @@
+% -- pretty-print after type-inst-checking --------------
+bool: pb = (true /\ false) \/ (not true);
+
+var bool: vb1 = coerce(ti_par_bool, ti_var_bool, pb);
+
+var bool: vb2 = _;
+
+int: pi1 = 3 + (4 * 5);
+
+int: pi2 = bool2int(true);
+
+var int: vi1 = coerce(ti_par_int, ti_var_int, pi1);
+
+var int: vi2 = bool2int(vb1);
+
+var int: vi3 = _;
+
+float: pf1 = (3.0 * 5e1) / 6.0;
+
+float: pf2 = int2float(pi1);
+
+var float: vf1 = coerce(ti_par_float, ti_var_float, pf1);
+
+var float: vf2 = int2float(vi1);
+
+var float: vf3 = _;
+
+set of 1 .. 3: psi1 = { 1, 2, 3 };
+
+set of 1 .. 3: psi2 = 
+  { i | 
+    i in 
+      coerce(ti_par_set(ti_par_int), ti_array(ti_par_int, ti_par_int), psi1) };
+
+var set of 1 .. 3: vsi1 = 
+  coerce(ti_par_set(ti_par_int), ti_var_set(ti_par_int), psi1);
+
+var set of 1 .. 3: vsi2 = _;
+
+array[1 .. 3] of int: api1 = [ 1, 2, 3 ];
+
+array[1 .. 3] of int: api2 = [ i | i in api1 ];
+
+array[1 .. 3] of var int: api4 = 
+  [ coerce(ti_par_int, ti_var_int, pi1), 
+    coerce(ti_par_int, ti_var_int, pi1), 
+    coerce(ti_par_int, ti_var_int, pi1) ];
+
+array[1 .. 3] of var int: api5 = [ _, _, _ ];
+
+array[1 .. 2, 1 .. 2] of int: apii = 
+  array2d(1 .. 2, 1 .. 2, [ 1, 2, 3, 4 ]);
+
+int: pi3 = if pb then api1[1] else apii[1, 1] endif;
+
+int: pi4 = let { int: a = 1 } in a;
+
+bool: pb2 = forall(i in [ 1, 2, 3 ]) (i > 0);
+
+var float: vf4 = coerce(ti_par_float, ti_var_float, int2float(3));
+
+solve satisfy;

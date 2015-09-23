@@ -1,0 +1,72 @@
+f-builtins-bad.fzn:12:
+  symbol error: `ceil' undeclared
+f-builtins-bad.fzn:13:
+  symbol error: `floor' undeclared
+f-builtins-bad.fzn:14:
+  symbol error: `round' undeclared
+f-builtins-bad.fzn:16:
+  symbol error: `index_set' undeclared
+f-builtins-bad.fzn:18:
+  symbol error: `sum' undeclared
+f-builtins-bad.fzn:19:
+  symbol error: `product' undeclared
+f-builtins-bad.fzn:21:
+  symbol error: `array_union' undeclared
+f-builtins-bad.fzn:22:
+  symbol error: `array_intersect' undeclared
+f-builtins-bad.fzn:27:
+  symbol error: `card' undeclared
+f-builtins-bad.fzn:29:
+  symbol error: `min' undeclared
+f-builtins-bad.fzn:30:
+  symbol error: `max' undeclared
+f-builtins-bad.fzn:32:
+  symbol error: `minimum' undeclared
+f-builtins-bad.fzn:33:
+  symbol error: `maximum' undeclared
+f-builtins-bad.fzn:35:
+  symbol error: `foldl' undeclared
+f-builtins-bad.fzn:36:
+  symbol error: `foldr' undeclared
+f-builtins-bad.fzn:39:
+  symbol error: `holds' undeclared
+% -- pretty-print after type-inst-checking --------------
+int: x = 1;
+
+int: y = 2;
+
+int: z = 3;
+
+constraint ceil(x);
+
+constraint floor(x);
+
+constraint round(x);
+
+constraint index_set(x);
+
+constraint sum(x);
+
+constraint product(x);
+
+constraint array_union(x);
+
+constraint array_intersect(x);
+
+constraint card(x);
+
+constraint min(x, y);
+
+constraint max(x, y);
+
+constraint minimum(x);
+
+constraint maximum(x);
+
+constraint foldl(x, y, z);
+
+constraint foldr(x, y, z);
+
+constraint holds(x);
+
+solve satisfy;

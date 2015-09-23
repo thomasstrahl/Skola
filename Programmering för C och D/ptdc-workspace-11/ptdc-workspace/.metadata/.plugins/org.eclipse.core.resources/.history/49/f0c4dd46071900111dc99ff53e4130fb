@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+
+public class Clock {
+
+	
+	public static void main(String[] args) {
+		int starttim = 0;
+		int startmin = 0;
+		int sluttim = 0;
+		int slutmin = 0;
+		Scanner scan = new Scanner (System.in);
+		starttim = scan.nextInt();
+		startmin = scan.nextInt();
+		
+		sluttim= scan.nextInt();
+		slutmin =scan.nextInt();
+		
+		starttim = starttim * 60 + startmin;
+		sluttim = sluttim * 60 + slutmin;
+		sluttim -= starttim;
+		int tim = sluttim/60;
+		int min = sluttim%60;
+		System.out.println("skillnaden är"+ tim +  " timmar" +min + " minuter");
+			
+
+	}
+
+}

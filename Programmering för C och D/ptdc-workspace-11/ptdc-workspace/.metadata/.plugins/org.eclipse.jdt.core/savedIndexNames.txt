@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+C:\Users\Thomas\Documents\Lth-skolarbete\Programmering för C och D\ptdc-workspace-11\ptdc-workspace\.metadata\.plugins\org.eclipse.jdt.core
+3097595567.index
+1217598533.index
+2620941534.index
+2486474747.index
+3187755861.index
+1711641638.index
+3432433020.index
+3946796104.index
+3051638111.index
+3146905066.index
+87111012.index
+1968947691.index
+1599762803.index

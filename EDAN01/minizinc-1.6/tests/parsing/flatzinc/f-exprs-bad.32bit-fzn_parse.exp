@@ -1,0 +1,60 @@
+f-exprs-bad.fzn:5:10:
+  expected a letter after `_'
+f-exprs-bad.fzn:9:22:
+  invalid character `<'
+f-exprs-bad.fzn:10:10:
+  expected a number after `-'
+f-exprs-bad.fzn:11:10:
+  expected a number after `-'
+f-exprs-bad.fzn:14:38:
+  invalid character `+'
+f-exprs-bad.fzn:17:
+  syntax error at `['; expected non-array flat expression after `='
+f-exprs-bad.fzn:20:
+  syntax error at `[|'; expected array literal after `='
+f-exprs-bad.fzn:23:
+  syntax error at `:'; expected `]'
+f-exprs-bad.fzn:26:
+  syntax error at `:'; expected `]'
+f-exprs-bad.fzn:29:
+  syntax error at `('; expected non-array flat expression after `='
+f-exprs-bad.fzn:32:
+  syntax error at `('; expected non-array flat expression after `='
+f-exprs-bad.fzn:35:
+  syntax error at `:'; expected `)'
+f-exprs-bad.fzn:38:
+  syntax error at `if'; expected non-array flat expression after `='
+f-exprs-bad.fzn:41:23:
+  expected a number after `-'
+f-exprs-bad.fzn:44:
+  syntax error at `let'; expected non-array flat expression after `='
+f-exprs-bad.fzn:47:
+  syntax error at `in'; expected `)'
+f-exprs-bad.fzn:50:
+  syntax error at `,'; expected `]'
+f-exprs-bad.fzn:53:11:
+  expected `.' after `.'
+f-exprs-bad.fzn:56:11:
+  expected `.' after `.'
+f-exprs-bad.fzn:59:10:
+  invalid character `''
+f-exprs-bad.fzn:62:12:
+  invalid character ``'
+f-exprs-bad.fzn:65:10:
+  integer literal does not fit into 32 bits
+f-exprs-bad.fzn:66:10:
+  integer literal does not fit into 32 bits
+f-exprs-bad.fzn:67:10:
+  integer literal does not fit into 32 bits
+f-exprs-bad.fzn:68:10:
+  integer literal does not fit into 32 bits
+% -- pretty-print after parsing --------------
+int: x = 'not';
+
+int: x = a;
+
+int: x = a;
+
+int: x = 3;
+
+solve satisfy;

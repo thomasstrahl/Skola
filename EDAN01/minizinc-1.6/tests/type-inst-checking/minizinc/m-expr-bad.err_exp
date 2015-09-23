@@ -1,0 +1,29 @@
+m-expr-bad.mzn:3: type-inst error: initialisation value for `pf' has invalid 
+m-expr-bad.mzn:3:   type-inst: expected `float', actual `int'
+m-expr-bad.mzn:4: type-inst error: initialisation value for `vf1' has invalid 
+m-expr-bad.mzn:4:   type-inst: expected `var float', actual `int'
+m-expr-bad.mzn:5: type-inst error: initialisation value for `vf2' has invalid 
+m-expr-bad.mzn:5:   type-inst: expected `var float', actual `var int'
+m-expr-bad.mzn:7: type-inst error: initialisation value for `api' has invalid 
+m-expr-bad.mzn:7:   type-inst: expected `array[int] of int', actual 
+m-expr-bad.mzn:7:   `set of int'
+m-expr-bad.mzn:9: type-inst error: MiniZinc does not permit array element 
+m-expr-bad.mzn:9:   type-insts other than scalars or sets
+m-expr-bad.mzn:10: type-inst error: MiniZinc does not permit array element 
+m-expr-bad.mzn:10:   type-insts other than scalars or sets
+m-expr-bad.mzn:11: type-inst error: MiniZinc does not permit set element 
+m-expr-bad.mzn:11:   type-insts other than `int' or `float' or `bool'
+m-expr-bad.mzn:12: type-inst error: MiniZinc does not permit set element 
+m-expr-bad.mzn:12:   type-insts other than `int' or `float' or `bool'
+m-expr-bad.mzn:13: type-inst error: MiniZinc does not permit set element 
+m-expr-bad.mzn:13:   type-insts other than `int' or `float' or `bool'
+m-expr-bad.mzn:14: type-inst error: MiniZinc does not permit set element 
+m-expr-bad.mzn:14:   type-insts other than `int' or `float' or `bool'
+m-expr-bad.mzn:17: type-inst error: MiniZinc does not permit tuple literals
+m-expr-bad.mzn:17: type-inst error: MiniZinc does not permit tuple accesses
+m-expr-bad.mzn:20: type-inst error: MiniZinc does not permit record literals
+m-expr-bad.mzn:20: type-inst error: MiniZinc does not permit record accesses
+m-expr-bad.mzn:23: type-inst error: MiniZinc does not permit indexed array 
+m-expr-bad.mzn:23:   literals
+m-expr-bad.mzn:26: type-inst error: MiniZinc does not permit indexed array 
+m-expr-bad.mzn:26:   comprehensions

@@ -1,0 +1,11 @@
+var int: vi1;
+
+var int: vi2;
+
+constraint r(7);
+
+constraint int_lt(3, vi2);
+
+constraint int_lt(3, vi1);
+
+solve satisfy;

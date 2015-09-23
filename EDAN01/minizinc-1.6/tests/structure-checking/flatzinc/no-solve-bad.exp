@@ -1,0 +1,2 @@
+no-solve-bad.fzn:4:
+  syntax error: model must have a solve item

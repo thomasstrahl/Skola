@@ -1,0 +1,31 @@
+m-pars-undefined-bad.mzn:8: symbol error: variable `pi' must be defined (did 
+m-pars-undefined-bad.mzn:8:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:9: symbol error: use of undefined variable `pi'
+m-pars-undefined-bad.mzn:13: symbol error: variable `pre' must be defined (did 
+m-pars-undefined-bad.mzn:13:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:14: symbol error: use of undefined variable `pre'
+m-pars-undefined-bad.mzn:18: symbol error: variable `pse' must be defined (did 
+m-pars-undefined-bad.mzn:18:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:19: symbol error: use of undefined variable `pse'
+m-pars-undefined-bad.mzn:23: symbol error: variable `pb' must be defined (did 
+m-pars-undefined-bad.mzn:23:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:24: symbol error: use of undefined variable `pb'
+m-pars-undefined-bad.mzn:28: symbol error: variable `pf' must be defined (did 
+m-pars-undefined-bad.mzn:28:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:29: symbol error: use of undefined variable `pf'
+m-pars-undefined-bad.mzn:33: symbol error: variable `psi' must be defined (did 
+m-pars-undefined-bad.mzn:33:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:34: symbol error: use of undefined variable `psi'
+m-pars-undefined-bad.mzn:38: symbol error: variable `api' must be defined (did 
+m-pars-undefined-bad.mzn:38:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:39: symbol error: use of undefined variable `api'
+m-pars-undefined-bad.mzn:42: type-inst error: `var array' is not allowed
+m-pars-undefined-bad.mzn:43: type-inst error: `var array' is not allowed
+m-pars-undefined-bad.mzn:46: symbol error: variable `pS' must be defined (did 
+m-pars-undefined-bad.mzn:46:   you forget to specify a data file?)
+m-pars-undefined-bad.mzn:47: symbol error: use of undefined variable `pS'
+m-pars-undefined-bad.mzn:53: symbol error: function `min' used as a type
+m-pars-undefined-bad.mzn:54: symbol error: `no_such_type' undeclared
+m-pars-undefined-bad.mzn:61: symbol error: let variable `pi' must be defined
+m-pars-undefined-bad.mzn:61: symbol error: use of undefined let variable `pi'
+m-pars-undefined-bad.mzn:61: symbol error: let variable `pi' must be assigned

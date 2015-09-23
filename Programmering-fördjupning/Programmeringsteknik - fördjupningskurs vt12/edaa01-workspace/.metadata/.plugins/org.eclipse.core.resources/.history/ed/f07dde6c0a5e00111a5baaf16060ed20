@@ -1,0 +1,199 @@
+package map;
+
+import java.util.NoSuchElementException;
+
+public class SimpleHashMap<K, V> implements Map<K, V> {
+
+	public static void main(String[] args) {
+
+		SimpleHashMap<Integer, Integer> shm = new SimpleHashMap();
+		shm.put(10, 20);
+		shm.put(20, 30);
+		shm.put(20, 30);
+		System.out.println(shm.isEmpty());
+		System.out.println(shm.size());
+		System.out.println(shm.show());
+
+	}
+
+	private Entry[] table;
+	private int capacity;
+	private int size;
+
+	public SimpleHashMap() {
+		table = new Entry[16];
+		size = 0;
+		capacity = 16;
+	}
+
+	public SimpleHashMap(int capacity) {
+		table = (Entry<K, V>[]) new Entry[capacity];
+		size = 0;
+		this.capacity = capacity;
+
+	}
+
+	public String show() {
+
+		String info = null;
+
+		for (int i = 0; i < capacity; i++) {
+			Entry<K, V> temp = table[i];
+			if (temp == null){
+				info += "This position is empty!";
+			}
+
+			info += i + "            ";
+
+			while (temp != null) {
+				info += temp.toString() + " ";
+
+				temp = temp.next;
+			}
+			info += "\n";
+		}
+
+		return info;
+	}
+
+	@Override
+	public V get(Object arg0) {
+		
+		return null;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		if (size == 0) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public V put(K key, V value) {
+		Entry<K, V> temp = table[index(key)];
+
+		if (temp == null) {
+
+			temp = new Entry<K, V>(key, value);
+			size++;
+			reHash();
+		}
+
+		else {
+
+			if (find(index(key), key) != null) {
+				temp.value = value;
+
+				return value;
+
+			} else {
+
+				Entry<K, V> newEntry = new Entry<K, V>(key, value);
+				newEntry.next = temp;
+				temp = newEntry;
+
+				size++;
+				reHash();
+
+			}
+		}
+
+		return null;
+
+	}
+
+	private void reHash() {
+
+		if ((size / table.length) > 0.75) {
+			capacity *= 2;
+			Entry<K, V>[] newTable = (Entry<K, V>[]) new Entry[capacity];
+
+			for (int i = 0; i < table.length; i++) {
+				newTable[i] = table[i];
+			}
+
+			table = new Entry[capacity];
+
+			table = newTable;
+
+		}
+	}
+
+	@Override
+	public V remove(Object arg0) {
+
+		return null;
+	}
+
+	@Override
+	public int size() {
+
+		return size;
+	}
+
+	private static class Entry<K, V> implements Map.Entry<K, V> {
+
+		private K key;
+		private V value;
+		private Entry<K, V> next;
+
+		public Entry(K key, V value) {
+			this.key = key;
+			this.value = value;
+			next = null;
+		}
+
+		@Override
+		public K getKey() {
+
+			return key;
+		}
+
+		@Override
+		public V getValue() {
+
+			return value;
+		}
+
+		@Override
+		public V setValue(V value) {
+
+			return null;
+		}
+
+		public String toString() {
+
+			return getKey() + "=" + getValue();
+
+		}
+
+	}
+
+	private int index(K key) {
+
+		int index = key.hashCode();
+
+		index = index % capacity;
+
+		return index;
+
+	}
+
+	private Entry<K, V> find(int index, K key) {
+
+		Entry<K, V> temp = table[index];
+		while (temp != null) {
+
+			if (temp.key == key) {
+				return temp;
+			}
+			temp = temp.next;
+
+		}
+		return null;
+
+	}
+
+}

@@ -1,0 +1,13 @@
+var bool: REIF____1::var_is_introduced::is_defined_var;
+
+int: n = 1;
+
+array[1 .. 1] of var int: r;
+
+constraint set_in(r[1], { 1 });
+
+constraint set_in(r[1], { 1 });
+
+constraint int_eq_reif(1, r[1], REIF____1)::defines_var(REIF____1);
+
+solve satisfy;

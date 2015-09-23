@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# This script is used for testing solns2dzn.
+
+if test "$G12PATH"; then
+    SOLNS2DZN="$G12PATH"/solns2dzn
+else
+    SOLNS2DZN=solns2dzn
+fi
+
+"$SOLNS2DZN" -c $@

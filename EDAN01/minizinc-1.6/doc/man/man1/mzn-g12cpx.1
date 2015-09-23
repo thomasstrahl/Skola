@@ -1,0 +1,40 @@
+.TH MZN\-G12CPX 1 "19 September 2012" "" "G12 Users's Guide"
+
+.SH NAME
+mzn\-g12cpx \- evaluate MiniZinc using the G12/CPX solver
+
+.SH SYNOPSIS
+.B mzn\-g12cpx
+[
+.BR OPTIONS " ]"
+.I model.mzn
+[
+.IR data.dzn " ..."
+]
+
+.SH DESCRIPTION
+.B mzn\-g12cpx
+is a wrapper for the
+.BR minizinc (1)
+program that evaluates a MiniZinc model using the G12/CPX solver.
+.PP
+By default, the solver\-specific global constraints definitions for
+G12/CPX solver are used when flattening the model.
+
+.SH OPTIONS
+See
+.BR minizinc (1)
+for a list of supported options.
+
+.SH "VERSION INFORMATION"
+This manual documents
+.B mzn\-g12cpx
+version 1.6.0.
+
+.SH AUTHORS
+The G12 team.
+
+.SH "SEE ALSO"
+.BR fzn_cpx (1)
+.BR minizinc (1)
+.BR mzn2fzn (1)

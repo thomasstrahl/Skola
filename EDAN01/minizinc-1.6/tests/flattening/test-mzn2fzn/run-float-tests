@@ -1,0 +1,6 @@
+#!/bin/sh
+# vim: ft=sh ts=4 sw=4 et
+# run-float-tests
+# Run the float flattening tests.
+
+./run-binop-tests float

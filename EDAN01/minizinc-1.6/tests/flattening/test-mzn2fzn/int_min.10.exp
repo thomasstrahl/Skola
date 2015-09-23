@@ -1,0 +1,4 @@
+var 1..1: x1 = 1;
+var 0..0: x2 = 0;
+var 0..0: x3 = 0;
+solve satisfy;

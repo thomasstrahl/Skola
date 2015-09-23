@@ -1,0 +1,5 @@
+var 1 .. 10: x::output_var;
+
+constraint int_ne(x, 1)::foo;
+
+solve satisfy;

@@ -1,0 +1,41 @@
+% -- pretty-print after type-inst-checking --------------
+bool: pb = true;
+
+int: pi1 = 3;
+
+float: pf1 = 3.0;
+
+set of int: psi1 = 1 .. 3;
+
+array[1 .. 3] of int: api1 = [ 1, 2, 3 ];
+
+set of int: s1 = {};
+
+array[1 .. 3] of int: a1 = [];
+
+array[1 .. 3] of bool: a2 = [];
+
+array[1 .. 3] of var float: a3 = [];
+
+constraint 
+  int_le(
+    coerce(ti_par_int, ti_var_int, 3), coerce(ti_par_int, ti_var_int, 4));
+
+constraint 
+  float_le(
+    coerce(ti_par_float, ti_var_float, 3.0), 
+    coerce(ti_par_float, ti_var_float, 4.0));
+
+constraint 
+  bool_or(
+    coerce(ti_par_bool, ti_var_bool, true), 
+    coerce(ti_par_bool, ti_var_bool, false), 
+    coerce(ti_par_bool, ti_var_bool, true));
+
+constraint 
+  set_union(
+    coerce(ti_par_set(ti_par_bottom), ti_var_set(ti_par_int), {}), 
+    coerce(ti_par_set(ti_par_int), ti_var_set(ti_par_int), { 1 }), 
+    coerce(ti_par_set(ti_par_int), ti_var_set(ti_par_int), { 1 }));
+
+solve satisfy;

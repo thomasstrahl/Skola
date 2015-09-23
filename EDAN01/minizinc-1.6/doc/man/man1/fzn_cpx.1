@@ -1,0 +1,71 @@
+.TH FZN_CPX 1 "19 September 2012" "" "G12 User's Manual"
+
+.SH NAME
+fzn_cpx \- a FlatZinc interpreter for G12/CPX
+
+.SH SYNOPSIS
+.B fzn_cpx
+[
+.BR OPTIONS " ]"
+.I model.fzn
+
+.SH DESCRIPTION
+.B fzn_cpx
+evaluates FlatZinc models using the G12/CPX solver.
+Normal output is written to the standard output; errors are written
+to standard error.
+
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Print usage information.
+.TP
+.B \-s
+Output solver statistics in the solution stream.
+.TP
+.B \-f
+Ignore any standard search annotations on the solve item.
+.TP
+.B -a
+For satisfaction problems, print all solutions.  For optimization
+problems, print intermediate solutions.
+.TP
+.B \-xp\-mode <mode>
+Select the explanations mode.  Valid choices are "none",
+"lcg", "fwd" and "bwd".  (The default is "fwd".)
+.TP
+.B \-mip\-prop
+This option is currently ignored.
+.TP
+.B \-pseudo\-cost
+This option is currently ignored.
+
+.SH "LANGUAGE SUPPORT"
+This section describes the subset of FlatZinc language that is
+supported by
+.B fzn_cpx .
+.PP
+All FlatZinc types except var float and array of var float are
+supported.
+.PP
+Built-in operation s involving the types var float and array of
+var float are likewise not supported.
+.PP
+The following variable selection strategies are supported:
+first_fail, anti_first_fail, smallest, largest and input_order.
+.PP
+The following value choice methods are supported:
+indomain_split, indomain_min, indomain_max.
+.PP
+The following exploration method is supported: complete.
+.PP
+Set search, i.e. the set_search/4 annotation, is not supported.
+.PP
+The MiniZinc standard library has solver\-specific global constraint
+definitions for the G12/CPX solver in the directory
+.BR g12_cpx .
+
+.SH "SEE ALSO"
+.BR mzn2fzn (1)
+.PP
+.I "Specification of FlatZinc"

@@ -1,0 +1,12 @@
+bad_output_anns.fzn:6:
+  error: the `var int' variable `x' is annotated with an output_array/1 
+  annotation, but it is not an array.
+bad_output_anns.fzn:7:
+  error: the array `y' with element type `var int' is annotated with an 
+  output_var/0 annotation, but it is not a scalar.
+% -- pretty-print after type-inst-checking --------------
+var int: x::output_array([ 1 .. 3 ]);
+
+array[1 .. 3] of var int: y::output_var;
+
+solve satisfy;

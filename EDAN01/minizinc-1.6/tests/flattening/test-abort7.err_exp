@@ -1,0 +1,7 @@
+mzn2fzn:
+  error: 
+  test-abort7.mzn:5 
+  In variable declaration for 'x'. 
+  In coercion. 
+  In 'abort' expression. 
+  Abort: "This assignment aborts!"

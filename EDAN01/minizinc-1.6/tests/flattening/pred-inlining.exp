@@ -1,0 +1,7 @@
+predicate r(var int: x);
+var int: vi1;
+var int: vi2;
+constraint int_le(4, vi1);
+constraint int_le(4, vi2);
+constraint r(7);
+solve satisfy;

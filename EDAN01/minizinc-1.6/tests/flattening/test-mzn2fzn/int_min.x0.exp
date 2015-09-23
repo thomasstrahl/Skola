@@ -1,0 +1,5 @@
+var -5..5: x1;
+var 0..0: x2 = 0;
+var -5..0: x3;
+constraint int_min(x1, 0, x3);
+solve satisfy;

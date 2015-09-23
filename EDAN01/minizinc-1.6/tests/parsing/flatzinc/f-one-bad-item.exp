@@ -1,0 +1,6 @@
+f-one-bad-item.fzn:1:
+  syntax error: model must have a solve item
+f-one-bad-item.fzn:6:
+  syntax error at `par'; start of invalid item
+% -- pretty-print after parsing --------------
+

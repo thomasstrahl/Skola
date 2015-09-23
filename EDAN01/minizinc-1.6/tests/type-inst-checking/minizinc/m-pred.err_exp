@@ -1,0 +1,6 @@
+m-pred.mzn:11: type-inst error: predicate `pp' argument list has invalid 
+m-pred.mzn:11:   type-inst: expected `(int)', actual `(var int)'
+m-pred.mzn:12: type-inst error: initialisation value for `b3' has invalid 
+m-pred.mzn:12:   type-inst: expected `bool', actual `var bool'
+m-pred.mzn:13: type-inst error: initialisation value for `b4' has invalid 
+m-pred.mzn:13:   type-inst: expected `bool', actual `var bool'

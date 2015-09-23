@@ -1,0 +1,7 @@
+var set of 1..10: SET____00001 :: is_defined_var :: var_is_introduced;
+var 1..1: var1;
+var set of 1..10: var2;
+var set of 1..10: var3;
+constraint array_var_set_element(var1, [SET____00001], var3);
+constraint set_union(var2, {1, 5}, SET____00001) :: defines_var(SET____00001);
+solve satisfy;

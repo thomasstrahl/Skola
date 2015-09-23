@@ -1,0 +1,7 @@
+var float: FLOAT____00001 :: is_defined_var :: var_is_introduced;
+var 1..1: var1;
+var float: var2;
+var float: var3;
+constraint array_var_float_element(var1, [FLOAT____00001], var3);
+constraint float_lin_eq([-1.0, 1.0], [FLOAT____00001, var2], -1.0) :: defines_var(FLOAT____00001);
+solve minimize var3;

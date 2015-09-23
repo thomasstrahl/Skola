@@ -1,0 +1,9 @@
+mzn2fzn:
+  warning: 
+  misc_pred_array_arg_constraints_bad.mzn:3 
+  In constraint. 
+  In 'p1' expression. 
+  In argument 1. 
+  Argument is out of range.
+constraint bool_eq(false, true);
+solve satisfy;

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+./run-bool-tests
+./run-float-tests
+./run-int-tests
+./run-misc-tests
+./run-setin-tests
+./run-set-tests

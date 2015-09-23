@@ -1,0 +1,5 @@
+var 0..0: x1 = 0;
+var -5..5: x2;
+var 0..0: x3 = 0;
+constraint int_ne(x2, 0);
+solve satisfy;

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Author: Sebastian Brand
+ Copyright (C) 2011 Sebastian Brand <Sebastian.Brand@nicta.com.au>
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+<language id="zinc" _name="Zinc" version="2.0" _section="Scientific">
+  <metadata>
+    <property name="mimetypes">text/x-zinc;text/x-minizinc;text/x-flatzinc</property>
+    <property name="globs">*.zinc;*.mzn;*.fzn;*.dzn;*.ozn</property>
+    <property name="line-comment-start">%</property>
+    <property name="block-comment-start">/*</property>
+    <property name="block-comment-end">*/</property>
+  </metadata>
+
+  <styles>
+    <style id="comment" _name="Comment" map-to="def:comment"/>
+    <style id="string" _name="String" map-to="def:string"/>
+    <style id="decimal" _name="Decimal" map-to="def:decimal"/>
+    <style id="boolean" _name="Boolean" map-to="def:boolean"/>
+    <style id="floating-point" _name="Floating Point" map-to="def:floating-point"/>
+    <style id="base-n-integer" _name="Base-N Integer" map-to="def:base-n-integer"/>
+    <style id="keyword" _name="Keyword" map-to="def:keyword"/>
+    <style id="function" _name="Function" map-to="def:function"/>
+  </styles>
+
+  <definitions>
+
+    <context id="line-comment" style-ref="comment" end-at-line-end="true" class="comment" class-disabled="no-spell-check">
+      <start>%</start>
+      <include>
+        <context ref="def:in-comment"/>
+      </include>
+    </context>
+
+    <context id="multiline-comment" style-ref="comment" class="comment" class-disabled="no-spell-check">
+      <start>/\*</start>
+      <end>\*/</end>
+      <include>
+        <context ref="def:in-comment"/>
+      </include>
+    </context>
+
+    <context id="double-quoted-string" style-ref="string" end-at-line-end="true" class="string" class-disabled="no-spell-check">
+      <start>"</start>
+      <end>"</end>
+      <include>
+        <context ref="def:escape"/>
+        <context ref="def:line-continue"/>
+      </include>
+    </context>
+
+    <context id="decimal" style-ref="decimal">
+      <match>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</match>
+    </context>
+
+    <context id="boolean" style-ref="boolean">
+      <keyword>false</keyword>
+      <keyword>true</keyword>
+    </context>
+
+    <context id="floating-point-number" style-ref="floating-point">
+      <match>\b([0-9]+[Ee][-]?[0-9]+|([0-9]*\.[0-9]+|[0-9]+\.)([Ee][-]?[0-9]+)?)[fFlL]?</match>
+    </context>
+
+    <context id="octal-number" style-ref="base-n-integer">
+      <match>\b0[0-7]+([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</match>
+    </context>
+
+    <context id="hex-number" style-ref="base-n-integer">
+      <match>\b0[xX][0-9a-fA-F]+([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</match>
+    </context>
+
+    <context id="keyword" style-ref="keyword">
+      <keyword>constraint</keyword>
+      <keyword>solve</keyword>
+      <keyword>satisfy</keyword>
+      <keyword>minimize</keyword>
+      <keyword>maximize</keyword>
+      <keyword>function</keyword>
+      <keyword>predicate</keyword>
+      <keyword>test</keyword>
+      <keyword>annotation</keyword>
+      <keyword>type</keyword>
+      <keyword>include</keyword>
+      <keyword>output</keyword>
+
+      <keyword>bool</keyword>
+      <keyword>int</keyword>
+      <keyword>float</keyword>
+      <keyword>enum</keyword>
+      <keyword>string</keyword>
+      <keyword>ann</keyword>
+      <keyword>record</keyword>
+      <keyword>tuple</keyword>
+      <keyword>array</keyword>
+      <keyword>set</keyword>
+      <keyword>of</keyword>
+
+      <keyword>var</keyword>
+      <keyword>par</keyword>
+      <keyword>any</keyword>
+      <keyword>op</keyword>
+
+      <keyword>let</keyword>
+      <keyword>where</keyword>
+      <keyword>in</keyword>
+      <keyword>case</keyword>
+    </context>
+
+    <context id="function" style-ref="function">
+      <keyword>if</keyword>
+      <keyword>then</keyword>
+      <keyword>else</keyword>
+      <keyword>endif</keyword>
+      <keyword>not</keyword>
+      <keyword>xor</keyword>
+
+      <keyword>div</keyword>
+      <keyword>mod</keyword>
+      <keyword>subset</keyword>
+      <keyword>superset</keyword>
+      <keyword>union</keyword>
+      <keyword>diff</keyword>
+      <keyword>symdiff</keyword>
+      <keyword>intersect</keyword>
+
+      <keyword>ceil</keyword>
+      <keyword>floor</keyword>
+      <keyword>round</keyword>
+      <keyword>bool2int</keyword>
+      <keyword>int2float</keyword>
+      <keyword>set2array</keyword>
+
+      <keyword>lb</keyword>
+      <keyword>ub</keyword>
+      <keyword>dom</keyword>
+      <keyword>dom_size</keyword>
+      <keyword>lb_array</keyword>
+      <keyword>ub_array</keyword>
+      <keyword>dom_array</keyword>
+      <keyword>fix</keyword>
+      <keyword>show</keyword>
+      <keyword>show_int</keyword>
+      <keyword>show_float</keyword>
+
+      <keyword>sum</keyword>
+      <keyword>product</keyword>
+      <keyword>forall</keyword>
+      <keyword>exists</keyword>
+      <keyword>xorall</keyword>
+      <keyword>iffall</keyword>
+      <keyword>abs</keyword>
+      <keyword>min</keyword>
+      <keyword>max</keyword>
+      <keyword>card</keyword>
+      <keyword>length</keyword>
+      <keyword>foldl</keyword>
+      <keyword>foldr</keyword>
+      <keyword>sort</keyword>
+      <keyword>as_list</keyword>
+      <keyword>assert</keyword>
+      <keyword>abort</keyword>
+
+      <keyword>index_set</keyword>
+      <keyword>index_set_1of2</keyword>
+      <keyword>index_set_2of2</keyword>
+      <keyword>index_set_1of3</keyword>
+      <keyword>index_set_2of3</keyword>
+      <keyword>index_set_3of3</keyword>
+      <keyword>index_set_1of4</keyword>
+      <keyword>index_set_2of4</keyword>
+      <keyword>index_set_3of4</keyword>
+      <keyword>index_set_4of4</keyword>
+      <keyword>index_set_1of5</keyword>
+      <keyword>index_set_2of5</keyword>
+      <keyword>index_set_3of5</keyword>
+      <keyword>index_set_4of5</keyword>
+      <keyword>index_set_5of5</keyword>
+      <keyword>index_set_1of6</keyword>
+      <keyword>index_set_2of6</keyword>
+      <keyword>index_set_3of6</keyword>
+      <keyword>index_set_4of6</keyword>
+      <keyword>index_set_5of6</keyword>
+      <keyword>index_set_6of6</keyword>
+
+      <keyword>array1d</keyword>
+      <keyword>array2d</keyword>
+      <keyword>array3d</keyword>
+      <keyword>array4d</keyword>
+      <keyword>array5d</keyword>
+      <keyword>array6d</keyword>
+
+      <keyword>log</keyword>
+      <keyword>ln</keyword>
+      <keyword>sqrt</keyword>
+      <keyword>pow</keyword>
+      <keyword>exp</keyword>
+
+      <keyword>acos</keyword>
+      <keyword>asin</keyword>
+      <keyword>atan</keyword>
+      <keyword>cosh</keyword>
+      <keyword>cos</keyword>
+      <keyword>sinh</keyword>
+      <keyword>sin</keyword>
+      <keyword>tanh</keyword>
+      <keyword>tan</keyword>
+
+      <keyword>backend_fdic</keyword>
+      <keyword>backend_mip</keyword>
+      <keyword>backend_sat</keyword>
+      <keyword>backend_colgen</keyword>
+
+      <keyword>tree_search</keyword>
+      <keyword>external_search</keyword>
+      <keyword>external_solve</keyword>
+      <keyword>external_constraint</keyword>
+
+      <keyword>fd</keyword>
+      <keyword>fdx</keyword>
+      <keyword>ic</keyword>
+      <keyword>mip</keyword>
+      <keyword>sat</keyword>
+
+      <keyword>alldifferent</keyword>
+      <keyword>bin_packing</keyword>
+      <keyword>count</keyword>
+      <keyword>cumulative</keyword>
+      <keyword>diffn</keyword>
+      <keyword>disjoint</keyword>
+      <keyword>distribute</keyword>
+      <keyword>element</keyword>
+      <keyword>exactly</keyword>
+      <keyword>global_cardinality</keyword>
+      <keyword>inverse</keyword>
+      <keyword>lex_greatereq</keyword>
+      <keyword>lex_greater</keyword>
+      <keyword>lex_lesseq</keyword>
+      <keyword>lex_less</keyword>
+      <keyword>maximum</keyword>
+      <keyword>minimum</keyword>
+      <keyword>nvalue</keyword>
+      <keyword>precedence</keyword>
+      <keyword>regular</keyword>
+      <keyword>sliding_sum</keyword>
+      <keyword>table</keyword>
+    </context>
+
+    <context id="zinc" class="no-spell-check">
+      <include>
+        <context ref="line-comment"/>
+        <context ref="multiline-comment"/>
+        <context ref="double-quoted-string"/>
+        <context ref="decimal"/>
+        <context ref="boolean"/>
+        <context ref="floating-point-number"/>
+        <context ref="octal-number"/>
+        <context ref="hex-number"/>
+        <context ref="keyword"/>
+        <context ref="function"/>
+      </include>
+    </context>
+
+  </definitions>
+</language>

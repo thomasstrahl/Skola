@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  misc_int_plus.mzn:5 
+  In constraint. 
+  Model inconsistency detected.
+constraint bool_eq(false, true);
+solve satisfy;

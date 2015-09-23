@@ -1,0 +1,58 @@
+f-items.fzn:25:
+  syntax error: only one solve item is allowed
+f-items.fzn:26:
+  syntax error: only one solve item is allowed
+f-items.fzn:27:
+  syntax error: only one solve item is allowed
+f-items.fzn:28:
+  syntax error: only one solve item is allowed
+f-items.fzn:29:
+  syntax error: only one solve item is allowed
+f-items.fzn:30:
+  syntax error: only one solve item is allowed
+f-items.fzn:31:
+  syntax error: only one solve item is allowed
+f-items.fzn:32:
+  syntax error: only one solve item is allowed
+% -- pretty-print after parsing --------------
+predicate p1(int: x);
+
+predicate p2(var int: x);
+
+predicate p3(array[1 .. 10] of int: y);
+
+predicate p4(array[int] of var int: y);
+
+int: x = y;
+
+var int: x;
+
+var int: y::foo(3);
+
+array[1 .. 3] of var int: a::blah2("foo", "bar");
+
+array[1 .. 3] of int: a = [ 1, 2, 3 ];
+
+var int: y::foo(bar(3), blah(foo(blah(foo(a[3]), [ 1, 2, 3 ]))));
+
+constraint int_eq(A, B);
+
+constraint int_eq(A, B)::foo;
+
+solve satisfy;
+
+solve minimize A;
+
+solve maximize B;
+
+solve minimize A[1];
+
+solve maximize B[2];
+
+solve maximize int_float_lin([ 3.0, 4.0 ], [ 5.0 ], [ x, y ], [ z ]);
+
+solve ::foo satisfy;
+
+solve ::bar(3) minimize A;
+
+solve ::blah("x") maximize B;

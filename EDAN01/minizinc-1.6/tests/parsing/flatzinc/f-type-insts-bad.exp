@@ -1,0 +1,69 @@
+f-type-insts-bad.fzn:4:
+  syntax error at `('; start of invalid item
+f-type-insts-bad.fzn:7:
+  syntax error at `string'; start of invalid item
+f-type-insts-bad.fzn:10:
+  syntax error at `list'; start of invalid item
+f-type-insts-bad.fzn:13:
+  syntax error at `tuple'; start of invalid item
+f-type-insts-bad.fzn:16:
+  syntax error at `record'; start of invalid item
+f-type-insts-bad.fzn:19:1:
+  invalid character `$'
+f-type-insts-bad.fzn:22:
+  syntax error at `,'; expected `]' after array index range
+f-type-insts-bad.fzn:25:
+  syntax error at `('; start of invalid item
+f-type-insts-bad.fzn:28:
+  syntax error at `par'; start of invalid item
+f-type-insts-bad.fzn:32:
+  syntax error at `1'; expected `[' after `array'
+f-type-insts-bad.fzn:33:
+  syntax error at `..'; expected `1' after `['
+f-type-insts-bad.fzn:34:
+  syntax error at `3'; expected `..' after lower array index
+f-type-insts-bad.fzn:35:
+  syntax error at `]'; expected integer literal after `..'
+f-type-insts-bad.fzn:36:
+  syntax error at `of'; expected `]' after array index range
+f-type-insts-bad.fzn:37:
+  syntax error at `var'; expected `]' after array index range
+f-type-insts-bad.fzn:38:
+  syntax error at `par'; expected non-array type-inst expression after `of'
+f-type-insts-bad.fzn:39:
+  syntax error at `"1.0"'; expected `1' after `['
+f-type-insts-bad.fzn:44:
+  syntax error at `var'; expected scalar type expression tail after `set of'
+f-type-insts-bad.fzn:45:
+  syntax error at `set'; expected scalar type expression tail after `set of'
+f-type-insts-bad.fzn:46:
+  syntax error at `array'; expected scalar type expression tail after `set of'
+f-type-insts-bad.fzn:49:
+  syntax error at `set'; expected scalar type expression tail after `set of'
+f-type-insts-bad.fzn:50:
+  syntax error at `array'; expected non-array type-inst expression after `of'
+f-type-insts-bad.fzn:51:
+  syntax error at `array'; expected non-array type-inst expression tail after 
+  `var'
+f-type-insts-bad.fzn:52:
+  syntax error at `int'; expected `1' after `['
+f-type-insts-bad.fzn:54:
+  syntax error at `;'; expected `=' after name of parameter `s6'
+f-type-insts-bad.fzn:55:
+  syntax error at `s6'; expected `1' after `['
+f-type-insts-bad.fzn:58:
+  syntax error at `s7'; expected `1' after `['
+f-type-insts-bad.fzn:60:
+  syntax error at `1'; start of invalid item
+f-type-insts-bad.fzn:61:
+  syntax error at `"1.0"'; start of invalid item
+% -- pretty-print after parsing --------------
+array[1 .. 3] of var int: x;
+
+var set of float: s1;
+
+var set of bool: s2;
+
+set of int: s7 = { 1, 3, 5 };
+
+solve satisfy;

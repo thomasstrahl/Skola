@@ -1,0 +1,13 @@
+% RUNS ON fzn_yacc
+% RUNS ON fzn_parse
+%
+% various kinds of literal, all in an array
+% Nb: -2147483648 works in FlatZinc, because it's parsed as a single number.
+% It doesn't work in Zinc/MiniZinc, because it's parsed as the negation of
+% 2147483648, but 2147483647 is the biggest positive integer (assuming
+% 32-bit integers).
+array[1..2] of bool: x = 
+    [true, false, 22, 5e12, -111, 1.0, 3.0e-2, -3.0, a[1], a[2], {1,2,3}, x,
+     "foo", 1..a[10], 2147483647, -2147483648, -0o7777, -0xfacade];
+
+solve satisfy;

@@ -1,0 +1,30 @@
+m-items-bad.mzn:2:
+  type-inst error: initialisation value for `vi' has invalid type-inst: expected 
+  `var int', actual `bool'
+m-items-bad.mzn:5:
+  type-inst error: assignment value for `vb' has invalid type-inst: expected 
+  `var bool', actual `int'
+m-items-bad.mzn:7:
+  type-inst error: constraint expression has invalid type-inst: expected 
+  `var bool', actual `var int'
+m-items-bad.mzn:9:
+  type-inst error: maximize expression has invalid type-inst: expected `var int' 
+  or `var float', actual `var bool'
+m-items-bad.mzn:11:
+  type-inst error: output expression has invalid type-inst: expected 
+  `array[int] of string', actual `var bool'
+m-items-bad.mzn:13:
+  type-inst error: body of predicate `p' has invalid type-inst: expected 
+  `var bool', actual `var int'
+% -- pretty-print after type-inst-checking --------------
+var int: vi = true;
+
+var bool: vb = 3;
+
+constraint vi;
+
+solve maximize vb;
+
+output vb;
+
+predicate p(int: x) = vi;

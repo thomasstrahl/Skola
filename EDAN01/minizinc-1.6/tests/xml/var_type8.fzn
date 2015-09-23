@@ -1,0 +1,4 @@
+% RUNS ON fzn_xml
+array [1..2] of var int: x = [-10, 10];
+array [1..2] of var 10..20: y = [3, 4];
+solve satisfy;

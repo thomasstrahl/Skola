@@ -1,0 +1,7 @@
+mzn2fzn:
+  warning: 
+  bool_gt.mzn:3 
+  In constraint. 
+  Model inconsistency detected.
+constraint bool_eq(false, true);
+solve satisfy;

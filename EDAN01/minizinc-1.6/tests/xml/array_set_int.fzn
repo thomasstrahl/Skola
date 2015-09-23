@@ -1,0 +1,6 @@
+% RUNS ON fzn_xml
+
+% Check that array of set of int literals are marked up properly.
+
+array[1..4] of set of int: p = [{}, {1, 2}, 1..4, {3, 4, 5}];
+solve satisfy;

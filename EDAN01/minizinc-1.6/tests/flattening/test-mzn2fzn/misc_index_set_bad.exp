@@ -1,0 +1,4 @@
+misc_index_set_bad.mzn:2:
+  type-inst error: function `index_set_1of3' argument list has invalid 
+  type-inst: expected `(array[$T1, $T2, $T3] of any $U)', actual 
+  `(array[int, int] of var bool)'

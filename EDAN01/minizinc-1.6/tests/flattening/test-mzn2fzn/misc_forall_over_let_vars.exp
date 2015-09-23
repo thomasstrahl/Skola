@@ -1,0 +1,8 @@
+var 2..3: x;
+var 0..2: z____00001;
+var 0..2: z____00003;
+var 0..2: z____00005;
+constraint int_lin_eq([-1, 1], [x, z____00001], -1);
+constraint int_lin_eq([-1, 1], [x, z____00003], -2);
+constraint int_lin_eq([1, -1], [x, z____00005], 3);
+solve satisfy;

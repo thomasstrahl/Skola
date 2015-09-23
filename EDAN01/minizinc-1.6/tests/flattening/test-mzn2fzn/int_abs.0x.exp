@@ -1,0 +1,4 @@
+var 0..0: x1 = 0;
+var -5..5: x2;
+constraint int_abs(x2, 0);
+solve satisfy;

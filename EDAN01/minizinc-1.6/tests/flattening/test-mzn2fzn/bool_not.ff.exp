@@ -1,0 +1,5 @@
+Uncaught Mercury exception:
+[words("error:"), nl, words("bool_not.mzn:3\n"), nl, words("In constraint.\n"), nl, words("Model inconsistency detected.\n")]
+Stack dump follows:
+   0       pred exception.rethrow/1-0 (erroneous) (exception.m:417)
+   1       pred m2f.main/2-0 (cc_multi) (m2f.m:63)

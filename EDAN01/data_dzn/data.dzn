@@ -1,0 +1,22 @@
+adders = 1;
+mulers = 3;
+
+addTime = 1;
+mulTime = 2;
+
+
+addCost = [1,1,1,1,1,1,1,1,1,1,1,1];
+mulCost = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+
+TOTAL = 1..28;
+
+numAdds = 1..12;
+numMuls = 1..16;
+
+index = [muls[1],muls[2],muls[3],muls[4]
+			,muls[5],muls[6],muls[7],muls[8]
+			,adds[1],adds[2],adds[3],adds[4]
+			,adds[5],adds[6],muls[9],muls[10]
+			,muls[11],muls[12],adds[7],adds[8]
+			,muls[13],muls[14],muls[15],muls[16]
+			,adds[9],adds[10],adds[11],adds[12]];

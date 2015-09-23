@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if test "$G12PATH"; then
+    FLATZINC="$G12PATH"/flatzinc
+else
+    FLATZINC=flatzinc
+fi
+
+"$FLATZINC" --pprint-after=type-inst-checking --stop-after=type-inst-checking $@ 2>&1

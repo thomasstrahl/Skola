@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if test "$G12PATH"; then
+    FLATZINC="$G12PATH"/flatzinc
+    SOLNS2DZN="$G12PATH"/solns2dzn
+else
+    FLATZINC=flatzinc
+    SOLNS2DZN=solns2dzn
+fi
+
+"$FLATZINC" --solver fdlp $@ | "$SOLNS2DZN" -c

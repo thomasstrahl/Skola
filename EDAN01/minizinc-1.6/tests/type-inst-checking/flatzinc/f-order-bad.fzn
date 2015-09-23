@@ -1,0 +1,5 @@
+% RUNS ON fzn_tc
+% FlatZinc isn't topologically sorted, so this is a symbol error.
+bool: a = b;
+bool: b = true;
+solve satisfy;

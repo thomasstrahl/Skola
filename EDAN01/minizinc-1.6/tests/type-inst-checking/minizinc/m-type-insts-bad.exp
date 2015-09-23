@@ -1,0 +1,143 @@
+m-type-insts-bad.mzn:3:
+  type-inst error: set element type is not finite
+m-type-insts-bad.mzn:3:
+  type-inst error: MiniZinc does not permit var set element type-insts other 
+  than `int'
+m-type-insts-bad.mzn:4:
+  type-inst error: MiniZinc does not permit var set element type-insts other 
+  than `int'
+m-type-insts-bad.mzn:5:
+  symbol error: variable `s3' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:5:
+  type-inst error: set type expression has non-fixed element with type-inst 
+  `var int'
+m-type-insts-bad.mzn:6:
+  symbol error: variable `s4' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:6:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-type-insts-bad.mzn:7:
+  symbol error: variable `s5' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:7:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-type-insts-bad.mzn:8:
+  symbol error: variable `s5b' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:8:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-type-insts-bad.mzn:10:
+  symbol error: variable `a1' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:10:
+  type-inst error: MiniZinc does not permit array element type-insts other than 
+  scalars or sets
+m-type-insts-bad.mzn:10:
+  type-inst error: MiniZinc does not permit set element type-insts other than 
+  `int' or `float' or `bool'
+m-type-insts-bad.mzn:11:
+  symbol error: variable `a2' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:11:
+  type-inst error: MiniZinc does not permit array element type-insts other than 
+  scalars or sets
+m-type-insts-bad.mzn:12:
+  type-inst error: `var array' is not allowed
+m-type-insts-bad.mzn:13:
+  symbol error: variable `a4' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:16:
+  symbol error: variable `a6' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:16:
+  type-inst error: MiniZinc does not permit array indices without fixed ranges
+m-type-insts-bad.mzn:19:
+  symbol error: variable `a7' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:19:
+  type-inst error: MiniZinc does not permit array indices without fixed ranges
+m-type-insts-bad.mzn:21:
+  symbol error: variable `a' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:21:
+  type-inst error: range start and end type-insts do not match
+m-type-insts-bad.mzn:22:
+  symbol error: variable `b' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:22:
+  type-inst error: range end value has invalid type-inst: expected `int' or 
+  `float', actual `set of int'
+m-type-insts-bad.mzn:27:
+  symbol error: variable `a8' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:27:
+  symbol error: `no_such_name' undeclared
+m-type-insts-bad.mzn:32:
+  symbol error: variable `a9' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:32:
+  type-inst error: MiniZinc does not permit arbitrarily constrained type-insts
+m-type-insts-bad.mzn:35:
+  symbol error: variable `x2' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:35:
+  type-inst error: MiniZinc does not permit tuples
+m-type-insts-bad.mzn:38:
+  symbol error: variable `x3' must be defined (did you forget to specify a data 
+  file?)
+m-type-insts-bad.mzn:38:
+  type-inst error: MiniZinc does not permit records
+m-type-insts-bad.mzn:41:
+  type-inst error: MiniZinc does not permit type-inst variables
+m-type-insts-bad.mzn:47:
+  type-inst error: MiniZinc does not permit operation type-inst expressions
+% -- pretty-print after type-inst-checking --------------
+var set of float: s1;
+
+var set of bool: s2;
+
+set of var int: s3;
+
+set of set of int: s4;
+
+set of array[0 .. 3] of int: s5;
+
+set of string: s5b;
+
+array[0 .. 3] of set of set of int: a1;
+
+array[0 .. 3] of array[0 .. 3] of int: a2;
+
+var array[0 .. 3] of int: a3;
+
+array[int] of int: a4;
+
+set of int: s6 = { 3, 7 };
+
+array[s6] of int: a6;
+
+set of int: s7 = { 1, 3, 5 };
+
+array[s7] of int: a7;
+
+1 .. 3.0: a;
+
+3.0 .. s6: b;
+
+array[no_such_name] of int: a8;
+
+(int: x where x > 0): a9;
+
+tuple(int, int): x2;
+
+record(int: a): x3;
+
+predicate p($T: x);
+
+annotation my_ann(op(int: (int, int)): a);
+
+solve satisfy;

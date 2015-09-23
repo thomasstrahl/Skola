@@ -1,0 +1,13 @@
+Nested (1) Nested (2)Nested (3)
+Processing i = 1
+Processing i = 2
+Processing i = 3
+Processing i = 4
+Processing i = 5
+array [1..6] of var int: x;
+constraint int_lt(x[1], x[2]);
+constraint int_lt(x[2], x[3]);
+constraint int_lt(x[3], x[4]);
+constraint int_lt(x[4], x[5]);
+constraint int_lt(x[5], x[6]);
+solve satisfy;

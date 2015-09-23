@@ -1,0 +1,8 @@
+% RUNS ON fzn_tc    
+    int:  pi = 3;
+var int:  vi;
+var bool: vb;
+
+constraint int_le(vi, vi);
+
+solve maximize vi;

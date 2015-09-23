@@ -1,0 +1,5 @@
+var 0.0..0.0: x1 = 0.0;
+var -5.0..5.0: x2;
+var -5.0..5.0: x3;
+constraint float_lin_eq([-1.0, -1.0], [x3, x2], 0.0);
+solve satisfy;

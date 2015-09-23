@@ -1,0 +1,5 @@
+var 0..4: INT____00001 :: is_defined_var :: var_is_introduced;
+var set of {2, 3, 5, 100000}: x;
+var 0..4: y :: output_var = INT____00001;
+constraint set_card(x, INT____00001) :: defines_var(INT____00001);
+solve maximize INT____00001;

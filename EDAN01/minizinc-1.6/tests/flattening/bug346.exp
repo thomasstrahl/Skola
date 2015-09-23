@@ -1,0 +1,3 @@
+array [1..1] of var 0.0..1.0: x;
+constraint float_times(x[1], x[1], x[1]);
+solve satisfy;

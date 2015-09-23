@@ -1,0 +1,4 @@
+n = 3;
+capacity = 11;
+profits = [9, 10, 12];
+weights = [4, 5, 6];

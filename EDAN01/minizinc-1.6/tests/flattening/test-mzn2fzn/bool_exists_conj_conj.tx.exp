@@ -1,0 +1,8 @@
+var bool: BOOL____00001 :: is_defined_var :: var_is_introduced;
+var bool: x1 = true;
+var bool: x2;
+var bool: x3;
+var bool: x4;
+constraint array_bool_and([x3, x4], BOOL____00001) :: defines_var(BOOL____00001);
+constraint array_bool_or([x2, BOOL____00001], true);
+solve satisfy;

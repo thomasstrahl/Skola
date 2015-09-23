@@ -1,0 +1,3 @@
+constraint exists([]);
+
+solve satisfy;

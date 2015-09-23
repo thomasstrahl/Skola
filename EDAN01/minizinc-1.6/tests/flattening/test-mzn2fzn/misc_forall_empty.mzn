@@ -1,0 +1,3 @@
+constraint forall([]);
+
+solve satisfy;

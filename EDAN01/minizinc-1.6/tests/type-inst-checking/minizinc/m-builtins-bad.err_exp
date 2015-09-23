@@ -1,0 +1,6 @@
+m-builtins-bad.mzn:16: symbol error: `foldl' undeclared
+m-builtins-bad.mzn:17: symbol error: `foldr' undeclared
+m-builtins-bad.mzn:20: symbol error: `holds' undeclared
+m-builtins-bad.mzn:25: symbol error: `int_eq' undeclared
+m-builtins-bad.mzn:26: symbol error: `float_plus' undeclared
+m-builtins-bad.mzn:27: symbol error: `float_lin_eq_reif' undeclared
