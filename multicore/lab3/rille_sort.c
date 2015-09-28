@@ -11,7 +11,6 @@
 
 #define MAX_THREADS	(4)
 static int cmp(const void* ap, const void* bp);
-//int global_counter = 0;
 
 struct sort_struct {
 	double* base; 
@@ -32,25 +31,13 @@ static double sec(void)
 	return tv.tv_sec + 1e-6 * tv.tv_usec;
 }
 
-// void* sort_func(void* data) {
-// 	struct sort_struct* temp= (struct sort_struct*)data;
-// 	qsort(temp->base, temp->n, sizeof(temp->base[0]), cmp);
-// 	return NULL;
-// }
-
 void* sort_handler(void* data) 
 {
 	struct sort_struct *a = data;
 
-	//printf("a->n = %zu a->threads = %d\n", a->n, a->threads);
 	int i;
-	// for (i = 0; i < a->n; ++i)
-	// {
-	// 	printf("a->base[%d] = %lf\n",i, a->base[i]);	/* code */
-	// }
 
 	if (a->threads > 1 && a->n > 10) {
-		//printf("Gick in i recrusionen\n");
 		pthread_t sort_thread;
 		double* tmp_base = a->base;
 		size_t n = a->n;
@@ -66,9 +53,7 @@ void* sort_handler(void* data)
 		int n1 = 0;
 		int n2 = n - 1;
 		int i;
-		//printf("pivot är: %lf n är: %zu n1 är: %d n2 är: %d\n",pivot,n,  n1, n2);
 		for (i = 1; i < n; ++i) {
-			//printf("tmp_base: %lf\n", tmp_base[i]);
 			if (pivot >= tmp_base[i]) {
 				sort_base[n1] = tmp_base[i];
 				++n1;
@@ -79,33 +64,23 @@ void* sort_handler(void* data)
 		}
 		sort_base[n1] = pivot;
 		++n1;
-		// for (i = 0; i < n; ++i)
-		// {
-		// 	printf("sort_base[%d] = %lf\n", i, sort_base[i]);
-		// }
 
 		memcpy(tmp_base, sort_base, n * sizeof(double));
 		struct sort_struct data1 = {tmp_base, n1, sizeof(double),a->cmp, a->threads/2};
 		struct sort_struct data2 = {tmp_base + n1, n - n1, sizeof(double),a->cmp, a->threads/2};
 
-		// printf("data1: n: %zu, s: %zu\n", data1.n, data1.s);
-
-		// printf("data2: n: %zu, s: %zu\n", data2.n, data2.s);
 		if (pthread_create(&sort_thread, NULL, sort_handler, &data1)) {
 			printf("Could not create thread\n");
 			exit(1);
 		}
 
 		sort_handler(&data2);
-		//printf("Joinar trådarna\n");
 		if (pthread_join(sort_thread, NULL)) {
 			printf("Failed to join\n");
 			exit(1);
 		}
 
 	} else {
-		//global_counter++;
-		//printf("kom till qsort icke par_sort, gånger: %d\n", global_counter);
 		qsort(a->base, a->n, sizeof(double), a->cmp);
 		return NULL;
 	}
@@ -165,10 +140,10 @@ int main(int ac, char** av)
 
 	end = sec();
 
-	printf("Done! printing result\n");
-	for (i = 0; i < n; i++) {
-		printf("%lf\n", a[i]);
-	}
+	//printf("Done! printing result\n");
+	// for (i = 0; i < n; i++) {
+	// 	printf("%lf\n", a[i]);
+	// }
 	printf("%1.2f s\n", end - start);
 
 	free(a);
